@@ -1,7 +1,10 @@
 ---
-title: "gpt-nano"
+title: "GPT is Not An Oracle"
+about:
+    template: jolla
+    image: assets/logo_landing.png
+    links:
+    - text: Andrew Ellis
+      href: mailto:andrew.ellis@bfh.ch
 ---
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
