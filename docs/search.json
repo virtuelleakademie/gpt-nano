@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "gpt-nano",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Ich bin an der Hochschulbibliothek der BFH verantwortlich für die Koordination der IK-Angebote. Wir und unsere Kolleg*innen an der Ausleihe haben vermehrt mit Studierenden zu tun, die eine «Recherche» mit ChatGPT durchführen oder auf andere Art damit arbeiten. Ich denke, für die Informationswissenschaft wird die KI einiges an Veränderungen mit sich bringen. Noch gibt es aber kaum Informationsanlässe für unsere Branche. Könntest du dir vorstellen, für unser Team IK eine Einführung ins Thema zu geben und Vor- und Nachteile aufzuzeigen?"
+  },
+  {
+    "objectID": "about.html#ziele",
+    "href": "about.html#ziele",
+    "title": "About",
+    "section": "",
+    "text": "Ich bin an der Hochschulbibliothek der BFH verantwortlich für die Koordination der IK-Angebote. Wir und unsere Kolleg*innen an der Ausleihe haben vermehrt mit Studierenden zu tun, die eine «Recherche» mit ChatGPT durchführen oder auf andere Art damit arbeiten. Ich denke, für die Informationswissenschaft wird die KI einiges an Veränderungen mit sich bringen. Noch gibt es aber kaum Informationsanlässe für unsere Branche. Könntest du dir vorstellen, für unser Team IK eine Einführung ins Thema zu geben und Vor- und Nachteile aufzuzeigen?"
+  },
+  {
+    "objectID": "about.html#fragensammlung",
+    "href": "about.html#fragensammlung",
+    "title": "About",
+    "section": "Fragensammlung",
+    "text": "Fragensammlung\n\nWie funktioniert ChatGPT genau? Welche anderen relevanten KI-Tools sollte man kennen?\n\n\nDidaktik/Methodik:\n\nNützliche Unterstützung im Unterricht durch ChatGPT (zB Kahoot und Präsentationen erstellen) – kennst du Anleitungen, gute Vorgehensweisen?\nAbschlussarbeiten und ChatGPT\nPlagiate erkennen\n\n\n\nFragen aus dem Berufsfeld Information und Dokumentation:\n\nTechnische Einsatzmöglichkeiten von ChatGPT bei der Recherche oder in Discovery-Tools (Recherchetechnologien) in Zukunft\nChatGPT nutzen, um eine Recherche vorzubereiten? Thema einkreisen, Begriffe sammeln etc.\nLiteraturhinweise, die ChatGPT ausspielt\nNeue Aufgabe für I&D-Institutionen: KI-generiertes Wissen einordnen?\nUrheberrecht: Wem gehört ein KI-Text?\n\n\n\nRisiken\n\nRisiken von ChatGPT: fachliche Unkorrektheit, Unwahrheit\nWas können wir den Studierenden in unseren Workshops mitgeben?\nEthisch bedenkliche Hintergründe von ChatGPT: https://www.srf.ch/radio-srf-1/kuenstliche-intelligenz-traumatisiert-weil-sie-den-chat-roboter-trainieren-mussten"
+  },
+  {
+    "objectID": "about.html#beispiel",
+    "href": "about.html#beispiel",
+    "title": "About",
+    "section": "Beispiel",
+    "text": "Beispiel\n\nwir hatten mehrfach Studierende in den Bibliotheken, die mit ChatGPT «Literaturrecherchen» machten und dann mit langen Listen von Referenzen nicht existierender Bücher und Artikel daher kamen 😊 einige Kolleginnen an der Ausleihe haben dann, natürlich vergeblich, danach gesucht. Vielleicht kannst du etwas dazu sagen, wie solche falschen bibliographischen Angaben entstehen."
+  },
+  {
+    "objectID": "about.html#future",
+    "href": "about.html#future",
+    "title": "About",
+    "section": "Future",
+    "text": "Future\n\nbe data-aware\n\nretrieval augmented generation\n\nbe agentic, i.e. allow and LLM to interact with its environment"
+  }
+]
