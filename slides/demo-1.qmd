@@ -1,0 +1,270 @@
+---
+title: "The title of the presentation"
+format: 
+    revealjs:
+        theme: night
+        navigation-mode: vertical
+        progress: true
+        scrollable: true
+        slide-number: true
+        show-slide-number: all
+        controls-tutorial: true
+        preview-links: auto
+        chalkboard: true
+        from: markdown+emoji
+        menu: 
+          sticky: true
+          keyboard: true
+          autoOpen: true
+          width: normal
+          numbers: true
+          markers: true
+        # slide-tone: true
+---
+
+
+# Section 1
+
+## First slide
+
+- Enim labore amet tempor occaecat minim est nulla et deserunt sit eiusmod.
+- Enim labore amet tempor occaecat minim est nulla et deserunt sit eiusmod.
+
+
+## Subslide
+
+- Enim labore amet tempor occaecat minim est nulla et deserunt sit eiusmod.
+
+
+:::: {.columns}
+
+::: {.column width="33%"}
+1
+:::
+
+::: {.column width="66%"}
+Right column
+:::
+
+::::
+
+
+---
+
+:::: {.columns}
+::: {.column width="35%"}
+::: {.topic-number}
+1
+:::
+:::
+::: {.column width="65%"}
+::: {.topic-text}
+Signal Detection Theory
+:::
+:::
+::::
+
+# Mermaid
+```{mermaid}
+sequenceDiagram
+    Participant ChatGPT
+    actor Bob
+    Bob->>ChatGPT: Hi ChatGPT
+    ChatGPT->>Bob: Hi Bob
+```
+
+
+# Next slide {background-color="steelblue"}
+
+more text 🐻
+
+and an :angry: :panda_face: 
+
+::: footer
+Learn more: [Syntax Highlighting](https://quarto.org/docs/output-formats/html-code.html#highlighting)
+:::
+
+## Subslide
+Eu esse mollit officia id exercitation qui non tempor sint nisi ullamco voluptate. Incididunt reprehenderit voluptate nostrud ex veniam. Minim deserunt voluptate ut aliquip adipisicing qui. Fugiat ad sint voluptate ut sint non amet magna ea exercitation. Consectetur mollit exercitation quis magna irure do minim magna. Laborum culpa ullamco ad nulla incididunt officia ea. Commodo enim occaecat veniam culpa excepteur occaecat.
+
+## Today's plan
+
+<br/>
+
+::: {.incremental}
+1. What is R? How can it ease the burden of repeated reporting?
+2. Basic functions for manipulating data
+3. Using R effectively
+4. More data manipulation
+5. Visualizing data
+6. A peek at advanced topics
+:::
+
+# What is R?
+
+::: {.absolute top="0" left="100%"}
+::: {.sectionhead}
+1 [2 3 4 5 6]{style="opacity:0.25"}
+:::
+:::
+
+
+## Today's data
+
+::: {.absolute top="0" left="100%"}
+::: {.sectionhead}
+1 [2 3 4 5 6]{style="opacity:0.25"}
+:::
+:::
+
+# Basic data manipulation
+
+::: {.absolute top="0" left="100%"}
+::: {.sectionhead}
+[1]{style="opacity:0.25"} 2 [3 4 5 6]{style="opacity:0.25"}
+:::
+:::
+
+
+# In the morning
+
+## Getting up
+
+- Turn off alarm
+- Get out of bed
+
+## Breakfast
+
+- Eat eggs
+- Drink coffee
+
+# In the evening
+
+## Dinner
+
+- Eat spaghetti
+- Drink wine
+
+## Going to sleep
+
+- Get in bed
+- Count sheep
+
+
+# Section 3
+
+## Tabset 
+
+::: panel-tabset
+### Plot
+
+```{r}
+library(ggplot2)
+ggplot(mtcars, aes(hp, mpg, color = am)) +
+    geom_point() +
+    geom_smooth(formula = y ~ x, method = "loess")
+```
+
+### Data
+
+```{r}
+knitr::kable(mtcars)
+```
+:::
+
+
+# Section 4: various diagrams
+
+## Journey
+
+```{mermaid}
+journey
+    title My working day
+    section Go to work
+      Make tea: 5: Me
+      Go upstairs: 3: Me
+      Do work: 1: Me, Cat
+    section Go home
+      Go downstairs: 5: Me
+      Sit down: 5: Me
+```
+
+## ChatGPT
+
+```{mermaid}
+graph TB
+  D[Data Collection] --> P[Preprocessing]
+  P --> T[Training]
+  T --> E[Evaluation]
+  E --> F[Feedback Loop]
+  F --> D
+  T --> M[Model Deployment]
+```
+
+# Section 4: Prompting
+
+## Naive
+
+```
+Q: A juggler has 16 balls. Half of the balls are golf balls and half of the golf balls are blue. How many blue golf balls are there?
+A:
+```
+
+```
+There are 8 blue golf balls.
+```
+
+## Let's think step by step
+
+> Q: A juggler has 16 balls. Half of the balls are golf balls and half of the golf balls are blue. How many blue golf balls are there?
+> A: Let's think step by step.
+
+```
+There are 16 balls in total. 
+Half of the balls are golf balls. 
+That means that there are 8 golf balls. 
+Half of the golf balls are blue. 
+That means that there are 4 blue golf balls.
+```
+
+
+# Spezielle Anwendungen
+
+[Knowledge discovery](perplexity.ai)
+
+
+# Resources
+
+<br>
+[Futurepedia](https://www.futurepedia.io/): future tools
+
+<br>
+
+[hochschulforumdigitalisierung](https://hochschulforumdigitalisierung.de/de/blog/chatgpt-im-hochschulkontext-%E2%80%93-eine-kommentierte-linksammlung)
+
+<br>
+
+[KI Ressourcen](https://www.vkkiwa.de/ki-ressourcen/)
+
+<br>
+
+[Miro board](https://miro.com/app/board/uXjVP1tqX3k=/)
+
+<br>
+
+[nolej.io/](https://nolej.io/)
+
+
+
+# Ethische Fragen
+
+[Kenia](https://netzpolitik.org/2023/globaler-sueden-prekaere-klickarbeit-hinter-den-kulissen-von-chatgpt/)
+
+
+# Citations
+
+1) Can ChatGPT cite?
+2) How to cite ChatGPT
+
+
+[APA](https://apastyle.apa.org/blog/how-to-cite-chatgpt)
