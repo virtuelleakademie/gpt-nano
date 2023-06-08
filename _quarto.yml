@@ -4,20 +4,63 @@ project:
   render: 
     - index.qmd
     - about.qmd
+    - slides/demo-1.qmd
 
 website:
-  title: "gpt-nano"
+  title: "GPT is Not An Oracle"
+  site-url: https://virtuelleakademie.github.io/gpt-nano/
+  favicon: /assets/logo_landing.png
+  open-graph: true
+  reader-mode: true
   navbar:
+    # logo: /assets/logo.png
     left:
       - href: index.qmd
         text: Home
       - about.qmd
-
+    right: 
+      - text: "Content"
+        menu: 
+          - text: "What is ChatGPT?"
+            file: about.qmd
+          - text: "How to think about GPT"
+          - text: "What can GPT do?"
+          - text: "Ethical concerns"
+          - text: "Legal concerns"
+      - text: "Presentations"
+        menu: 
+          - text: "Informationsanlass Bibliotheksmitarbeitende"
+            file: slides/demo-1.qmd
+          - text: "Qualitätszirkel"
+    sidebar:
+    style: floating
+    search: true
+    contents:
+    - section: Einführung
+      contents:
+        - about.qmd
+      # - pages/chapters/chatgpt.qmd
+      # - pages/chapters/datacamp.qmd
+page-footer:
+    right:
+    - icon: github
+      href: https://github.com/virtuelleakademie/gpt-nano/
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    theme:
+      light:
+      - flatly
+      # - styles/light.scss
+      dark:
+      - darkly
+      # - styles/dark.scss
     toc: true
+    link-external-newwindow: true
 
+execute:
+  cache: true
+  freeze: true
+  execute-dir: project
 
-
+editor:
+  render-on-save: true
