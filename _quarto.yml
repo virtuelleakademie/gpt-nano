@@ -4,6 +4,7 @@ project:
   render: 
     - index.qmd
     - about.qmd
+    - content.qmd
     - slides/demo-1.qmd
 
 website:
@@ -20,25 +21,45 @@ website:
       - about.qmd
     right: 
       - text: "Content"
+        file: content.qmd
+        # menu: 
+        #   - text: "What is ChatGPT?"
+        #     file: about.qmd
+        #   - text: "How to think about GPT"
+        #   - text: "What can GPT do?"
+        #   - text: "Ethical concerns"
+        #   - text: "Legal concerns"
+      - text: "Presentations"
         menu: 
+          - text: "Informationsanlass Bibliotheksmitarbeitende"
+            file: slides/demo-1.qmd
+          - text: "Qualitätszirkel"
+    tools:
+      - icon: twitter
+        href: https://twitter.com
+      - icon: github
+        menu:
+          - text: Source Code
+            url:  https://github.com/virtuelleakademie/gpt-nano/
+          - text: Report a Bug
+            url:  https://github.com/virtuelleakademie/gpt-nano/issues
+  sidebar:
+    - title: "Content"
+      style: "docked"
+      search: true
+      contents:
+        - content.qmd
+        - section: Einführung
+          contents:
           - text: "What is ChatGPT?"
             file: about.qmd
           - text: "How to think about GPT"
           - text: "What can GPT do?"
           - text: "Ethical concerns"
           - text: "Legal concerns"
-      - text: "Presentations"
-        menu: 
-          - text: "Informationsanlass Bibliotheksmitarbeitende"
-            file: slides/demo-1.qmd
-          - text: "Qualitätszirkel"
-    sidebar:
-    style: floating
-    search: true
-    contents:
-    - section: Einführung
-      contents:
-        - about.qmd
+        - section: More stuff
+          contents:
+          - about.qmd
       # - pages/chapters/chatgpt.qmd
       # - pages/chapters/datacamp.qmd
 page-footer:
