@@ -1,0 +1,14 @@
+---
+title: "Notes"
+---
+
+- Can GPT think?
+  - what is thinking?
+  - System 1 vs System 2
+  - deliberative vs reflexive
+  - planning: timescales or 1-step-ahead
+- Creativity?
+- Consciousness?
+- Agent?
+- epistemic vs instrumental
+- what is a goal?
