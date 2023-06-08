@@ -81,7 +81,7 @@ format:
 
 execute:
   cache: true
-  freeze: true
+  freeze: false
   execute-dir: project
 
 editor:
