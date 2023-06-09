@@ -30,6 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="..//assets/robot.png" rel="icon" type="image/png">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -79,6 +80,9 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../assets/robot.png" alt="" class="navbar-logo">
+    </a>
     <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">GPT is Not An Oracle</span>
     </a>
@@ -93,6 +97,17 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link active" href="../pages/index.html" rel="" target="" aria-current="page">
  <span class="menu-text">🏠 Home</span></a>
   </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-resources" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+ <span class="menu-text">🛠️ Resources</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-resources">    
+        <li>
+    <a class="dropdown-item" href="../pages/orientierungshilfe.html" rel="" target="">
+ <span class="dropdown-text">KI-basierte Schreibtools in der Lehre – ChatGPT im Fokus</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-tutorials" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
  <span class="menu-text">📚 Tutorials</span>
@@ -160,7 +175,7 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#workshop-description" id="toc-workshop-description" class="nav-link active" data-scroll-target="#workshop-description">Workshop Description</a></li>
   <li><a href="#instructor" id="toc-instructor" class="nav-link" data-scroll-target="#instructor">Instructor</a></li>
-  <li><a href="#tutorial-content" id="toc-tutorial-content" class="nav-link" data-scroll-target="#tutorial-content">Tutorial Content</a></li>
+  <li><a href="#tutorials" id="toc-tutorials" class="nav-link" data-scroll-target="#tutorials">Tutorials</a></li>
   <li><a href="#quick-start-guide" id="toc-quick-start-guide" class="nav-link" data-scroll-target="#quick-start-guide">Quick Start Guide</a></li>
   </ul>
 </nav>
@@ -197,14 +212,13 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="https://www.bfh.ch/en/about-bfh/people/a3xvoqozosua/">Andrew Ellis</a> - Andrew is a data scientist at the Bern University of Applied Sciences. He has a background in cognitive science, and is fascinated by the intersection of language, cognition, and computation.</li>
 </ul>
 </section>
-<section id="tutorial-content" class="level2">
-<h2 class="anchored" data-anchor-id="tutorial-content">Tutorial Content</h2>
+<section id="tutorials" class="level2">
+<h2 class="anchored" data-anchor-id="tutorials">Tutorials</h2>
 <ul>
-<li><a href="packages-and-data.html">0: Packages and Data</a>. Some instructions on the packages and data sets used in the workshop. It would be handy to read this before the workshop starts!</li>
-<li><a href="hello-arrow.html">1: Hello Arrow</a>. The first session of the workshop provides an overview of the Apache Arrow project and gives participants their first hands on experience working with data using Arrow.</li>
-<li><a href="data-wrangling.html">2: Data Wrangling</a>. The second session is a deep dive into the analyzing large data sets using <strong>arrow</strong>, <strong>dplyr</strong>, and to a lesser extent <strong>duckdb</strong>. This is the longest session of the workshop.</li>
-<li><a href="data-storage.html">3: Data Storage</a>. The third session looks in detail the read/write capabilities of <strong>arrow</strong>. It discusses the parquet file format, how to use it effectively for large data sets, and how to partition large data sets across many files.</li>
-<li><a href="advanced.html">4: Advanced Arrow</a>. The final session is brief, and takes a look under the hood. It talks about the data structures and data types used in Arrow.</li>
+<li><a href="instructions.qmd">0: Instructions</a>. Some instructions on the tools used in the workshop. It would be handy to read this before the workshop starts!</li>
+<li><a href="pages/chatgpt.qmd">1: What is ChatGPT and how does is work?</a>. A brief introduction to the ChatGPT model, and how it works.</li>
+<li><a href="pages/prompting.qmd">2: How do you use ChatGPT?</a>. A discussion of what can do, and how to use it correctly.</li>
+<li><a href="pages/concepts.qmd">3: Concepts for thinking about ChatGPT</a>. A discussion of how to think about ChatGPT, and how it is similar and different to human thought.</li>
 </ul>
 </section>
 <section id="quick-start-guide" class="level2">

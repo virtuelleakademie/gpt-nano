@@ -2,7 +2,7 @@
 title: "Virtuelle Akademie"
 about:
   template: jolla
-  image: ../assets/robot.jpg
+  image: ../assets/robot.png
   links:
     - icon: globe
       text: Virtuelle Akademie

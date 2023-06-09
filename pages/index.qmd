@@ -19,13 +19,12 @@ Specifically, we will address the way that people seem to want to use ChatGPT as
 - [Andrew Ellis](https://www.bfh.ch/en/about-bfh/people/a3xvoqozosua/) - Andrew is a data scientist at the Bern University of Applied Sciences. He has a background in cognitive science, and is fascinated by the intersection of language, cognition, and computation.
 
 
-## Tutorial Content
+## Tutorials
 
-- [0: Packages and Data](packages-and-data.html). Some instructions on the packages and data sets used in the workshop. It would be handy to read this before the workshop starts!
-- [1: Hello Arrow](hello-arrow.html). The first session of the workshop provides an overview of the Apache Arrow project and gives participants their first hands on experience working with data using Arrow. 
-- [2: Data Wrangling](data-wrangling.html). The second session is a deep dive into the analyzing large data sets using **arrow**, **dplyr**, and to a lesser extent **duckdb**. This is the longest session of the workshop.
-- [3: Data Storage](data-storage.html). The third session looks in detail the read/write capabilities of **arrow**. It discusses the parquet file format, how to use it effectively for large data sets, and how to partition large data sets across many files.
-- [4: Advanced Arrow](advanced.html). The final session is brief, and takes a look under the hood. It talks about the data structures and data types used in Arrow.
+- [0: Instructions](instructions.qmd). Some instructions on the tools used in the workshop. It would be handy to read this before the workshop starts!
+- [1: What is ChatGPT and how does is work?](pages/chatgpt.qmd). A brief introduction to the ChatGPT model, and how it works.
+- [2: How do you use ChatGPT?](pages/prompting.qmd). A discussion of what can do, and how to use it correctly.
+- [3: Concepts for thinking about ChatGPT](pages/concepts.qmd). A discussion of how to think about ChatGPT, and how it is similar and different to human thought.
 
 ## Quick Start Guide
 

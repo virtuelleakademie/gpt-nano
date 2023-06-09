@@ -10,7 +10,7 @@ website:
   site-url: https://virtuelleakademie.github.io/gpt-nano
   repo-url: https://github.com/virtuelleakademie/gpt-nano
   # repo-actions: [edit, issue]
-  # favicon: /assets/logo_landing.png
+  favicon: /assets/robot.png
   open-graph: true
   search: 
     location: navbar
@@ -23,10 +23,15 @@ website:
   reader-mode: true
   back-to-top-navigation: true
   navbar:
-    # logo: /assets/logo.png
+    logo: /assets/robot.png
     left:
       - text: "🏠 Home"
         file: pages/index.qmd
+
+      - text: "🛠️ Resources"
+        menu: 
+          - text: "KI-basierte Schreibtools in der Lehre – ChatGPT im Fokus"
+            file: pages/orientierungshilfe.qmd
 
       - text: "📚 Tutorials"
         menu: 
