@@ -1,19 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://virtuelleakademie.github.io/gpt-nano/index.html</loc>
-    <lastmod>2023-06-08T10:22:11.884Z</lastmod>
+    <loc>https://virtuelleakademie.github.io/gpt-nano/pages/about.html</loc>
+    <lastmod>2023-06-09T09:29:51.938Z</lastmod>
   </url>
   <url>
-    <loc>https://virtuelleakademie.github.io/gpt-nano/about.html</loc>
-    <lastmod>2023-06-08T09:58:51.472Z</lastmod>
+    <loc>https://virtuelleakademie.github.io/gpt-nano/pages/beispiel-arbeit.html</loc>
+    <lastmod>2023-06-09T08:00:41.386Z</lastmod>
+  </url>
+  <url>
+    <loc>https://virtuelleakademie.github.io/gpt-nano/pages/content.html</loc>
+    <lastmod>2023-06-09T08:00:41.691Z</lastmod>
+  </url>
+  <url>
+    <loc>https://virtuelleakademie.github.io/gpt-nano/pages/detection.html</loc>
+    <lastmod>2023-06-09T08:00:42.001Z</lastmod>
+  </url>
+  <url>
+    <loc>https://virtuelleakademie.github.io/gpt-nano/pages/index.html</loc>
+    <lastmod>2023-06-09T09:27:09.757Z</lastmod>
+  </url>
+  <url>
+    <loc>https://virtuelleakademie.github.io/gpt-nano/pages/notes.html</loc>
+    <lastmod>2023-06-09T08:00:42.596Z</lastmod>
+  </url>
+  <url>
+    <loc>https://virtuelleakademie.github.io/gpt-nano/pages/prompting.html</loc>
+    <lastmod>2023-06-09T08:00:43.185Z</lastmod>
   </url>
   <url>
     <loc>https://virtuelleakademie.github.io/gpt-nano/slides/demo-1.html</loc>
-    <lastmod>2023-06-08T10:07:25.592Z</lastmod>
-  </url>
-  <url>
-    <loc>https://virtuelleakademie.github.io/gpt-nano/content.html</loc>
-    <lastmod>2023-06-08T10:22:12.254Z</lastmod>
+    <lastmod>2023-06-09T08:00:45.241Z</lastmod>
   </url>
 </urlset>

@@ -1,10 +1,32 @@
 ---
 title: "GPT is Not An Oracle"
-about:
-    template: jolla
-    image: assets/logo_landing.png
-    links:
-    - text: Andrew Ellis
-      href: mailto:andrew.ellis@bfh.ch
 ---
 
+
+
+## Workshop Description
+
+As Large Language Models (LLMs) become increasingly human-like in their performance, it is important to develop effective ways to describe their behaviour using high-level concepts, without falling into the trap of anthropomorphism.
+
+In this workshop, we will investigate how LLMs are trained, how they produce text, and what they are capable of. Importantly, we will address what LLMs are not capable of, and how to use them correctly. We will also discuss similarities and differences between LLMs and human thought processes.
+
+Specifically, we will address the way that people seem to want to use ChatGPT as an oracle, whose goal is to provide truthful statements. We will discuss why is not the case, and how to use LLMs correctly.
+
+
+
+## Instructor
+
+- [Andrew Ellis](https://www.bfh.ch/en/about-bfh/people/a3xvoqozosua/) - Andrew is a data scientist at the Bern University of Applied Sciences. He has a background in cognitive science, and is fascinated by the intersection of language, cognition, and computation.
+
+
+## Tutorial Content
+
+- [0: Packages and Data](packages-and-data.html). Some instructions on the packages and data sets used in the workshop. It would be handy to read this before the workshop starts!
+- [1: Hello Arrow](hello-arrow.html). The first session of the workshop provides an overview of the Apache Arrow project and gives participants their first hands on experience working with data using Arrow. 
+- [2: Data Wrangling](data-wrangling.html). The second session is a deep dive into the analyzing large data sets using **arrow**, **dplyr**, and to a lesser extent **duckdb**. This is the longest session of the workshop.
+- [3: Data Storage](data-storage.html). The third session looks in detail the read/write capabilities of **arrow**. It discusses the parquet file format, how to use it effectively for large data sets, and how to partition large data sets across many files.
+- [4: Advanced Arrow](advanced.html). The final session is brief, and takes a look under the hood. It talks about the data structures and data types used in Arrow.
+
+## Quick Start Guide
+
+Qui exercitation voluptate aute Lorem veniam do amet consequat cillum culpa consectetur ea laboris. Dolor occaecat nisi nulla officia occaecat ut enim incididunt non nisi officia duis sint eu. Ad anim aute eu est. Laboris consequat voluptate veniam Lorem voluptate est. Veniam qui cillum nulla ex pariatur non ex nisi ut deserunt quis magna voluptate deserunt occaecat. In mollit ipsum cupidatat nostrud cupidatat ut eiusmod.

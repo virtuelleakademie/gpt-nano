@@ -7,34 +7,45 @@ project:
 
 website:
   title: "GPT is Not An Oracle"
-  site-url: https://virtuelleakademie.github.io/gpt-nano/
-  favicon: /assets/logo_landing.png
+  site-url: https://virtuelleakademie.github.io/gpt-nano
+  repo-url: https://github.com/virtuelleakademie/gpt-nano
+  # repo-actions: [edit, issue]
+  # favicon: /assets/logo_landing.png
   open-graph: true
+  search: 
+    location: navbar
+    type: overlay
+    # type: textbox
+  twitter-card:
+    creator: "@awellis"
+    card-style: summary_large_image
+
   reader-mode: true
   back-to-top-navigation: true
   navbar:
     # logo: /assets/logo.png
     left:
-      - text: "Home"
+      - text: "🏠 Home"
         file: pages/index.qmd
-      # - sidebar:tutorials
-      # - sidebar:howto
-      # - sidebar:fundamentals
-      # - sidebar:reference
-      - text: "Content"
-        file: pages/content.qmd
-        # menu: 
-        #   - text: "What is ChatGPT?"
-        #     file: about.qmd
-        #   - text: "How to think about GPT"
-        #   - text: "What can GPT do?"
-        #   - text: "Ethical concerns"
-        #   - text: "Legal concerns"
-      - text: "Presentations"
+
+      - text: "📚 Tutorials"
+        menu: 
+          - text: "What is ChatGPT?"
+            file: pages/about.qmd
+          - text: "How to think about GPT"
+          - text: "What can GPT do?"
+          - text: "Ethical concerns"
+          - text: "Legal concerns"
+
+      - text: "📺 Presentations"
         menu: 
           - text: "Informationsanlass Bibliotheksmitarbeitende"
             file: slides/demo-1.qmd
           - text: "Qualitätszirkel"
+    # right: 
+    #   - text: "About"
+    #     file: pages/about.qmd
+
     tools:
       - icon: twitter
         href: https://twitter.com
@@ -44,38 +55,21 @@ website:
             url:  https://github.com/virtuelleakademie/gpt-nano/
           - text: Report a Bug
             url:  https://github.com/virtuelleakademie/gpt-nano/issues
-  sidebar:
-    - title: "Content"
-      style: "docked"
-      search: true
-      contents:
-        - content.qmd
-        - section: Einführung
-          contents:
-          - text: "What is ChatGPT?"
-            file: about.qmd
-          - text: "How to think about GPT"
-          - text: "What can GPT do?"
-          - text: "Ethical concerns"
-          - text: "Legal concerns"
-        - section: More stuff
-          contents:
-          - about.qmd
-      # - pages/chapters/chatgpt.qmd
-      # - pages/chapters/datacamp.qmd
+
 page-footer:
     right:
     - icon: github
       href: https://github.com/virtuelleakademie/gpt-nano/
+
 format:
   html:
     theme:
       light:
-      - flatly
+      - cosmo
       # - styles/light.scss
       dark:
-      - darkly
-      # - styles/dark.scss
+      - cosmo
+      - styles/theme-dark.scss
     toc: true
     link-external-newwindow: true
 
