@@ -30,23 +30,26 @@ website:
 
       - text: "🛠️ Resources"
         menu: 
-          - text: "KI-basierte Schreibtools in der Lehre – ChatGPT im Fokus"
-            file: pages/orientierungshilfe.qmd
+          - text: "Ratgeber"
+            file: pages/resources.qmd
+          - text: "Tools"
+            file: pages/tools.qmd
 
       - text: "📚 Tutorials"
         menu: 
           - text: "What is ChatGPT?"
             file: pages/about.qmd
           - text: "How to think about GPT"
+            file: pages/thinking.qmd
           - text: "What can GPT do?"
           - text: "Ethical concerns"
           - text: "Legal concerns"
 
       - text: "📺 Presentations"
         menu: 
-          - text: "Informationsanlass Bibliotheksmitarbeitende"
-            file: slides/demo-1.qmd
-          - text: "Qualitätszirkel"
+          - text: "Informationsanlass Bibliotheksmitarbeitende KI/ChatGPT"
+            file: slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.qmd
+          # - text: "Qualitätszirkel Gesundheit"
 
     tools:
       - icon: twitter

@@ -12,7 +12,17 @@ In this workshop, we will investigate how LLMs are trained, how they produce tex
 
 Specifically, we will address the way that people seem to want to use ChatGPT as an oracle, whose goal is to provide truthful statements. We will discuss why is not the case, and how to use LLMs correctly.
 
+## Lernziele
+1) Sie können mit Anfragen von Studierenden in Bezug auf fach-spezifische AI-generierte Texte umgehen.
+2) Sie können in eigenen Worten wiedergeben, wie AI-generierte Texte entstehen.
+3) Sie haben Kriterien, anhand derer Sie AI-Tools beurteilen können.
 
+<!-- - Modell
+- Zweck des Tools
+- Zielgruppe
+- Datenschutz
+- Herausgeber + Preismodell
+- Offenheit des Codes -->
 
 ## Instructor
 

@@ -77,6 +77,13 @@
     "text": "As Large Language Models (LLMs) become increasingly human-like in their performance, it is important to develop effective ways to describe their behaviour using high-level concepts, without falling into the trap of anthropomorphism.\nIn this workshop, we will investigate how LLMs are trained, how they produce text, and what they are capable of. Importantly, we will address what LLMs are not capable of, and how to use them correctly. We will also discuss similarities and differences between LLMs and human thought processes.\nSpecifically, we will address the way that people seem to want to use ChatGPT as an oracle, whose goal is to provide truthful statements. We will discuss why is not the case, and how to use LLMs correctly."
   },
   {
+    "objectID": "pages/index.html#lernziele",
+    "href": "pages/index.html#lernziele",
+    "title": "GPT is Not An Oracle",
+    "section": "Lernziele",
+    "text": "Lernziele\n\nSie können mit Anfragen von Studierenden in Bezug auf fach-spezifische AI-generierte Texte umgehen.\nSie können in eigenen Worten wiedergeben, wie AI-generierte Texte entstehen.\nSie haben Kriterien, anhand derer Sie AI-Tools beurteilen können."
+  },
+  {
     "objectID": "pages/index.html#instructor",
     "href": "pages/index.html#instructor",
     "title": "GPT is Not An Oracle",
@@ -103,13 +110,6 @@
     "title": "Notes",
     "section": "",
     "text": "Can GPT think?\n\nwhat is thinking?\nSystem 1 vs System 2\ndeliberative vs reflexive\nplanning: timescales or 1-step-ahead\n\nCreativity?\nConsciousness?\nAgent?\nepistemic vs instrumental\nwhat is a goal?\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "pages/orientierungshilfe.html",
-    "href": "pages/orientierungshilfe.html",
-    "title": "KI-basierte Schreibtools in der Lehre – ChatGPT im Fokus",
-    "section": "",
-    "text": "👉🏼 Orientierungshilfe\n\n\n\n Back to top"
   },
   {
     "objectID": "pages/prompting.html",
@@ -145,6 +145,20 @@
     "title": "Prompt Design",
     "section": "Strategy: Give GPTs time to “think”",
     "text": "Strategy: Give GPTs time to “think”"
+  },
+  {
+    "objectID": "pages/resources.html",
+    "href": "pages/resources.html",
+    "title": "GPT is Not An Oracle",
+    "section": "",
+    "text": "👉🏼 KI-basierte Schreibtools in der Lehre – ChatGPT im Fokus\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "pages/thinking.html",
+    "href": "pages/thinking.html",
+    "title": "Thinking",
+    "section": "",
+    "text": "https://thedecisionlab.com/reference-guide/philosophy/system-1-and-system-2-thinking\n\n\n\n\n Back to top"
   },
   {
     "objectID": "slides/demo-1.html#first-slide",
@@ -250,5 +264,12 @@
     "title": "The title of the presentation",
     "section": "Padlet",
     "text": "Padlet\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n🏠 GPT is Not An Oracle"
+  },
+  {
+    "objectID": "pages/tools.html",
+    "href": "pages/tools.html",
+    "title": "Tools",
+    "section": "",
+    "text": "👉🏼 The largest ai tools directory (updated daily)\n👉🏼 Elicit\n👉🏼 Consensus\n\n\n\n Back to top"
   }
 ]

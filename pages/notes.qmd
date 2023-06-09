@@ -12,3 +12,11 @@ title: "Notes"
 - Agent?
 - epistemic vs instrumental
 - what is a goal?
+
+
+## Isaac Asimov's "Three Laws of Robotics"
+The best known set of laws are Isaac Asimov's "Three Laws of Robotics". These were introduced in his 1942 short story "Runaround", although they were foreshadowed in a few earlier stories. The Three Laws are:
+
+    A robot may not injure a human being or, through inaction, allow a human being to come to harm.
+    A robot must obey the orders given it by human beings except where such orders would conflict with the First Law.
+    A robot must protect its own existence as long as such protection does not conflict with the First or Second Laws.

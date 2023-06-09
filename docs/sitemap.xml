@@ -2,38 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://virtuelleakademie.github.io/gpt-nano/pages/about.html</loc>
-    <lastmod>2023-06-09T10:08:19.886Z</lastmod>
+    <lastmod>2023-06-09T11:17:44.035Z</lastmod>
   </url>
   <url>
     <loc>https://virtuelleakademie.github.io/gpt-nano/pages/beispiel-arbeit.html</loc>
-    <lastmod>2023-06-09T10:08:20.250Z</lastmod>
+    <lastmod>2023-06-09T11:10:02.217Z</lastmod>
   </url>
   <url>
     <loc>https://virtuelleakademie.github.io/gpt-nano/pages/contents.html</loc>
-    <lastmod>2023-06-09T10:08:20.633Z</lastmod>
+    <lastmod>2023-06-09T11:10:02.594Z</lastmod>
   </url>
   <url>
     <loc>https://virtuelleakademie.github.io/gpt-nano/pages/detection.html</loc>
-    <lastmod>2023-06-09T10:08:20.945Z</lastmod>
+    <lastmod>2023-06-09T11:10:02.906Z</lastmod>
   </url>
   <url>
     <loc>https://virtuelleakademie.github.io/gpt-nano/pages/index.html</loc>
-    <lastmod>2023-06-09T10:08:21.304Z</lastmod>
+    <lastmod>2023-06-09T11:13:41.995Z</lastmod>
   </url>
   <url>
     <loc>https://virtuelleakademie.github.io/gpt-nano/pages/notes.html</loc>
-    <lastmod>2023-06-09T10:08:21.607Z</lastmod>
-  </url>
-  <url>
-    <loc>https://virtuelleakademie.github.io/gpt-nano/pages/orientierungshilfe.html</loc>
-    <lastmod>2023-06-09T10:08:21.953Z</lastmod>
+    <lastmod>2023-06-09T11:10:03.617Z</lastmod>
   </url>
   <url>
     <loc>https://virtuelleakademie.github.io/gpt-nano/pages/prompting.html</loc>
-    <lastmod>2023-06-09T10:08:22.594Z</lastmod>
+    <lastmod>2023-06-09T11:10:04.232Z</lastmod>
+  </url>
+  <url>
+    <loc>https://virtuelleakademie.github.io/gpt-nano/pages/resources.html</loc>
+    <lastmod>2023-06-09T11:13:00.308Z</lastmod>
+  </url>
+  <url>
+    <loc>https://virtuelleakademie.github.io/gpt-nano/pages/thinking.html</loc>
+    <lastmod>2023-06-09T11:10:04.843Z</lastmod>
   </url>
   <url>
     <loc>https://virtuelleakademie.github.io/gpt-nano/slides/demo-1.html</loc>
-    <lastmod>2023-06-09T10:08:24.695Z</lastmod>
+    <lastmod>2023-06-09T11:10:06.736Z</lastmod>
+  </url>
+  <url>
+    <loc>https://virtuelleakademie.github.io/gpt-nano/pages/tools.html</loc>
+    <lastmod>2023-06-09T11:13:03.739Z</lastmod>
   </url>
 </urlset>
