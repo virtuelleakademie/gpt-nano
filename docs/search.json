@@ -7,32 +7,11 @@
     "text": "Die Freude am Lernen steht bei uns an erster Stelle. Aber wie gelingt ein Lernprozess im heutigen Hochschulumfeld? Wir glauben, dass exzellente Lehre aus der richtigen Mischung von didaktischer Kompetenz und digitalen Skills entsteht. Damit der Zauber funktioniert, unterstützen wir Lehrpersonen mit einem breiten evidenzbasierten Angebot, vom massgeschneiderten Einzel-Coaching über kompakte Weiterbildungen bis hin zum CAS-Studiengang.\nIn unserer Arbeit setzen wir stets auf eine offene und wertschätzende Kommunikation. Unser Fokus liegt auf der Praxis: Wir behandeln echte Problemstellungen aus dem Lehralltag und orientieren uns nicht an kurzfristigen Trends. Damit leisten wir einen Beitrag zu einer nachhaltigen Transformation in der Bildung und einem sorgfältigen Umgang mit digitalen Werkzeugen."
   },
   {
-    "objectID": "pages/about.html#ziele",
-    "href": "pages/about.html#ziele",
-    "title": "About",
-    "section": "",
-    "text": "Ich bin an der Hochschulbibliothek der BFH verantwortlich für die Koordination der IK-Angebote. Wir und unsere Kolleg*innen an der Ausleihe haben vermehrt mit Studierenden zu tun, die eine «Recherche» mit ChatGPT durchführen oder auf andere Art damit arbeiten. Ich denke, für die Informationswissenschaft wird die KI einiges an Veränderungen mit sich bringen. Noch gibt es aber kaum Informationsanlässe für unsere Branche. Könntest du dir vorstellen, für unser Team IK eine Einführung ins Thema zu geben und Vor- und Nachteile aufzuzeigen?"
-  },
-  {
-    "objectID": "pages/about.html#fragensammlung",
-    "href": "pages/about.html#fragensammlung",
-    "title": "About",
-    "section": "Fragensammlung",
-    "text": "Fragensammlung\n\nWie funktioniert ChatGPT genau? Welche anderen relevanten KI-Tools sollte man kennen?\n\n\nDidaktik/Methodik:\n\nNützliche Unterstützung im Unterricht durch ChatGPT (zB Kahoot und Präsentationen erstellen) – kennst du Anleitungen, gute Vorgehensweisen?\nAbschlussarbeiten und ChatGPT\nPlagiate erkennen\n\n\n\nFragen aus dem Berufsfeld Information und Dokumentation:\n\nTechnische Einsatzmöglichkeiten von ChatGPT bei der Recherche oder in Discovery-Tools (Recherchetechnologien) in Zukunft\nChatGPT nutzen, um eine Recherche vorzubereiten? Thema einkreisen, Begriffe sammeln etc.\nLiteraturhinweise, die ChatGPT ausspielt\nNeue Aufgabe für I&D-Institutionen: KI-generiertes Wissen einordnen?\nUrheberrecht: Wem gehört ein KI-Text?\n\n\n\nRisiken\n\nRisiken von ChatGPT: fachliche Unkorrektheit, Unwahrheit\nWas können wir den Studierenden in unseren Workshops mitgeben?\nEthisch bedenkliche Hintergründe von ChatGPT: https://www.srf.ch/radio-srf-1/kuenstliche-intelligenz-traumatisiert-weil-sie-den-chat-roboter-trainieren-mussten"
-  },
-  {
-    "objectID": "pages/about.html#beispiel",
-    "href": "pages/about.html#beispiel",
-    "title": "About",
-    "section": "Beispiel",
-    "text": "Beispiel\n\nwir hatten mehrfach Studierende in den Bibliotheken, die mit ChatGPT «Literaturrecherchen» machten und dann mit langen Listen von Referenzen nicht existierender Bücher und Artikel daher kamen 😊 einige Kolleginnen an der Ausleihe haben dann, natürlich vergeblich, danach gesucht. Vielleicht kannst du etwas dazu sagen, wie solche falschen bibliographischen Angaben entstehen."
-  },
-  {
-    "objectID": "pages/about.html#future",
-    "href": "pages/about.html#future",
-    "title": "About",
-    "section": "Future",
-    "text": "Future\n\nbe data-aware\n\nretrieval augmented generation\n\nbe agentic, i.e. allow and LLM to interact with its environment"
+    "objectID": "pages/about.html#über-uns",
+    "href": "pages/about.html#über-uns",
+    "title": "Virtuelle Akademie",
+    "section": "Über uns",
+    "text": "Über uns\nDie Stärke der Virtuellen Akademie: Ein Team, in dem diverse Fähigkeiten zusammenkommen. Von Hochschuldidaktik über Lerntechnologien bis hin zu Visualisierungs- und Video-Expertise.\n👉🏼 Team"
   },
   {
     "objectID": "pages/beispiel-arbeit.html",
@@ -42,11 +21,39 @@
     "text": "mathematische Basiskompetenzen im Kindergartenalter\n\nDu bist eine Fachperson im Bereich der Entwicklungspsychologie. Du bist Experte für mathematische Basiskompetenzen im Kindergartenalter. Ich schreibe eine Masterarbeit und du hilfst mir bei den Formulierungen. Ich schreibe eine wissenschaftliche Arbeit über das Thema “Erfassung mathematischer Basiskompetenzen”\n\nDer MBK 0 (Test mathematischer Basiskompetenzen im Kindergartenalter) von Krajewski (2018) ist ein Einzeltest für Kinder im Alter von 3.6 bis 7 Jahren. Diesem Test liegt das Entwicklungsmodell der Zahl-Grössen-Verknüpfung (Krajewski, 2008) zugrunde (vgl. Abschnitt 4.2.1). Der MBK 0 ist ein Test zur Erfassung der mathematischen Basiskompetenzen\n\n\n\n Back to top"
   },
   {
-    "objectID": "pages/content.html",
-    "href": "pages/content.html",
-    "title": "Untitled",
+    "objectID": "pages/contents.html",
+    "href": "pages/contents.html",
+    "title": "Contents",
     "section": "",
-    "text": "Back to top"
+    "text": "Ich bin an der Hochschulbibliothek der BFH verantwortlich für die Koordination der IK-Angebote. Wir und unsere Kolleg*innen an der Ausleihe haben vermehrt mit Studierenden zu tun, die eine «Recherche» mit ChatGPT durchführen oder auf andere Art damit arbeiten. Ich denke, für die Informationswissenschaft wird die KI einiges an Veränderungen mit sich bringen. Noch gibt es aber kaum Informationsanlässe für unsere Branche. Könntest du dir vorstellen, für unser Team IK eine Einführung ins Thema zu geben und Vor- und Nachteile aufzuzeigen?"
+  },
+  {
+    "objectID": "pages/contents.html#ziele",
+    "href": "pages/contents.html#ziele",
+    "title": "Contents",
+    "section": "",
+    "text": "Ich bin an der Hochschulbibliothek der BFH verantwortlich für die Koordination der IK-Angebote. Wir und unsere Kolleg*innen an der Ausleihe haben vermehrt mit Studierenden zu tun, die eine «Recherche» mit ChatGPT durchführen oder auf andere Art damit arbeiten. Ich denke, für die Informationswissenschaft wird die KI einiges an Veränderungen mit sich bringen. Noch gibt es aber kaum Informationsanlässe für unsere Branche. Könntest du dir vorstellen, für unser Team IK eine Einführung ins Thema zu geben und Vor- und Nachteile aufzuzeigen?"
+  },
+  {
+    "objectID": "pages/contents.html#fragensammlung",
+    "href": "pages/contents.html#fragensammlung",
+    "title": "Contents",
+    "section": "Fragensammlung",
+    "text": "Fragensammlung\n\nWie funktioniert ChatGPT genau? Welche anderen relevanten KI-Tools sollte man kennen?\n\n\nDidaktik/Methodik:\n\nNützliche Unterstützung im Unterricht durch ChatGPT (zB Kahoot und Präsentationen erstellen) – kennst du Anleitungen, gute Vorgehensweisen?\nAbschlussarbeiten und ChatGPT\nPlagiate erkennen\n\n\n\nFragen aus dem Berufsfeld Information und Dokumentation:\n\nTechnische Einsatzmöglichkeiten von ChatGPT bei der Recherche oder in Discovery-Tools (Recherchetechnologien) in Zukunft\nChatGPT nutzen, um eine Recherche vorzubereiten? Thema einkreisen, Begriffe sammeln etc.\nLiteraturhinweise, die ChatGPT ausspielt\nNeue Aufgabe für I&D-Institutionen: KI-generiertes Wissen einordnen?\nUrheberrecht: Wem gehört ein KI-Text?\n\n\n\nRisiken\n\nRisiken von ChatGPT: fachliche Unkorrektheit, Unwahrheit\nWas können wir den Studierenden in unseren Workshops mitgeben?\nEthisch bedenkliche Hintergründe von ChatGPT: https://www.srf.ch/radio-srf-1/kuenstliche-intelligenz-traumatisiert-weil-sie-den-chat-roboter-trainieren-mussten"
+  },
+  {
+    "objectID": "pages/contents.html#beispiel",
+    "href": "pages/contents.html#beispiel",
+    "title": "Contents",
+    "section": "Beispiel",
+    "text": "Beispiel\n\nwir hatten mehrfach Studierende in den Bibliotheken, die mit ChatGPT «Literaturrecherchen» machten und dann mit langen Listen von Referenzen nicht existierender Bücher und Artikel daher kamen 😊 einige Kolleginnen an der Ausleihe haben dann, natürlich vergeblich, danach gesucht. Vielleicht kannst du etwas dazu sagen, wie solche falschen bibliographischen Angaben entstehen."
+  },
+  {
+    "objectID": "pages/contents.html#future",
+    "href": "pages/contents.html#future",
+    "title": "Contents",
+    "section": "Future",
+    "text": "Future\n\nbe data-aware\n\nretrieval augmented generation\n\nbe agentic, i.e. allow and LLM to interact with its environment"
   },
   {
     "objectID": "pages/detection.html",
@@ -63,11 +70,46 @@
     "text": "As Large Language Models (LLMs) become increasingly human-like in their performance, it is important to develop effective ways to describe their behaviour using high-level concepts, without falling into the trap of anthropomorphism.\nIn this workshop, we will investigate how LLMs are trained, how they produce text, and what they are capable of. Importantly, we will address what LLMs are not capable of, and how to use them correctly. We will also discuss similarities and differences between LLMs and human thought processes.\nSpecifically, we will address the way that people seem to want to use ChatGPT as an oracle, whose goal is to provide truthful statements. We will discuss why is not the case, and how to use LLMs correctly."
   },
   {
+    "objectID": "pages/index.html#workshop-description",
+    "href": "pages/index.html#workshop-description",
+    "title": "GPT is Not An Oracle",
+    "section": "",
+    "text": "As Large Language Models (LLMs) become increasingly human-like in their performance, it is important to develop effective ways to describe their behaviour using high-level concepts, without falling into the trap of anthropomorphism.\nIn this workshop, we will investigate how LLMs are trained, how they produce text, and what they are capable of. Importantly, we will address what LLMs are not capable of, and how to use them correctly. We will also discuss similarities and differences between LLMs and human thought processes.\nSpecifically, we will address the way that people seem to want to use ChatGPT as an oracle, whose goal is to provide truthful statements. We will discuss why is not the case, and how to use LLMs correctly."
+  },
+  {
+    "objectID": "pages/index.html#instructor",
+    "href": "pages/index.html#instructor",
+    "title": "GPT is Not An Oracle",
+    "section": "Instructor",
+    "text": "Instructor\n\nAndrew Ellis - Andrew is a data scientist at the Bern University of Applied Sciences. He has a background in cognitive science, and is fascinated by the intersection of language, cognition, and computation."
+  },
+  {
+    "objectID": "pages/index.html#tutorials",
+    "href": "pages/index.html#tutorials",
+    "title": "GPT is Not An Oracle",
+    "section": "Tutorials",
+    "text": "Tutorials\n\n0: Instructions. Some instructions on the tools used in the workshop. It would be handy to read this before the workshop starts!\n1: What is ChatGPT and how does is work?. A brief introduction to the ChatGPT model, and how it works.\n2: How do you use ChatGPT?. A discussion of what can do, and how to use it correctly.\n3: Concepts for thinking about ChatGPT. A discussion of how to think about ChatGPT, and how it is similar and different to human thought."
+  },
+  {
+    "objectID": "pages/index.html#quick-start-guide",
+    "href": "pages/index.html#quick-start-guide",
+    "title": "GPT is Not An Oracle",
+    "section": "Quick Start Guide",
+    "text": "Quick Start Guide\nQui exercitation voluptate aute Lorem veniam do amet consequat cillum culpa consectetur ea laboris. Dolor occaecat nisi nulla officia occaecat ut enim incididunt non nisi officia duis sint eu. Ad anim aute eu est. Laboris consequat voluptate veniam Lorem voluptate est. Veniam qui cillum nulla ex pariatur non ex nisi ut deserunt quis magna voluptate deserunt occaecat. In mollit ipsum cupidatat nostrud cupidatat ut eiusmod."
+  },
+  {
     "objectID": "pages/notes.html",
     "href": "pages/notes.html",
     "title": "Notes",
     "section": "",
     "text": "Can GPT think?\n\nwhat is thinking?\nSystem 1 vs System 2\ndeliberative vs reflexive\nplanning: timescales or 1-step-ahead\n\nCreativity?\nConsciousness?\nAgent?\nepistemic vs instrumental\nwhat is a goal?\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "pages/orientierungshilfe.html",
+    "href": "pages/orientierungshilfe.html",
+    "title": "KI-basierte Schreibtools in der Lehre – ChatGPT im Fokus",
+    "section": "",
+    "text": "👉🏼 Orientierungshilfe\n\n\n\n Back to top"
   },
   {
     "objectID": "pages/prompting.html",
@@ -208,75 +250,5 @@
     "title": "The title of the presentation",
     "section": "Padlet",
     "text": "Padlet\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n🏠 GPT is Not An Oracle"
-  },
-  {
-    "objectID": "pages/about.html#education",
-    "href": "pages/about.html#education",
-    "title": "Virtuelle Akademie",
-    "section": "Education",
-    "text": "Education\nUniversity of California, San Diego | San Diego, CA PhD in Mathematics | Sept 2011 - June 2015\nMacalester College | St. Paul MA B.A in Economics | Sept 2007 - June 2011"
-  },
-  {
-    "objectID": "pages/about.html#experience",
-    "href": "pages/about.html#experience",
-    "title": "Virtuelle Akademie",
-    "section": "Experience",
-    "text": "Experience\nWengo Analytics | Head Data Scientist | April 2018 - present\nGeoScynce | Chief Analyst | Spet 2012 - April 2018"
-  },
-  {
-    "objectID": "pages/index.html#workshop-description",
-    "href": "pages/index.html#workshop-description",
-    "title": "GPT is Not An Oracle",
-    "section": "",
-    "text": "As Large Language Models (LLMs) become increasingly human-like in their performance, it is important to develop effective ways to describe their behaviour using high-level concepts, without falling into the trap of anthropomorphism.\nIn this workshop, we will investigate how LLMs are trained, how they produce text, and what they are capable of. Importantly, we will address what LLMs are not capable of, and how to use them correctly. We will also discuss similarities and differences between LLMs and human thought processes.\nSpecifically, we will address the way that people seem to want to use ChatGPT as an oracle, whose goal is to provide truthful statements. We will discuss why is not the case, and how to use LLMs correctly."
-  },
-  {
-    "objectID": "pages/index.html#instructors",
-    "href": "pages/index.html#instructors",
-    "title": "GPT is Not An Oracle",
-    "section": "Instructors",
-    "text": "Instructors\n\nAndrew Ellis - Andrew is a data scientist at the Bern University of Applied Sciences. He has a background in cognitive science, and is fascinated by the intersection of language, cognition, and computation."
-  },
-  {
-    "objectID": "pages/index.html#tutorial-content",
-    "href": "pages/index.html#tutorial-content",
-    "title": "GPT is Not An Oracle",
-    "section": "Tutorial Content",
-    "text": "Tutorial Content\n\n0: Instructions. Some instructions on the tools used in the workshop. It would be handy to read this before the workshop starts!\n1: What is ChatGPT and how does is work?. A brief introduction to the ChatGPT model, and how it works.\n2: How do you use ChatGPT?. A discussion of what can do, and how to use it correctly.\n3: Concepts for thinking about ChatGPT. A discussion of how to think about ChatGPT, and how it is similar and different to human thought."
-  },
-  {
-    "objectID": "pages/index.html#quick-start-guide",
-    "href": "pages/index.html#quick-start-guide",
-    "title": "GPT is Not An Oracle",
-    "section": "Quick Start Guide",
-    "text": "Quick Start Guide\nQui exercitation voluptate aute Lorem veniam do amet consequat cillum culpa consectetur ea laboris. Dolor occaecat nisi nulla officia occaecat ut enim incididunt non nisi officia duis sint eu. Ad anim aute eu est. Laboris consequat voluptate veniam Lorem voluptate est. Veniam qui cillum nulla ex pariatur non ex nisi ut deserunt quis magna voluptate deserunt occaecat. In mollit ipsum cupidatat nostrud cupidatat ut eiusmod."
-  },
-  {
-    "objectID": "pages/index.html#instructor",
-    "href": "pages/index.html#instructor",
-    "title": "GPT is Not An Oracle",
-    "section": "Instructor",
-    "text": "Instructor\n\nAndrew Ellis - Andrew is a data scientist at the Bern University of Applied Sciences. He has a background in cognitive science, and is fascinated by the intersection of language, cognition, and computation."
-  },
-  {
-    "objectID": "pages/about.html#über-uns",
-    "href": "pages/about.html#über-uns",
-    "title": "Virtuelle Akademie",
-    "section": "Über uns",
-    "text": "Über uns\nDie Stärke der Virtuellen Akademie: Ein Team, in dem diverse Fähigkeiten zusammenkommen. Von Hochschuldidaktik über Lerntechnologien bis hin zu Visualisierungs- und Video-Expertise.\n👉🏼 Team"
-  },
-  {
-    "objectID": "pages/orientierungshilfe.html",
-    "href": "pages/orientierungshilfe.html",
-    "title": "KI-basierte Schreibtools in der Lehre – ChatGPT im Fokus",
-    "section": "",
-    "text": "👉🏼 Orientierungshilfe\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "pages/index.html#tutorials",
-    "href": "pages/index.html#tutorials",
-    "title": "GPT is Not An Oracle",
-    "section": "Tutorials",
-    "text": "Tutorials\n\n0: Instructions. Some instructions on the tools used in the workshop. It would be handy to read this before the workshop starts!\n1: What is ChatGPT and how does is work?. A brief introduction to the ChatGPT model, and how it works.\n2: How do you use ChatGPT?. A discussion of what can do, and how to use it correctly.\n3: Concepts for thinking about ChatGPT. A discussion of how to think about ChatGPT, and how it is similar and different to human thought."
   }
 ]

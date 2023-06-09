@@ -23,7 +23,7 @@ website:
   reader-mode: true
   back-to-top-navigation: true
   navbar:
-    logo: /assets/robot.png
+    # logo: /assets/robot.png
     left:
       - text: "🏠 Home"
         file: pages/index.qmd
@@ -47,9 +47,6 @@ website:
           - text: "Informationsanlass Bibliotheksmitarbeitende"
             file: slides/demo-1.qmd
           - text: "Qualitätszirkel"
-    # right: 
-    #   - text: "About"
-    #     file: pages/about.qmd
 
     tools:
       - icon: twitter
