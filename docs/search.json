@@ -123,14 +123,14 @@
     "href": "pages/index.html#lernziele",
     "title": "Program",
     "section": "Lernziele",
-    "text": "Lernziele\n\n\n\n\n\n\nNach diesem Workshop:\n\n\n\n\nKönnen Sie mit Anfragen von Studierenden in Bezug auf fach-spezifische AI-generierte Texte umgehen.\nKönnen Sie in eigenen Worten wiedergeben, wie AI-generierte Texte entstehen.\nHaben Sie Kriterien, anhand derer Sie AI-Tools beurteilen können."
+    "text": "Lernziele\n\n\n\n\n\n\nNach diesem Workshop:\n\n\n\n\nKönnen Sie mit Anfragen von Studierenden in Bezug auf fach-spezifische AI-generierte Texte umgehen.\nKönnen Sie in eigenen Worten wiedergeben, wie AI-generierte Texte entstehen.\nHaben Sie Kriterien, anhand derer Sie KI-Tools beurteilen können."
   },
   {
     "objectID": "pages/index.html#program",
     "href": "pages/index.html#program",
     "title": "Program",
     "section": "Program",
-    "text": "Program\n\nWelcome and introduction [5’]\nReaktivationsrunde [10’]\nInput: What is ChatGPT and how does is work? [30’]\nVertiefung: How do you use ChatGPT? [30’]\n\nThink (2’) - pair (3’) - share (10’)\n\nAnkern [5’]\nDiskussion [20’]\n\n\n\n\n\nflowchart LR\n  A([\"Einführung\n            5'\"]) \n  A -.-&gt; B([\"Reaktivationsrunde \n                      10'\"]) \n  B -.-&gt; C([\"Input: Wie funktioniert ChatGPT? \n                      30'\"])\n  C -.-&gt; D([\"Vertiefung: Lernziele 1 + 2 \n                      15'\"]) \n  C -.-&gt; E([\"Vertiefung: Lernziel 3 \n                        15'\"]) \n  D -.-&gt; F([\"Ankern \n                30'\"]) \n  E -.-&gt; F\n  F -.-&gt; G([\"Diskussion \n            20'\"]) \n  G -.-&gt; H[Ende]"
+    "text": "Program\n\n\n\n\nflowchart LR\n  A([\"Einführung\n            5'\"]) \n  A -.-&gt; B([\"Reaktivationsrunde \n                      10'\"]) \n  B -.-&gt; C([\"Input: Wie funktioniert ChatGPT? \n                      30'\"])\n  C -.-&gt; D([\"Vertiefung: Lernziele 1 + 2 \n                      15'\"]) \n  C -.-&gt; E([\"Vertiefung: Lernziel 3 \n                        15'\"]) \n  D -.-&gt; F([\"Ankern \n                30'\"]) \n  E -.-&gt; F\n  F -.-&gt; G([\"Diskussion \n            20'\"]) \n  G -.-&gt; H[Ende]\n\n\n\n\n\n\nWelcome and introduction [5’]\nReaktivationsrunde [10’]\nInput: What is ChatGPT and how does is work? [30’]\nVertiefung: How do you use ChatGPT? [30’]\n\nThink (2’) - pair (3’) - share (10’)\n\nAnkern [5’]\nDiskussion [20’]"
   },
   {
     "objectID": "pages/index.html#instructor",

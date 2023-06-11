@@ -25,6 +25,7 @@ website:
   back-to-top-navigation: true
   navbar:
     # logo: /assets/robot.png
+    background: primary
     left:
       - text: "📚 Programm"
         file: pages/index.qmd
@@ -75,7 +76,7 @@ format:
     theme:
       light:
       - cosmo
-      # - styles/light.scss
+      - styles/theme-light.scss
       dark:
       - cosmo
       - styles/theme-dark.scss

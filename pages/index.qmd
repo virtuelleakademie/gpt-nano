@@ -15,7 +15,7 @@ title: "Program"
 ## Nach diesem Workshop:
 1) Können Sie mit Anfragen von Studierenden in Bezug auf fach-spezifische AI-generierte Texte umgehen.
 2) Können Sie in eigenen Worten wiedergeben, wie AI-generierte Texte entstehen.
-3) Haben Sie Kriterien, anhand derer Sie AI-Tools beurteilen können.
+3) Haben Sie Kriterien, anhand derer Sie KI-Tools beurteilen können.
 :::
 
 <!-- 
@@ -28,15 +28,6 @@ title: "Program"
 -->
 
 ## Program
-
-- Welcome and introduction [5']
-- Reaktivationsrunde [10']
-- Input: What is ChatGPT and how does is work? [30']
-- Vertiefung: How do you use ChatGPT? [30']
-  - Think (2') - pair (3') - share (10')
-- Ankern [5']
-- Diskussion [20']
-
 
 ```{mermaid}
 flowchart LR
@@ -57,6 +48,14 @@ flowchart LR
             20'"]) 
   G -.-> H[Ende]
 ```
+
+- Welcome and introduction [5']
+- Reaktivationsrunde [10']
+- Input: What is ChatGPT and how does is work? [30']
+- Vertiefung: How do you use ChatGPT? [30']
+  - Think (2') - pair (3') - share (10')
+- Ankern [5']
+- Diskussion [20']
 
 
 ## Leitung
