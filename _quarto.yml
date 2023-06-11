@@ -3,10 +3,10 @@ project:
   output-dir: docs
   render: 
     - pages/*.qmd
-    - slides/demo-1.qmd
+    - slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.qmd
 
 website:
-  title: "GPT is Not An Oracle"
+  title: "KI/GPT in der Hochschule"
   site-url: https://virtuelleakademie.github.io/gpt-nano
   repo-url: https://github.com/virtuelleakademie/gpt-nano
   # repo-actions: [edit, issue]
@@ -21,11 +21,12 @@ website:
     card-style: summary_large_image
 
   reader-mode: true
+  page-navigation: true
   back-to-top-navigation: true
   navbar:
     # logo: /assets/robot.png
     left:
-      - text: "🏠 Home"
+      - text: "📚 Programm"
         file: pages/index.qmd
 
       - text: "🛠️ Resources"
@@ -35,7 +36,7 @@ website:
           - text: "Tools"
             file: pages/tools.qmd
 
-      - text: "📚 Tutorials"
+      - text: "🎓 Tutorials"
         menu: 
           - text: "What is ChatGPT?"
             file: pages/about.qmd
@@ -47,13 +48,16 @@ website:
 
       - text: "📺 Presentations"
         menu: 
-          - text: "Informationsanlass Bibliotheksmitarbeitende KI/ChatGPT"
+          - text: "15. Juni 2023: Informationsanlass Bibliotheksmitarbeitende KI/ChatGPT"
             file: slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.qmd
           # - text: "Qualitätszirkel Gesundheit"
 
     tools:
-      - icon: twitter
-        href: https://twitter.com
+      - icon: lightbulb-fill
+        text: Knowledge Base
+        href: https://virtuelleakademie.notion.site/
+      # - icon: twitter
+      #   href: https://twitter.com
       - icon: github
         menu:
           - text: Source Code

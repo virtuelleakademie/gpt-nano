@@ -1,7 +1,7 @@
 ---
 title: "Prompt Design"
 description: |
-  Programming an GPT model.
+  Programming a GPT model.
 date: last-modified
 date-format: "DD MMM, YYYY"
 author: 
@@ -21,6 +21,11 @@ execute:
   cache: false
 code-annotations: select
 ---
+
+
+## images
+
+![GPT-3](../assets/10-gpt3-fine-tuning.gif)
 
 
 ## OpenAI Documentation

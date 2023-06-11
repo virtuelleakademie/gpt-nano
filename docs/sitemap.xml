@@ -2,46 +2,54 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://virtuelleakademie.github.io/gpt-nano/pages/about.html</loc>
-    <lastmod>2023-06-09T11:17:44.035Z</lastmod>
+    <lastmod>2023-06-11T12:55:48.013Z</lastmod>
   </url>
   <url>
     <loc>https://virtuelleakademie.github.io/gpt-nano/pages/beispiel-arbeit.html</loc>
-    <lastmod>2023-06-09T11:10:02.217Z</lastmod>
+    <lastmod>2023-06-11T11:35:13.624Z</lastmod>
+  </url>
+  <url>
+    <loc>https://virtuelleakademie.github.io/gpt-nano/pages/chatgpt.html</loc>
+    <lastmod>2023-06-11T11:35:14.254Z</lastmod>
   </url>
   <url>
     <loc>https://virtuelleakademie.github.io/gpt-nano/pages/contents.html</loc>
-    <lastmod>2023-06-09T11:10:02.594Z</lastmod>
+    <lastmod>2023-06-11T11:35:14.615Z</lastmod>
   </url>
   <url>
     <loc>https://virtuelleakademie.github.io/gpt-nano/pages/detection.html</loc>
-    <lastmod>2023-06-09T11:10:02.906Z</lastmod>
+    <lastmod>2023-06-11T11:35:14.932Z</lastmod>
+  </url>
+  <url>
+    <loc>https://virtuelleakademie.github.io/gpt-nano/pages/exercise.html</loc>
+    <lastmod>2023-06-11T11:35:15.272Z</lastmod>
   </url>
   <url>
     <loc>https://virtuelleakademie.github.io/gpt-nano/pages/index.html</loc>
-    <lastmod>2023-06-09T11:13:41.995Z</lastmod>
+    <lastmod>2023-06-11T14:16:35.713Z</lastmod>
   </url>
   <url>
     <loc>https://virtuelleakademie.github.io/gpt-nano/pages/notes.html</loc>
-    <lastmod>2023-06-09T11:10:03.617Z</lastmod>
+    <lastmod>2023-06-11T11:35:16.046Z</lastmod>
   </url>
   <url>
     <loc>https://virtuelleakademie.github.io/gpt-nano/pages/prompting.html</loc>
-    <lastmod>2023-06-09T11:10:04.232Z</lastmod>
+    <lastmod>2023-06-11T11:35:16.612Z</lastmod>
   </url>
   <url>
     <loc>https://virtuelleakademie.github.io/gpt-nano/pages/resources.html</loc>
-    <lastmod>2023-06-09T11:13:00.308Z</lastmod>
+    <lastmod>2023-06-11T12:15:38.531Z</lastmod>
   </url>
   <url>
     <loc>https://virtuelleakademie.github.io/gpt-nano/pages/thinking.html</loc>
-    <lastmod>2023-06-09T11:10:04.843Z</lastmod>
-  </url>
-  <url>
-    <loc>https://virtuelleakademie.github.io/gpt-nano/slides/demo-1.html</loc>
-    <lastmod>2023-06-09T11:10:06.736Z</lastmod>
+    <lastmod>2023-06-11T11:35:17.225Z</lastmod>
   </url>
   <url>
     <loc>https://virtuelleakademie.github.io/gpt-nano/pages/tools.html</loc>
-    <lastmod>2023-06-09T11:13:03.739Z</lastmod>
+    <lastmod>2023-06-11T11:35:17.516Z</lastmod>
+  </url>
+  <url>
+    <loc>https://virtuelleakademie.github.io/gpt-nano/slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html</loc>
+    <lastmod>2023-06-11T11:35:20.889Z</lastmod>
   </url>
 </urlset>

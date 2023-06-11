@@ -1,23 +1,61 @@
 ---
 title: "Virtuelle Akademie"
 about:
-  template: jolla
+  template: trestles
   image: ../assets/robot.png
+  image-width: 12em
+  image-shape: rounded
   links:
-    - icon: globe
+    - icon: magic
       text: Virtuelle Akademie
       href: https://virtuelleakademie.ch/
-    - icon: book
+    - icon: lightbulb-fill
       text: Knowledge Base
       href: https://virtuelleakademie.notion.site/
+    - icon: mortarboard-fill
+      text: Weiterbildungsangebote
+      href: https://www.bfh.ch/de/ueber-die-bfh/service-beratung/virtuelle-akademie/
+    - icon: inbox-fill
+      text: Email
+      href: mailto:andrew.ellis@bfh.ch
 ---
 
-Die Freude am Lernen steht bei uns an erster Stelle. Aber wie gelingt ein Lernprozess im heutigen Hochschulumfeld? Wir glauben, dass exzellente Lehre aus der richtigen Mischung von didaktischer Kompetenz und digitalen Skills entsteht. Damit der Zauber funktioniert, unterstützen wir Lehrpersonen mit einem breiten evidenzbasierten Angebot, vom massgeschneiderten Einzel-Coaching über kompakte Weiterbildungen bis hin zum CAS-Studiengang.
+## KI-Kurse der Virtuellen Akademie
 
-In unserer Arbeit setzen wir stets auf eine offene und wertschätzende Kommunikation. Unser Fokus liegt auf der Praxis: Wir behandeln echte Problemstellungen aus dem Lehralltag und orientieren uns nicht an kurzfristigen Trends. Damit leisten wir einen Beitrag zu einer nachhaltigen Transformation in der Bildung und einem sorgfältigen Umgang mit digitalen Werkzeugen.
+<!-- ### KI-basierte Schreibtools in der Lehre -->
+
+:::{.callout-note}
+## KI-basierte Schreibtools in der Lehre
+Künstliche Intelligenz (KI) hat das Potenzial, das Bildungswesen grundlegend zu verändern. In diesem Workshop werden wir die Rolle von KI in der Lehre erkunden, mit besonderem Fokus auf den Einsatz von KI-basierten Schreibtools.
+
+Inhalte:
+
+- Was ist künstliche Intelligenz? Wie funktionieren Tools wie ChatGPT? 
+- Wie kommuniziere ich mit KI-Schreibtools? Wie schreibe ich gute Prompts?  
+- Anwendungsbeispiele von KI in der Lehre 
+
+Nächste Termine:
+
+- 15.September 2023, 13-17 Uhr
+- 27.Oktober 2023, 13-17 Uhr
+
+👉🏼 [www.bfh.ch/de/weiterbildung/kurse/ki-schreibtools](https://www.bfh.ch/de/weiterbildung/kurse/ki-schreibtools/)
+:::
+
+:::{.callout-note}
+## KI-Sprechstunden
+Hast du Fragen zum Umgang mit Künstlicher Intelligenz (KI) in der Lehre? Dann schau vorbei oder logge dich ein. Ohne Anmeldung.
+
+Nächste Termine:
+
+- 17. August 2023, 16-18 Uhr
+- 3. November 2023, 15-17 Uhr
+
+👉🏼 [virtuelleakademie.ch/beratungen-coachings](https://virtuelleakademie.ch/beratungen-coachings/):
+:::
 
 
-## Über uns
+<!-- ## Team
 Die Stärke der Virtuellen Akademie: Ein Team, in dem diverse Fähigkeiten zusammenkommen. Von Hochschuldidaktik über Lerntechnologien bis hin zu Visualisierungs- und Video-Expertise.
 
-👉🏼 [Team](https://virtuelleakademie.ch/ueber-uns/)
+👉🏼 [Team](https://virtuelleakademie.ch/ueber-uns/) -->

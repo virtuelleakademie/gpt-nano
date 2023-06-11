@@ -4,7 +4,7 @@
     "href": "pages/about.html",
     "title": "Virtuelle Akademie",
     "section": "",
-    "text": "Die Freude am Lernen steht bei uns an erster Stelle. Aber wie gelingt ein Lernprozess im heutigen Hochschulumfeld? Wir glauben, dass exzellente Lehre aus der richtigen Mischung von didaktischer Kompetenz und digitalen Skills entsteht. Damit der Zauber funktioniert, unterstützen wir Lehrpersonen mit einem breiten evidenzbasierten Angebot, vom massgeschneiderten Einzel-Coaching über kompakte Weiterbildungen bis hin zum CAS-Studiengang.\nIn unserer Arbeit setzen wir stets auf eine offene und wertschätzende Kommunikation. Unser Fokus liegt auf der Praxis: Wir behandeln echte Problemstellungen aus dem Lehralltag und orientieren uns nicht an kurzfristigen Trends. Damit leisten wir einen Beitrag zu einer nachhaltigen Transformation in der Bildung und einem sorgfältigen Umgang mit digitalen Werkzeugen."
+    "text": "KI-basierte Schreibtools in der Lehre\n\n\n\nKünstliche Intelligenz (KI) hat das Potenzial, das Bildungswesen grundlegend zu verändern. In diesem Workshop werden wir die Rolle von KI in der Lehre erkunden, mit besonderem Fokus auf den Einsatz von KI-basierten Schreibtools.\nInhalte:\n\nWas ist künstliche Intelligenz? Wie funktionieren Tools wie ChatGPT?\nWie kommuniziere ich mit KI-Schreibtools? Wie schreibe ich gute Prompts?\n\nAnwendungsbeispiele von KI in der Lehre\n\nNächste Termine:\n\n15.September 2023, 13-17 Uhr\n27.Oktober 2023, 13-17 Uhr\n\n👉🏼 www.bfh.ch/de/weiterbildung/kurse/ki-schreibtools\n\n\n\n\n\n\n\n\nKI-Sprechstunden\n\n\n\nHast du Fragen zum Umgang mit Künstlicher Intelligenz (KI) in der Lehre? Dann schau vorbei oder logge dich ein. Ohne Anmeldung.\nNächste Termine:\n\n\nAugust 2023, 16-18 Uhr\n\n\nNovember 2023, 15-17 Uhr\n\n\n👉🏼 virtuelleakademie.ch/beratungen-coachings:"
   },
   {
     "objectID": "pages/about.html#über-uns",
@@ -19,6 +19,48 @@
     "title": "GPT is Not An Oracle",
     "section": "",
     "text": "mathematische Basiskompetenzen im Kindergartenalter\n\nDu bist eine Fachperson im Bereich der Entwicklungspsychologie. Du bist Experte für mathematische Basiskompetenzen im Kindergartenalter. Ich schreibe eine Masterarbeit und du hilfst mir bei den Formulierungen. Ich schreibe eine wissenschaftliche Arbeit über das Thema “Erfassung mathematischer Basiskompetenzen”\n\nDer MBK 0 (Test mathematischer Basiskompetenzen im Kindergartenalter) von Krajewski (2018) ist ein Einzeltest für Kinder im Alter von 3.6 bis 7 Jahren. Diesem Test liegt das Entwicklungsmodell der Zahl-Grössen-Verknüpfung (Krajewski, 2008) zugrunde (vgl. Abschnitt 4.2.1). Der MBK 0 ist ein Test zur Erfassung der mathematischen Basiskompetenzen\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "pages/chatgpt.html",
+    "href": "pages/chatgpt.html",
+    "title": "Prompt Design",
+    "section": "",
+    "text": "GPT-3"
+  },
+  {
+    "objectID": "pages/chatgpt.html#images",
+    "href": "pages/chatgpt.html#images",
+    "title": "Prompt Design",
+    "section": "",
+    "text": "GPT-3"
+  },
+  {
+    "objectID": "pages/chatgpt.html#openai-documentation",
+    "href": "pages/chatgpt.html#openai-documentation",
+    "title": "Prompt Design",
+    "section": "OpenAI Documentation",
+    "text": "OpenAI Documentation\nDoc OpenAI’s GPT (generative pre-trained transformer) models have been trained to understand natural language and code. GPTs provide text outputs in response to their inputs. The inputs to GPTs are also referred to as “prompts”. Designing a prompt is essentially how you “program” a GPT model, usually by providing instructions or some examples of how to successfully complete a task.\nUsing GPTs, you can build applications to:\nDraft documents\nWrite computer code\nAnswer questions about a knowledge base\nAnalyze texts\nCreate conversational agents\nGive software a natural language interface\nTutor in a range of subjects\nTranslate languages\nSimulate characters for games\nand much more\nTo use a GPT model via the OpenAI API, you’ll send a request containing the inputs and your API key, and receive a response containing the model’s output. Our latest models, gpt-4 and gpt-3.5-turbo, are accessed through the chat completions API endpoint. Currently, only the older legacy models are available via the completions API endpoint."
+  },
+  {
+    "objectID": "pages/chatgpt.html#gpt-best-practices",
+    "href": "pages/chatgpt.html#gpt-best-practices",
+    "title": "Prompt Design",
+    "section": "GPT best practices",
+    "text": "GPT best practices\nThis guide shares strategies and tactics for getting better results from GPTs. The methods described here can sometimes be deployed in combination for greater effect. We encourage experimentation to find the methods that work best for you.\nSome of the examples demonstrated here currently work only with our most capable model, gpt-4. If you don’t yet have access to gpt-4 consider joining the waitlist. In general, if you find that a GPT model fails at a task and a more capable model is available, it’s often worth trying again with the more capable model. Six strategies for getting better results Write clear instructions\nGPTs can’t read your mind. If outputs are too long, ask for brief replies. If outputs are too simple, ask for expert-level writing. If you dislike the format, demonstrate the format you’d like to see. The less GPTs have to guess at what you want, the more likely you’ll get it.\n\nTactics:\nInclude details in your query to get more relevant answers\nAsk the model to adopt a persona\nUse delimiters to clearly indicate distinct parts of the input\nSpecify the steps required to complete a task\nProvide examples\nSpecify the desired length of the output"
+  },
+  {
+    "objectID": "pages/chatgpt.html#provide-reference-text",
+    "href": "pages/chatgpt.html#provide-reference-text",
+    "title": "Prompt Design",
+    "section": "Provide reference text",
+    "text": "Provide reference text\nGPTs can confidently invent fake answers, especially when asked about esoteric topics or for citations and URLs. In the same way that a sheet of notes can help a student do better on a test, providing reference text to GPTs can help in answering with fewer fabrications.\n\nTactics:\nInstruct the model to answer using a reference text\nInstruct the model to answer with citations from a reference text"
+  },
+  {
+    "objectID": "pages/chatgpt.html#strategy-give-gpts-time-to-think",
+    "href": "pages/chatgpt.html#strategy-give-gpts-time-to-think",
+    "title": "Prompt Design",
+    "section": "Strategy: Give GPTs time to “think”",
+    "text": "Strategy: Give GPTs time to “think”"
   },
   {
     "objectID": "pages/contents.html",
@@ -63,44 +105,51 @@
     "text": "Golem\n\n\n\n Back to top"
   },
   {
-    "objectID": "pages/index.html",
-    "href": "pages/index.html",
-    "title": "GPT is Not An Oracle",
+    "objectID": "pages/exercise.html",
+    "href": "pages/exercise.html",
+    "title": "Arbeitsauftrag",
     "section": "",
-    "text": "As Large Language Models (LLMs) become increasingly human-like in their performance, it is important to develop effective ways to describe their behaviour using high-level concepts, without falling into the trap of anthropomorphism.\nIn this workshop, we will investigate how LLMs are trained, how they produce text, and what they are capable of. Importantly, we will address what LLMs are not capable of, and how to use them correctly. We will also discuss similarities and differences between LLMs and human thought processes.\nSpecifically, we will address the way that people seem to want to use ChatGPT as an oracle, whose goal is to provide truthful statements. We will discuss why is not the case, and how to use LLMs correctly."
+    "text": "Use ChatGPT to write a poem or a short story.\nHave ChatGPT a concept from your field of study.\nUse ChatGPT to prepare a research paper; have ChatGPT review existing literature and write a summary.\n\n\n\n\n Back to top"
   },
   {
-    "objectID": "pages/index.html#workshop-description",
-    "href": "pages/index.html#workshop-description",
-    "title": "GPT is Not An Oracle",
+    "objectID": "pages/index.html",
+    "href": "pages/index.html",
+    "title": "Program",
     "section": "",
-    "text": "As Large Language Models (LLMs) become increasingly human-like in their performance, it is important to develop effective ways to describe their behaviour using high-level concepts, without falling into the trap of anthropomorphism.\nIn this workshop, we will investigate how LLMs are trained, how they produce text, and what they are capable of. Importantly, we will address what LLMs are not capable of, and how to use them correctly. We will also discuss similarities and differences between LLMs and human thought processes.\nSpecifically, we will address the way that people seem to want to use ChatGPT as an oracle, whose goal is to provide truthful statements. We will discuss why is not the case, and how to use LLMs correctly."
+    "text": "Wie werden Large Language Models (LLMs) trainiert?\nWie generieren LLMs Texte?\nWas sind Ähnlichkeiten und Unterschiede zwischen LLMs und menschlichem Denken?\nWie können wir LLMs beschreiben, ohne sie zu anthropomorphisieren?"
   },
   {
     "objectID": "pages/index.html#lernziele",
     "href": "pages/index.html#lernziele",
-    "title": "GPT is Not An Oracle",
+    "title": "Program",
     "section": "Lernziele",
-    "text": "Lernziele\n\nSie können mit Anfragen von Studierenden in Bezug auf fach-spezifische AI-generierte Texte umgehen.\nSie können in eigenen Worten wiedergeben, wie AI-generierte Texte entstehen.\nSie haben Kriterien, anhand derer Sie AI-Tools beurteilen können."
+    "text": "Lernziele\n\n\n\n\n\n\nNach diesem Workshop:\n\n\n\n\nKönnen Sie mit Anfragen von Studierenden in Bezug auf fach-spezifische AI-generierte Texte umgehen.\nKönnen Sie in eigenen Worten wiedergeben, wie AI-generierte Texte entstehen.\nHaben Sie Kriterien, anhand derer Sie AI-Tools beurteilen können."
+  },
+  {
+    "objectID": "pages/index.html#program",
+    "href": "pages/index.html#program",
+    "title": "Program",
+    "section": "Program",
+    "text": "Program\n\nWelcome and introduction [5’]\nReaktivationsrunde [10’]\nInput: What is ChatGPT and how does is work? [30’]\nVertiefung: How do you use ChatGPT? [30’]\n\nThink (2’) - pair (3’) - share (10’)\n\nAnkern [5’]\nDiskussion [20’]\n\n\n\n\n\nflowchart LR\n  A([\"Einführung\n            5'\"]) \n  A -.-&gt; B([\"Reaktivationsrunde \n                      10'\"]) \n  B -.-&gt; C([\"Input: Wie funktioniert ChatGPT? \n                      30'\"])\n  C -.-&gt; D([\"Vertiefung: Lernziele 1 + 2 \n                      15'\"]) \n  C -.-&gt; E([\"Vertiefung: Lernziel 3 \n                        15'\"]) \n  D -.-&gt; F([\"Ankern \n                30'\"]) \n  E -.-&gt; F\n  F -.-&gt; G([\"Diskussion \n            20'\"]) \n  G -.-&gt; H[Ende]"
   },
   {
     "objectID": "pages/index.html#instructor",
     "href": "pages/index.html#instructor",
-    "title": "GPT is Not An Oracle",
+    "title": "Program",
     "section": "Instructor",
-    "text": "Instructor\n\nAndrew Ellis - Andrew is a data scientist at the Bern University of Applied Sciences. He has a background in cognitive science, and is fascinated by the intersection of language, cognition, and computation."
+    "text": "Instructor\nAndrew Ellis  Andrew is a data scientist at the Bern University of Applied Sciences. He has a background in cognitive science, and is fascinated by the intersection of language, cognition, and computation.\nAndrew ist ein Datenwissenschaftler an der Berner Fachhochschule. Er hat einen Hintergrund in Kognitionswissenschaften und ist fasziniert von der Schnittstelle von Sprache, Kognition und Berechnung.”"
   },
   {
     "objectID": "pages/index.html#tutorials",
     "href": "pages/index.html#tutorials",
-    "title": "GPT is Not An Oracle",
+    "title": "Program",
     "section": "Tutorials",
     "text": "Tutorials\n\n0: Instructions. Some instructions on the tools used in the workshop. It would be handy to read this before the workshop starts!\n1: What is ChatGPT and how does is work?. A brief introduction to the ChatGPT model, and how it works.\n2: How do you use ChatGPT?. A discussion of what can do, and how to use it correctly.\n3: Concepts for thinking about ChatGPT. A discussion of how to think about ChatGPT, and how it is similar and different to human thought."
   },
   {
     "objectID": "pages/index.html#quick-start-guide",
     "href": "pages/index.html#quick-start-guide",
-    "title": "GPT is Not An Oracle",
+    "title": "Program",
     "section": "Quick Start Guide",
     "text": "Quick Start Guide\nQui exercitation voluptate aute Lorem veniam do amet consequat cillum culpa consectetur ea laboris. Dolor occaecat nisi nulla officia occaecat ut enim incididunt non nisi officia duis sint eu. Ad anim aute eu est. Laboris consequat voluptate veniam Lorem voluptate est. Veniam qui cillum nulla ex pariatur non ex nisi ut deserunt quis magna voluptate deserunt occaecat. In mollit ipsum cupidatat nostrud cupidatat ut eiusmod."
   },
@@ -109,7 +158,14 @@
     "href": "pages/notes.html",
     "title": "Notes",
     "section": "",
-    "text": "Can GPT think?\n\nwhat is thinking?\nSystem 1 vs System 2\ndeliberative vs reflexive\nplanning: timescales or 1-step-ahead\n\nCreativity?\nConsciousness?\nAgent?\nepistemic vs instrumental\nwhat is a goal?\n\n\n\n\n Back to top"
+    "text": "Can GPT think?\n\nwhat is thinking?\nSystem 1 vs System 2\ndeliberative vs reflexive\nplanning: timescales or 1-step-ahead\n\nCreativity?\nConsciousness?\nAgent?\nepistemic vs instrumental\nwhat is a goal?"
+  },
+  {
+    "objectID": "pages/notes.html#isaac-asimovs-three-laws-of-robotics",
+    "href": "pages/notes.html#isaac-asimovs-three-laws-of-robotics",
+    "title": "Notes",
+    "section": "Isaac Asimov’s “Three Laws of Robotics”",
+    "text": "Isaac Asimov’s “Three Laws of Robotics”\nThe best known set of laws are Isaac Asimov’s “Three Laws of Robotics”. These were introduced in his 1942 short story “Runaround”, although they were foreshadowed in a few earlier stories. The Three Laws are:\nA robot may not injure a human being or, through inaction, allow a human being to come to harm.\nA robot must obey the orders given it by human beings except where such orders would conflict with the First Law.\nA robot must protect its own existence as long as such protection does not conflict with the First or Second Laws."
   },
   {
     "objectID": "pages/prompting.html",
@@ -149,9 +205,23 @@
   {
     "objectID": "pages/resources.html",
     "href": "pages/resources.html",
-    "title": "GPT is Not An Oracle",
+    "title": "KI/GPT in der Hochschule",
     "section": "",
-    "text": "👉🏼 KI-basierte Schreibtools in der Lehre – ChatGPT im Fokus\n\n\n\n Back to top"
+    "text": "👉🏼 KI-basierte Schreibtools in der Lehre – ChatGPT im Fokus\n👉🏼 Überblick über KI-Tools im Kontext von akademischen Lese- und Schreibprozessen\n👉🏼 ChatGPT im Hochschulkontext – eine kommentierte Linksammlung\n👉🏼 Uni Bern: Chatbots in der Hochschullehre"
+  },
+  {
+    "objectID": "pages/resources.html#rechtliche-fragen",
+    "href": "pages/resources.html#rechtliche-fragen",
+    "title": "KI/GPT in der Hochschule",
+    "section": "Rechtliche Fragen",
+    "text": "Rechtliche Fragen"
+  },
+  {
+    "objectID": "pages/resources.html#ethische-fragen",
+    "href": "pages/resources.html#ethische-fragen",
+    "title": "KI/GPT in der Hochschule",
+    "section": "Ethische Fragen",
+    "text": "Ethische Fragen\n👉🏼 Prekäre Klickarbeit hinter den Kulissen von ChatGPT\n👉🏼 Augmented IntelligenceInterview Traumatische Klickarbeit: Die Menschen hinter ChatGPT"
   },
   {
     "objectID": "pages/thinking.html",
@@ -161,115 +231,185 @@
     "text": "https://thedecisionlab.com/reference-guide/philosophy/system-1-and-system-2-thinking\n\n\n\n\n Back to top"
   },
   {
-    "objectID": "slides/demo-1.html#first-slide",
-    "href": "slides/demo-1.html#first-slide",
-    "title": "The title of the presentation",
-    "section": "First slide",
-    "text": "First slide\n\nEnim labore amet tempor occaecat minim est nulla et deserunt sit eiusmod.\nEnim labore amet tempor occaecat minim est nulla et deserunt sit eiusmod.\n\n\n\n\n\n\n\nTip with Title\n\n\nThis is a callout with a title."
-  },
-  {
-    "objectID": "slides/demo-1.html#subslide",
-    "href": "slides/demo-1.html#subslide",
-    "title": "The title of the presentation",
-    "section": "Subslide",
-    "text": "Subslide\n\nEnim labore amet tempor occaecat minim est nulla et deserunt sit eiusmod.\n\n\n\n1\n\nRight column"
-  },
-  {
-    "objectID": "slides/demo-1.html#subslide-1",
-    "href": "slides/demo-1.html#subslide-1",
-    "title": "The title of the presentation",
-    "section": "Subslide",
-    "text": "Subslide\nEu esse mollit officia id exercitation qui non tempor sint nisi ullamco voluptate. Incididunt reprehenderit voluptate nostrud ex veniam. Minim deserunt voluptate ut aliquip adipisicing qui. Fugiat ad sint voluptate ut sint non amet magna ea exercitation. Consectetur mollit exercitation quis magna irure do minim magna. Laborum culpa ullamco ad nulla incididunt officia ea. Commodo enim occaecat veniam culpa excepteur occaecat."
-  },
-  {
-    "objectID": "slides/demo-1.html#todays-plan",
-    "href": "slides/demo-1.html#todays-plan",
-    "title": "The title of the presentation",
-    "section": "Today’s plan",
-    "text": "Today’s plan\n\n\n\nWhat is R? How can it ease the burden of repeated reporting?\nBasic functions for manipulating data\nUsing R effectively\nMore data manipulation\nVisualizing data\nA peek at advanced topics"
-  },
-  {
-    "objectID": "slides/demo-1.html#todays-data",
-    "href": "slides/demo-1.html#todays-data",
-    "title": "The title of the presentation",
-    "section": "Today’s data",
-    "text": "Today’s data\n\n\n1 2 3 4 5 6"
-  },
-  {
-    "objectID": "slides/demo-1.html#getting-up",
-    "href": "slides/demo-1.html#getting-up",
-    "title": "The title of the presentation",
-    "section": "Getting up",
-    "text": "Getting up\n\nTurn off alarm\nGet out of bed"
-  },
-  {
-    "objectID": "slides/demo-1.html#breakfast",
-    "href": "slides/demo-1.html#breakfast",
-    "title": "The title of the presentation",
-    "section": "Breakfast",
-    "text": "Breakfast\n\nEat eggs\nDrink coffee"
-  },
-  {
-    "objectID": "slides/demo-1.html#dinner",
-    "href": "slides/demo-1.html#dinner",
-    "title": "The title of the presentation",
-    "section": "Dinner",
-    "text": "Dinner\n\nEat spaghetti\nDrink wine"
-  },
-  {
-    "objectID": "slides/demo-1.html#going-to-sleep",
-    "href": "slides/demo-1.html#going-to-sleep",
-    "title": "The title of the presentation",
-    "section": "Going to sleep",
-    "text": "Going to sleep\n\nGet in bed\nCount sheep"
-  },
-  {
-    "objectID": "slides/demo-1.html#tabset",
-    "href": "slides/demo-1.html#tabset",
-    "title": "The title of the presentation",
-    "section": "Tabset",
-    "text": "Tabset\n\nPlotData\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\ndrat\nwt\nqsec\nvs\nam\ngear\ncarb\n\n\n\n\nMazda RX4\n21.0\n6\n160.0\n110\n3.90\n2.620\n16.46\n0\n1\n4\n4\n\n\nMazda RX4 Wag\n21.0\n6\n160.0\n110\n3.90\n2.875\n17.02\n0\n1\n4\n4\n\n\nDatsun 710\n22.8\n4\n108.0\n93\n3.85\n2.320\n18.61\n1\n1\n4\n1\n\n\nHornet 4 Drive\n21.4\n6\n258.0\n110\n3.08\n3.215\n19.44\n1\n0\n3\n1\n\n\nHornet Sportabout\n18.7\n8\n360.0\n175\n3.15\n3.440\n17.02\n0\n0\n3\n2\n\n\nValiant\n18.1\n6\n225.0\n105\n2.76\n3.460\n20.22\n1\n0\n3\n1\n\n\nDuster 360\n14.3\n8\n360.0\n245\n3.21\n3.570\n15.84\n0\n0\n3\n4\n\n\nMerc 240D\n24.4\n4\n146.7\n62\n3.69\n3.190\n20.00\n1\n0\n4\n2\n\n\nMerc 230\n22.8\n4\n140.8\n95\n3.92\n3.150\n22.90\n1\n0\n4\n2\n\n\nMerc 280\n19.2\n6\n167.6\n123\n3.92\n3.440\n18.30\n1\n0\n4\n4\n\n\nMerc 280C\n17.8\n6\n167.6\n123\n3.92\n3.440\n18.90\n1\n0\n4\n4\n\n\nMerc 450SE\n16.4\n8\n275.8\n180\n3.07\n4.070\n17.40\n0\n0\n3\n3\n\n\nMerc 450SL\n17.3\n8\n275.8\n180\n3.07\n3.730\n17.60\n0\n0\n3\n3\n\n\nMerc 450SLC\n15.2\n8\n275.8\n180\n3.07\n3.780\n18.00\n0\n0\n3\n3\n\n\nCadillac Fleetwood\n10.4\n8\n472.0\n205\n2.93\n5.250\n17.98\n0\n0\n3\n4\n\n\nLincoln Continental\n10.4\n8\n460.0\n215\n3.00\n5.424\n17.82\n0\n0\n3\n4\n\n\nChrysler Imperial\n14.7\n8\n440.0\n230\n3.23\n5.345\n17.42\n0\n0\n3\n4\n\n\nFiat 128\n32.4\n4\n78.7\n66\n4.08\n2.200\n19.47\n1\n1\n4\n1\n\n\nHonda Civic\n30.4\n4\n75.7\n52\n4.93\n1.615\n18.52\n1\n1\n4\n2\n\n\nToyota Corolla\n33.9\n4\n71.1\n65\n4.22\n1.835\n19.90\n1\n1\n4\n1\n\n\nToyota Corona\n21.5\n4\n120.1\n97\n3.70\n2.465\n20.01\n1\n0\n3\n1\n\n\nDodge Challenger\n15.5\n8\n318.0\n150\n2.76\n3.520\n16.87\n0\n0\n3\n2\n\n\nAMC Javelin\n15.2\n8\n304.0\n150\n3.15\n3.435\n17.30\n0\n0\n3\n2\n\n\nCamaro Z28\n13.3\n8\n350.0\n245\n3.73\n3.840\n15.41\n0\n0\n3\n4\n\n\nPontiac Firebird\n19.2\n8\n400.0\n175\n3.08\n3.845\n17.05\n0\n0\n3\n2\n\n\nFiat X1-9\n27.3\n4\n79.0\n66\n4.08\n1.935\n18.90\n1\n1\n4\n1\n\n\nPorsche 914-2\n26.0\n4\n120.3\n91\n4.43\n2.140\n16.70\n0\n1\n5\n2\n\n\nLotus Europa\n30.4\n4\n95.1\n113\n3.77\n1.513\n16.90\n1\n1\n5\n2\n\n\nFord Pantera L\n15.8\n8\n351.0\n264\n4.22\n3.170\n14.50\n0\n1\n5\n4\n\n\nFerrari Dino\n19.7\n6\n145.0\n175\n3.62\n2.770\n15.50\n0\n1\n5\n6\n\n\nMaserati Bora\n15.0\n8\n301.0\n335\n3.54\n3.570\n14.60\n0\n1\n5\n8\n\n\nVolvo 142E\n21.4\n4\n121.0\n109\n4.11\n2.780\n18.60\n1\n1\n4\n2"
-  },
-  {
-    "objectID": "slides/demo-1.html#journey",
-    "href": "slides/demo-1.html#journey",
-    "title": "The title of the presentation",
-    "section": "Journey",
-    "text": "Journey\n\n\n\n\njourney\n    title My working day\n    section Go to work\n      Make tea: 5: Me\n      Go upstairs: 3: Me\n      Do work: 1: Me, Cat\n    section Go home\n      Go downstairs: 5: Me\n      Sit down: 5: Me"
-  },
-  {
-    "objectID": "slides/demo-1.html#chatgpt",
-    "href": "slides/demo-1.html#chatgpt",
-    "title": "The title of the presentation",
-    "section": "ChatGPT",
-    "text": "ChatGPT\n\n\n\n\ngraph TB\n  D[Data Collection] --&gt; P[Preprocessing]\n  P --&gt; T[Training]\n  T --&gt; E[Evaluation]\n  E --&gt; F[Feedback Loop]\n  F --&gt; D\n  T --&gt; M[Model Deployment]"
-  },
-  {
-    "objectID": "slides/demo-1.html#naive",
-    "href": "slides/demo-1.html#naive",
-    "title": "The title of the presentation",
-    "section": "Naive",
-    "text": "Naive\nQ: A juggler has 16 balls. Half of the balls are golf balls and half of the golf balls are blue. How many blue golf balls are there?\nA:\nThere are 8 blue golf balls."
-  },
-  {
-    "objectID": "slides/demo-1.html#lets-think-step-by-step",
-    "href": "slides/demo-1.html#lets-think-step-by-step",
-    "title": "The title of the presentation",
-    "section": "Let’s think step by step",
-    "text": "Let’s think step by step\n\nQ: A juggler has 16 balls. Half of the balls are golf balls and half of the golf balls are blue. How many blue golf balls are there? A: Let’s think step by step.\n\nThere are 16 balls in total. \nHalf of the balls are golf balls. \nThat means that there are 8 golf balls. \nHalf of the golf balls are blue. \nThat means that there are 4 blue golf balls."
-  },
-  {
-    "objectID": "slides/demo-1.html#padlet",
-    "href": "slides/demo-1.html#padlet",
-    "title": "The title of the presentation",
-    "section": "Padlet",
-    "text": "Padlet\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n🏠 GPT is Not An Oracle"
-  },
-  {
     "objectID": "pages/tools.html",
     "href": "pages/tools.html",
     "title": "Tools",
     "section": "",
-    "text": "👉🏼 The largest ai tools directory (updated daily)\n👉🏼 Elicit\n👉🏼 Consensus\n\n\n\n Back to top"
+    "text": "👉🏼 The largest AI tools directory (updated daily)\n👉🏼 Elicit\n👉🏼 Consensus\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#first-slide",
+    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#first-slide",
+    "title": "Informationsanlass zu KI/ChatGPT für Bibliotheksmitarbeitende",
+    "section": "First slide",
+    "text": "First slide\n\nEnim labore amet tempor occaecat minim est nulla et deserunt sit eiusmod.\nEnim labore amet tempor occaecat minim est nulla et deserunt sit eiusmod.\n\n\n\n\n\n\n\nTip with Title\n\n\nThis is a callout with a title.\n\n\n\n\nSpeaker notes go here."
+  },
+  {
+    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#web-page",
+    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#web-page",
+    "title": "Informationsanlass zu KI/ChatGPT für Bibliotheksmitarbeitende",
+    "section": "Web page",
+    "text": "Web page"
+  },
+  {
+    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#gpt",
+    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#gpt",
+    "title": "Informationsanlass zu KI/ChatGPT für Bibliotheksmitarbeitende",
+    "section": "GPT",
+    "text": "GPT"
+  },
+  {
+    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#images",
+    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#images",
+    "title": "Informationsanlass zu KI/ChatGPT für Bibliotheksmitarbeitende",
+    "section": "images",
+    "text": "images\n\nGPT-3"
+  },
+  {
+    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#tabsets",
+    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#tabsets",
+    "title": "Informationsanlass zu KI/ChatGPT für Bibliotheksmitarbeitende",
+    "section": "tabsets",
+    "text": "tabsets\n\nTab ATab B\n\n\nContent for Tab A\n\n\nContent for Tab B"
+  },
+  {
+    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#subslide",
+    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#subslide",
+    "title": "Informationsanlass zu KI/ChatGPT für Bibliotheksmitarbeitende",
+    "section": "Subslide",
+    "text": "Subslide\n\nEnim labore amet tempor occaecat minim est nulla et deserunt sit eiusmod.\n\n\n\n1\n\nRight column"
+  },
+  {
+    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#subslide-1",
+    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#subslide-1",
+    "title": "Informationsanlass zu KI/ChatGPT für Bibliotheksmitarbeitende",
+    "section": "Subslide",
+    "text": "Subslide\nEu esse mollit officia id exercitation qui non tempor sint nisi ullamco voluptate. Incididunt reprehenderit voluptate nostrud ex veniam. Minim deserunt voluptate ut aliquip adipisicing qui. Fugiat ad sint voluptate ut sint non amet magna ea exercitation. Consectetur mollit exercitation quis magna irure do minim magna. Laborum culpa ullamco ad nulla incididunt officia ea. Commodo enim occaecat veniam culpa excepteur occaecat."
+  },
+  {
+    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#todays-plan",
+    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#todays-plan",
+    "title": "Informationsanlass zu KI/ChatGPT für Bibliotheksmitarbeitende",
+    "section": "Today’s plan",
+    "text": "Today’s plan\n\n\n\nWhat is R? How can it ease the burden of repeated reporting?\nBasic functions for manipulating data\nUsing R effectively\nMore data manipulation\nVisualizing data\nA peek at advanced topics"
+  },
+  {
+    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#todays-data",
+    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#todays-data",
+    "title": "Informationsanlass zu KI/ChatGPT für Bibliotheksmitarbeitende",
+    "section": "Today’s data",
+    "text": "Today’s data\n\n\n1 2 3 4 5 6"
+  },
+  {
+    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#getting-up",
+    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#getting-up",
+    "title": "Informationsanlass zu KI/ChatGPT für Bibliotheksmitarbeitende",
+    "section": "Getting up",
+    "text": "Getting up\n\nTurn off alarm\nGet out of bed"
+  },
+  {
+    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#breakfast",
+    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#breakfast",
+    "title": "Informationsanlass zu KI/ChatGPT für Bibliotheksmitarbeitende",
+    "section": "Breakfast",
+    "text": "Breakfast\n\nEat eggs\nDrink coffee"
+  },
+  {
+    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#dinner",
+    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#dinner",
+    "title": "Informationsanlass zu KI/ChatGPT für Bibliotheksmitarbeitende",
+    "section": "Dinner",
+    "text": "Dinner\n\nEat spaghetti\nDrink wine"
+  },
+  {
+    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#going-to-sleep",
+    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#going-to-sleep",
+    "title": "Informationsanlass zu KI/ChatGPT für Bibliotheksmitarbeitende",
+    "section": "Going to sleep",
+    "text": "Going to sleep\n\nGet in bed\nCount sheep"
+  },
+  {
+    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#tabset",
+    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#tabset",
+    "title": "Informationsanlass zu KI/ChatGPT für Bibliotheksmitarbeitende",
+    "section": "Tabset",
+    "text": "Tabset\n\nPlotData\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\ndrat\nwt\nqsec\nvs\nam\ngear\ncarb\n\n\n\n\nMazda RX4\n21.0\n6\n160.0\n110\n3.90\n2.620\n16.46\n0\n1\n4\n4\n\n\nMazda RX4 Wag\n21.0\n6\n160.0\n110\n3.90\n2.875\n17.02\n0\n1\n4\n4\n\n\nDatsun 710\n22.8\n4\n108.0\n93\n3.85\n2.320\n18.61\n1\n1\n4\n1\n\n\nHornet 4 Drive\n21.4\n6\n258.0\n110\n3.08\n3.215\n19.44\n1\n0\n3\n1\n\n\nHornet Sportabout\n18.7\n8\n360.0\n175\n3.15\n3.440\n17.02\n0\n0\n3\n2\n\n\nValiant\n18.1\n6\n225.0\n105\n2.76\n3.460\n20.22\n1\n0\n3\n1\n\n\nDuster 360\n14.3\n8\n360.0\n245\n3.21\n3.570\n15.84\n0\n0\n3\n4\n\n\nMerc 240D\n24.4\n4\n146.7\n62\n3.69\n3.190\n20.00\n1\n0\n4\n2\n\n\nMerc 230\n22.8\n4\n140.8\n95\n3.92\n3.150\n22.90\n1\n0\n4\n2\n\n\nMerc 280\n19.2\n6\n167.6\n123\n3.92\n3.440\n18.30\n1\n0\n4\n4\n\n\nMerc 280C\n17.8\n6\n167.6\n123\n3.92\n3.440\n18.90\n1\n0\n4\n4\n\n\nMerc 450SE\n16.4\n8\n275.8\n180\n3.07\n4.070\n17.40\n0\n0\n3\n3\n\n\nMerc 450SL\n17.3\n8\n275.8\n180\n3.07\n3.730\n17.60\n0\n0\n3\n3\n\n\nMerc 450SLC\n15.2\n8\n275.8\n180\n3.07\n3.780\n18.00\n0\n0\n3\n3\n\n\nCadillac Fleetwood\n10.4\n8\n472.0\n205\n2.93\n5.250\n17.98\n0\n0\n3\n4\n\n\nLincoln Continental\n10.4\n8\n460.0\n215\n3.00\n5.424\n17.82\n0\n0\n3\n4\n\n\nChrysler Imperial\n14.7\n8\n440.0\n230\n3.23\n5.345\n17.42\n0\n0\n3\n4\n\n\nFiat 128\n32.4\n4\n78.7\n66\n4.08\n2.200\n19.47\n1\n1\n4\n1\n\n\nHonda Civic\n30.4\n4\n75.7\n52\n4.93\n1.615\n18.52\n1\n1\n4\n2\n\n\nToyota Corolla\n33.9\n4\n71.1\n65\n4.22\n1.835\n19.90\n1\n1\n4\n1\n\n\nToyota Corona\n21.5\n4\n120.1\n97\n3.70\n2.465\n20.01\n1\n0\n3\n1\n\n\nDodge Challenger\n15.5\n8\n318.0\n150\n2.76\n3.520\n16.87\n0\n0\n3\n2\n\n\nAMC Javelin\n15.2\n8\n304.0\n150\n3.15\n3.435\n17.30\n0\n0\n3\n2\n\n\nCamaro Z28\n13.3\n8\n350.0\n245\n3.73\n3.840\n15.41\n0\n0\n3\n4\n\n\nPontiac Firebird\n19.2\n8\n400.0\n175\n3.08\n3.845\n17.05\n0\n0\n3\n2\n\n\nFiat X1-9\n27.3\n4\n79.0\n66\n4.08\n1.935\n18.90\n1\n1\n4\n1\n\n\nPorsche 914-2\n26.0\n4\n120.3\n91\n4.43\n2.140\n16.70\n0\n1\n5\n2\n\n\nLotus Europa\n30.4\n4\n95.1\n113\n3.77\n1.513\n16.90\n1\n1\n5\n2\n\n\nFord Pantera L\n15.8\n8\n351.0\n264\n4.22\n3.170\n14.50\n0\n1\n5\n4\n\n\nFerrari Dino\n19.7\n6\n145.0\n175\n3.62\n2.770\n15.50\n0\n1\n5\n6\n\n\nMaserati Bora\n15.0\n8\n301.0\n335\n3.54\n3.570\n14.60\n0\n1\n5\n8\n\n\nVolvo 142E\n21.4\n4\n121.0\n109\n4.11\n2.780\n18.60\n1\n1\n4\n2"
+  },
+  {
+    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#journey",
+    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#journey",
+    "title": "Informationsanlass zu KI/ChatGPT für Bibliotheksmitarbeitende",
+    "section": "Journey",
+    "text": "Journey\n\n\n\n\njourney\n    title My working day\n    section Go to work\n      Make tea: 5: Me\n      Go upstairs: 3: Me\n      Do work: 1: Me, Cat\n    section Go home\n      Go downstairs: 5: Me\n      Sit down: 5: Me"
+  },
+  {
+    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#chatgpt",
+    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#chatgpt",
+    "title": "Informationsanlass zu KI/ChatGPT für Bibliotheksmitarbeitende",
+    "section": "ChatGPT",
+    "text": "ChatGPT\n\n\n\n\ngraph TB\n  D[Data Collection] --&gt; P[Preprocessing]\n  P --&gt; T[Training]\n  T --&gt; E[Evaluation]\n  E --&gt; F[Feedback Loop]\n  F --&gt; D\n  T --&gt; M[Model Deployment]"
+  },
+  {
+    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#naive",
+    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#naive",
+    "title": "Informationsanlass zu KI/ChatGPT für Bibliotheksmitarbeitende",
+    "section": "Naive",
+    "text": "Naive\nQ: A juggler has 16 balls. Half of the balls are golf balls and half of the golf balls are blue. How many blue golf balls are there?\nA:\nThere are 8 blue golf balls."
+  },
+  {
+    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#lets-think-step-by-step",
+    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#lets-think-step-by-step",
+    "title": "Informationsanlass zu KI/ChatGPT für Bibliotheksmitarbeitende",
+    "section": "Let’s think step by step",
+    "text": "Let’s think step by step\n\nQ: A juggler has 16 balls. Half of the balls are golf balls and half of the golf balls are blue. How many blue golf balls are there? A: Let’s think step by step.\n\nThere are 16 balls in total. \nHalf of the balls are golf balls. \nThat means that there are 8 golf balls. \nHalf of the golf balls are blue. \nThat means that there are 4 blue golf balls."
+  },
+  {
+    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#padlet",
+    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#padlet",
+    "title": "Informationsanlass zu KI/ChatGPT für Bibliotheksmitarbeitende",
+    "section": "Padlet",
+    "text": "Padlet"
+  },
+  {
+    "objectID": "pages/about.html#ki-kurse",
+    "href": "pages/about.html#ki-kurse",
+    "title": "Virtuelle Akademie",
+    "section": "",
+    "text": "KI-basierte Schreibtools in der Lehre\nKünstliche Intelligenz (KI) hat das Potenzial, das Bildungswesen grundlegend zu verändern. In diesem Workshop werden wir die Rolle von KI in der Lehre erkunden, mit besonderem Fokus auf den Einsatz von KI-basierten Schreibtools.\nInhalte\n    Was ist künstliche Intelligenz? Wie funktionieren Tools wie ChatGPT? \n    Wie kommuniziere ich mit KI-Schreibtools? Wie schreibe ich gute Prompts?  \n    Anwendungsbeispiele von KI in der Lehre \n    Nächste Durchführung \n    15.9.2023, 13-17h\n    27.10.2023, 13-17h\nKI-Sprechstunden:\nHast du Fragen zum Umgang mit Künstlicher Intelligenz (KI) in der Lehre? Dann schau vorbei oder logge dich ein. Ohne Anmeldung.\nKI-Sprechstunden-Termine (hybrid: im Wöschhüsli Falkenplatz 16, Bern und online)\nDo, 17. August 2023, 16-18 Uhr\nFr, 3. November 2023, 15-17 Uhr"
+  },
+  {
+    "objectID": "pages/resources.html#wissenschaftliches-arbeiten",
+    "href": "pages/resources.html#wissenschaftliches-arbeiten",
+    "title": "KI/GPT in der Hochschule",
+    "section": "Wissenschaftliches Arbeiten",
+    "text": "Wissenschaftliches Arbeiten\n👉🏼 ChatGPT zitieren"
+  },
+  {
+    "objectID": "pages/about.html#ki-kurse-der-virtuellen-akademie",
+    "href": "pages/about.html#ki-kurse-der-virtuellen-akademie",
+    "title": "Virtuelle Akademie",
+    "section": "",
+    "text": "KI-basierte Schreibtools in der Lehre\n\n\n\nKünstliche Intelligenz (KI) hat das Potenzial, das Bildungswesen grundlegend zu verändern. In diesem Workshop werden wir die Rolle von KI in der Lehre erkunden, mit besonderem Fokus auf den Einsatz von KI-basierten Schreibtools.\nInhalte:\n\nWas ist künstliche Intelligenz? Wie funktionieren Tools wie ChatGPT?\nWie kommuniziere ich mit KI-Schreibtools? Wie schreibe ich gute Prompts?\n\nAnwendungsbeispiele von KI in der Lehre\n\nNächste Termine:\n\n15.September 2023, 13-17 Uhr\n27.Oktober 2023, 13-17 Uhr\n\n👉🏼 www.bfh.ch/de/weiterbildung/kurse/ki-schreibtools\n\n\n\n\n\n\n\n\nKI-Sprechstunden\n\n\n\nHast du Fragen zum Umgang mit Künstlicher Intelligenz (KI) in der Lehre? Dann schau vorbei oder logge dich ein. Ohne Anmeldung.\nNächste Termine:\n\n\nAugust 2023, 16-18 Uhr\n\n\nNovember 2023, 15-17 Uhr\n\n\n👉🏼 virtuelleakademie.ch/beratungen-coachings:"
+  },
+  {
+    "objectID": "pages/about.html#team",
+    "href": "pages/about.html#team",
+    "title": "Virtuelle Akademie",
+    "section": "Team",
+    "text": "Team\nDie Stärke der Virtuellen Akademie: Ein Team, in dem diverse Fähigkeiten zusammenkommen. Von Hochschuldidaktik über Lerntechnologien bis hin zu Visualisierungs- und Video-Expertise.\n👉🏼 Team"
+  },
+  {
+    "objectID": "pages/index.html#inhalt",
+    "href": "pages/index.html#inhalt",
+    "title": "Program",
+    "section": "",
+    "text": "Wie werden Large Language Models (LLMs) trainiert?\nWie generieren LLMs Texte?\nWas sind Ähnlichkeiten und Unterschiede zwischen LLMs und menschlichem Denken?\nWie können wir LLMs beschreiben, ohne sie zu anthropomorphisieren?"
+  },
+  {
+    "objectID": "pages/index.html#leitung",
+    "href": "pages/index.html#leitung",
+    "title": "Program",
+    "section": "Leitung",
+    "text": "Leitung\n\nAndrew Ellis: Andrew ist Data Scientist an der Virtuellen Akademie der Berner Fachhochschule. Sein Hintergrund ist in den Kognitionswissenschaften und er ist begeistert von der Schnittstelle zwischen Sprache, Denken und künstlicher Intelligenz.”"
   }
 ]

@@ -54,6 +54,61 @@ This is a callout with a title.
 Speaker notes go here.
 :::
 
+## Web page
+
+:::: {.columns}
+
+::: {.column width="50%"}
+```{=html}
+<iframe width="780" height="500" src="https://www.societybyte.swiss/2023/06/07/traumatische-klickarbeit-die-menschen-hinter-chatgpt/" title="Traumatische Klickarbeit"></iframe>
+```
+:::
+
+::: {.column width="50%"}
+```{=html}
+<iframe width="780" height="500" src="https://www.societybyte.swiss/2022/12/22/hi-chatgpt-hast-du-vorurteile/" title="Vorurteile"></iframe>
+```
+:::
+
+::::
+
+
+
+## GPT
+
+:::: {.columns}
+
+::: {.column width="50%"}
+```{=html}
+<iframe width="780" height="500" src="https://platform.openai.com/playground" title="OpenAI Playground"></iframe>
+```
+:::
+
+::: {.column width="50%"}
+```{=html}
+<iframe width="780" height="500" src="https://chat.openai.com/" title="ChatGPT"></iframe>
+```
+:::
+::::
+
+
+## images
+
+![GPT-3](../assets/10-gpt3-fine-tuning.gif)
+
+## tabsets
+
+::: {.panel-tabset}
+
+### Tab A
+
+Content for `Tab A`
+
+### Tab B
+
+Content for `Tab B`
+
+:::
 
 
 ## Subslide

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>GPT is Not An Oracle</title>
+<title>KI/GPT in der Hochschule - Program</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -62,13 +62,14 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script src="../site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="../site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
-<meta property="og:title" content="GPT is Not An Oracle">
-<meta property="og:description" content="">
-<meta property="og:site-name" content="GPT is Not An Oracle">
-<meta name="twitter:title" content="GPT is Not An Oracle">
-<meta name="twitter:description" content="">
+<meta property="og:title" content="KI/GPT in der Hochschule - Program">
+<meta property="og:site-name" content="KI/GPT in der Hochschule">
+<meta name="twitter:title" content="KI/GPT in der Hochschule - Program">
 <meta name="twitter:creator" content="@awellis">
 <meta name="twitter:card" content="summary_large_image">
 </head>
@@ -81,7 +82,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
     <a class="navbar-brand" href="../index.html">
-    <span class="navbar-title">GPT is Not An Oracle</span>
+    <span class="navbar-title">KI/GPT in der Hochschule</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -92,7 +93,7 @@ ul.task-list li input[type="checkbox"] {
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link active" href="../pages/index.html" rel="" target="" aria-current="page">
- <span class="menu-text">🏠 Home</span></a>
+ <span class="menu-text">📚 Programm</span></a>
   </li>  
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-resources" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
@@ -111,7 +112,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-tutorials" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
- <span class="menu-text">📚 Tutorials</span>
+ <span class="menu-text">🎓 Tutorials</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-tutorials">    
         <li>
@@ -133,15 +134,14 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-presentations">    
         <li>
-    <a class="dropdown-item" href="../slides/demo-1.html" rel="" target="">
- <span class="dropdown-text">Informationsanlass Bibliotheksmitarbeitende</span></a>
+    <a class="dropdown-item" href="../slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html" rel="" target="">
+ <span class="dropdown-text">15. Juni 2023: Informationsanlass Bibliotheksmitarbeitende KI/ChatGPT</span></a>
   </li>  
-        <li class="dropdown-header">Qualitätszirkel</li>
     </ul>
   </li>
 </ul>
             <div class="quarto-navbar-tools ms-auto tools-wide">
-    <a href="https://twitter.com" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-twitter"></i></a>
+    <a href="https://virtuelleakademie.notion.site/" title="Knowledge Base" class="quarto-navigation-tool px-1" aria-label="Knowledge Base"><i class="bi bi-lightbulb-fill"></i></a>
     <div class="dropdown">
       <a href="" title="" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label=""><i class="bi bi-github"></i></a>
       <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="quarto-navigation-tool-dropdown-0">
@@ -177,11 +177,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#workshop-description" id="toc-workshop-description" class="nav-link active" data-scroll-target="#workshop-description">Workshop Description</a></li>
+  <li><a href="#inhalt" id="toc-inhalt" class="nav-link active" data-scroll-target="#inhalt">Inhalt</a></li>
   <li><a href="#lernziele" id="toc-lernziele" class="nav-link" data-scroll-target="#lernziele">Lernziele</a></li>
-  <li><a href="#instructor" id="toc-instructor" class="nav-link" data-scroll-target="#instructor">Instructor</a></li>
-  <li><a href="#tutorials" id="toc-tutorials" class="nav-link" data-scroll-target="#tutorials">Tutorials</a></li>
-  <li><a href="#quick-start-guide" id="toc-quick-start-guide" class="nav-link" data-scroll-target="#quick-start-guide">Quick Start Guide</a></li>
+  <li><a href="#program" id="toc-program" class="nav-link" data-scroll-target="#program">Program</a></li>
+  <li><a href="#leitung" id="toc-leitung" class="nav-link" data-scroll-target="#leitung">Leitung</a></li>
   </ul>
 </nav>
     </div>
@@ -190,7 +189,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">GPT is Not An Oracle</h1>
+<h1 class="title">Program</h1>
 </div>
 
 
@@ -205,44 +204,115 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="workshop-description" class="level2">
-<h2 class="anchored" data-anchor-id="workshop-description">Workshop Description</h2>
-<p>As Large Language Models (LLMs) become increasingly human-like in their performance, it is important to develop effective ways to describe their behaviour using high-level concepts, without falling into the trap of anthropomorphism.</p>
-<p>In this workshop, we will investigate how LLMs are trained, how they produce text, and what they are capable of. Importantly, we will address what LLMs are not capable of, and how to use them correctly. We will also discuss similarities and differences between LLMs and human thought processes.</p>
-<p>Specifically, we will address the way that people seem to want to use ChatGPT as an oracle, whose goal is to provide truthful statements. We will discuss why is not the case, and how to use LLMs correctly.</p>
+<!-- In this workshop, we will investigate how Large Language Models (LLMs) are trained, how they produce text, and what they are capable of. We will also discuss similarities and differences between LLMs and human thought processes. As LLMs become increasingly human-like in their performance, it is important to develop effective ways to describe their behaviour. We will discuss high-level concepts that allow us think about LLMs without falling into the trap of anthropomorphism. -->
+<section id="inhalt" class="level2">
+<h2 class="anchored" data-anchor-id="inhalt">Inhalt</h2>
+<ul>
+<li>Wie werden Large Language Models (LLMs) trainiert?</li>
+<li>Wie generieren LLMs Texte?</li>
+<li>Was sind Ähnlichkeiten und Unterschiede zwischen LLMs und menschlichem Denken?</li>
+<li>Wie können wir LLMs beschreiben, ohne sie zu anthropomorphisieren?</li>
+</ul>
 </section>
 <section id="lernziele" class="level2">
 <h2 class="anchored" data-anchor-id="lernziele">Lernziele</h2>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Nach diesem Workshop:
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <ol type="1">
-<li>Sie können mit Anfragen von Studierenden in Bezug auf fach-spezifische AI-generierte Texte umgehen.</li>
-<li>Sie können in eigenen Worten wiedergeben, wie AI-generierte Texte entstehen.</li>
-<li>Sie haben Kriterien, anhand derer Sie AI-Tools beurteilen können.</li>
+<li>Können Sie mit Anfragen von Studierenden in Bezug auf fach-spezifische AI-generierte Texte umgehen.</li>
+<li>Können Sie in eigenen Worten wiedergeben, wie AI-generierte Texte entstehen.</li>
+<li>Haben Sie Kriterien, anhand derer Sie AI-Tools beurteilen können.</li>
 </ol>
-<!-- - Modell
+</div>
+</div>
+<!-- 
+- Modell
 - Zweck des Tools
 - Zielgruppe
 - Datenschutz
 - Herausgeber + Preismodell
-- Offenheit des Codes -->
+- Offenheit des Codes 
+-->
 </section>
-<section id="instructor" class="level2">
-<h2 class="anchored" data-anchor-id="instructor">Instructor</h2>
+<section id="program" class="level2">
+<h2 class="anchored" data-anchor-id="program">Program</h2>
 <ul>
-<li><a href="https://www.bfh.ch/en/about-bfh/people/a3xvoqozosua/">Andrew Ellis</a> - Andrew is a data scientist at the Bern University of Applied Sciences. He has a background in cognitive science, and is fascinated by the intersection of language, cognition, and computation.</li>
-</ul>
-</section>
-<section id="tutorials" class="level2">
-<h2 class="anchored" data-anchor-id="tutorials">Tutorials</h2>
+<li>Welcome and introduction [5’]</li>
+<li>Reaktivationsrunde [10’]</li>
+<li>Input: What is ChatGPT and how does is work? [30’]</li>
+<li>Vertiefung: How do you use ChatGPT? [30’]
 <ul>
-<li><a href="instructions.qmd">0: Instructions</a>. Some instructions on the tools used in the workshop. It would be handy to read this before the workshop starts!</li>
-<li><a href="pages/chatgpt.qmd">1: What is ChatGPT and how does is work?</a>. A brief introduction to the ChatGPT model, and how it works.</li>
-<li><a href="pages/prompting.qmd">2: How do you use ChatGPT?</a>. A discussion of what can do, and how to use it correctly.</li>
-<li><a href="pages/concepts.qmd">3: Concepts for thinking about ChatGPT</a>. A discussion of how to think about ChatGPT, and how it is similar and different to human thought.</li>
+<li>Think (2’) - pair (3’) - share (10’)</li>
+</ul></li>
+<li>Ankern [5’]</li>
+<li>Diskussion [20’]</li>
 </ul>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<div>
+<pre class="mermaid mermaid-js">flowchart LR
+  A(["Einführung
+            5'"]) 
+  A -.-&gt; B(["Reaktivationsrunde 
+                      10'"]) 
+  B -.-&gt; C(["Input: Wie funktioniert ChatGPT? 
+                      30'"])
+  C -.-&gt; D(["Vertiefung: Lernziele 1 + 2 
+                      15'"]) 
+  C -.-&gt; E(["Vertiefung: Lernziel 3 
+                        15'"]) 
+  D -.-&gt; F(["Ankern 
+                30'"]) 
+  E -.-&gt; F
+  F -.-&gt; G(["Diskussion 
+            20'"]) 
+  G -.-&gt; H[Ende]
+</pre>
+</div>
+</div>
+</div>
+</div>
 </section>
-<section id="quick-start-guide" class="level2">
-<h2 class="anchored" data-anchor-id="quick-start-guide">Quick Start Guide</h2>
-<p>Qui exercitation voluptate aute Lorem veniam do amet consequat cillum culpa consectetur ea laboris. Dolor occaecat nisi nulla officia occaecat ut enim incididunt non nisi officia duis sint eu. Ad anim aute eu est. Laboris consequat voluptate veniam Lorem voluptate est. Veniam qui cillum nulla ex pariatur non ex nisi ut deserunt quis magna voluptate deserunt occaecat. In mollit ipsum cupidatat nostrud cupidatat ut eiusmod.</p>
+<section id="leitung" class="level2">
+<h2 class="anchored" data-anchor-id="leitung">Leitung</h2>
+<ul>
+<li><a href="https://www.bfh.ch/en/about-bfh/people/a3xvoqozosua/">Andrew Ellis</a>: Andrew ist Data Scientist an der <a href="https://virtuelleakademie.ch/">Virtuellen Akademie</a> der <a href="https://www.bfh.ch/en/">Berner Fachhochschule</a>. Sein Hintergrund ist in den Kognitionswissenschaften und er ist begeistert von der Schnittstelle zwischen Sprache, Denken und künstlicher Intelligenz.”</li>
+</ul>
+<!-- ## Tutorials
+
+- [0: Instructions](instructions.qmd). Some instructions on the tools used in the workshop. It would be handy to read this before the workshop starts!
+- [1: What is ChatGPT and how does is work?](pages/chatgpt.qmd). A brief introduction to the ChatGPT model, and how it works.
+- [2: How do you use ChatGPT?](pages/prompting.qmd). A discussion of what can do, and how to use it correctly.
+- [3: Concepts for thinking about ChatGPT](pages/concepts.qmd). A discussion of how to think about ChatGPT, and how it is similar and different to human thought. -->
+<!-- ## Quick Start Guide
+
+Qui exercitation voluptate aute Lorem veniam do amet consequat cillum culpa consectetur ea laboris. Dolor occaecat nisi nulla officia occaecat ut enim incididunt non nisi officia duis sint eu. Ad anim aute eu est. Laboris consequat voluptate veniam Lorem voluptate est. Veniam qui cillum nulla ex pariatur non ex nisi ut deserunt quis magna voluptate deserunt occaecat. In mollit ipsum cupidatat nostrud cupidatat ut eiusmod. -->
+<!-- ```{mermaid}
+journey
+    %% title Program
+    section Teil 1
+      Einführung: 3: Andrew
+    section Teil 2
+      Reaktivationsrunde: 7: Teilnehmer
+    section Teil 3
+      Wie funktioniert ChatGPT?: 4: Andrew
+    section Teil 4
+      Lernziele 1 + 2: 7: Teilnehmer
+      Lernziel 3: 7: Teilnehmer
+    section Teil 5
+      Ankern: 3: Andrew
+    section Teil 6
+      Diskussion: 7: Andrew, Teilnehmer
+``` -->
 
 
 </section>
