@@ -130,7 +130,7 @@
     "href": "pages/index.html#program",
     "title": "Program",
     "section": "Program",
-    "text": "Program\n\n\n\n\nflowchart LR\n  A([\"Einführung\n            5'\"]) \n  A -.-&gt; B([\"Reaktivationsrunde \n                      10'\"]) \n  B -.-&gt; C([\"Input: Wie funktioniert ChatGPT? \n                      30'\"])\n  C -.-&gt; D([\"Vertiefung: Lernziele 1 + 2 \n                      15'\"]) \n  C -.-&gt; E([\"Vertiefung: Lernziel 3 \n                        15'\"]) \n  D -.-&gt; F([\"Ankern \n                30'\"]) \n  E -.-&gt; F\n  F -.-&gt; G([\"Diskussion \n            20'\"]) \n  G -.-&gt; H[Ende]\n\n\n\n\n\n\nWelcome and introduction [5’]\nReaktivationsrunde [10’]\nInput: What is ChatGPT and how does is work? [30’]\nVertiefung: How do you use ChatGPT? [30’]\n\nThink (2’) - pair (3’) - share (10’)\n\nAnkern [5’]\nDiskussion [20’]"
+    "text": "Program\n\n\n\n\nflowchart LR\n  A([\"Einleitung\n            5'\"]) \n  A -.-&gt; B([\"Reaktivationsrunde \n                      10'\"]) \n  B -.-&gt; C([\"Input: Wie funktioniert ChatGPT? \n                      30'\"])\n  C -.-&gt; D([\"Vertiefung: Lernziele 1 + 2 \n                      15'\"]) \n  C -.-&gt; E([\"Vertiefung: Lernziel 3 \n                        15'\"]) \n  D -.-&gt; F([\"Ankern \n                5'\"]) \n  E -.-&gt; F\n  F -.-&gt; G([\"Diskussion \n            20'\"])\n\n\n\n\n\n\nEinleitung [⏱️ 5’]: Einstieg in den Workshop\nReaktivationsrunde [⏱️ 10’]: In diesem Teil tauschen die Teilnehmenden sich über ihre Erfahrungen mit KI-generierten Texten aus.\nInput: Wie funktioniert ChatGPT? [⏱️ 30’]: Referat zum Thema künstliche Intelligenz und ChatGPT.\nVertiefung [⏱️ 30’]: In diesem Teil werden die oben genannten Lernziele vertieft (alleine, in Kleingruppen und im Plenum).\nAnkern [⏱️ 5’]: In diesem Teil werden Erfahrungen zusammengefasst und reflektiert.\nDiskussion [⏱️ 20’]: Am Ende des Workshops wird über die Erfahrungen und Erkenntnisse diskutiert."
   },
   {
     "objectID": "pages/index.html#instructor",
@@ -411,5 +411,12 @@
     "title": "Program",
     "section": "Leitung",
     "text": "Leitung\n\nAndrew Ellis: Andrew ist Data Scientist an der Virtuellen Akademie der Berner Fachhochschule. Sein Hintergrund ist in den Kognitionswissenschaften und er ist begeistert von der Schnittstelle zwischen Sprache, Denken und künstlicher Intelligenz.”"
+  },
+  {
+    "objectID": "pages/index.html#vorbereitung",
+    "href": "pages/index.html#vorbereitung",
+    "title": "Program",
+    "section": "Vorbereitung",
+    "text": "Vorbereitung\nLöse folgende Aufgaben mit ChatGPT (oder Bing Chat):\n\nLasse ChatGPT ein Gedicht schreiben. Gebe Thema und Stil vor (z.B. “Hochschulbibliotheken und künstliche Intelligenz” im Stile des Sturm und Drang).\nLasse ChatGPT dir ein Konzept deines Fachbereichs in einem Paragrafen vereinfachend erklären.\nBenutze ChatGPT, um zu einem Forschungsthema (z.B. “Was ist der Zusammenhang zwischen Sprache und Denken?”) eine Literaturrecherche durchzuführen. Lasse dir eine kommentierte Liste von wissenschaftlichen Publikationen geben.\nLasse ChatGPT ein paar Mathe-Aufgaben lösen (z.B. “Was ist 89322/1313?”)\nLöse mit ChatGPT eine praktische Aufgabe: “Hier haben wir ein Buch, 9 Eier (ohne Eierkarton), einen Laptop, eine Flasche und einen Nagel. Bitte sag mir, wie ich sie stabil übereinander stapeln kann.”"
   }
 ]

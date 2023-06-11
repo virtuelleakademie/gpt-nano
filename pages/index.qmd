@@ -31,7 +31,7 @@ title: "Program"
 
 ```{mermaid}
 flowchart LR
-  A(["Einführung
+  A(["Einleitung
             5'"]) 
   A -.-> B(["Reaktivationsrunde 
                       10'"]) 
@@ -42,26 +42,32 @@ flowchart LR
   C -.-> E(["Vertiefung: Lernziel 3 
                         15'"]) 
   D -.-> F(["Ankern 
-                30'"]) 
+                5'"]) 
   E -.-> F
   F -.-> G(["Diskussion 
-            20'"]) 
-  G -.-> H[Ende]
+            20'"])
 ```
 
-- Welcome and introduction [5']
-- Reaktivationsrunde [10']
-- Input: What is ChatGPT and how does is work? [30']
-- Vertiefung: How do you use ChatGPT? [30']
-  - Think (2') - pair (3') - share (10')
-- Ankern [5']
-- Diskussion [20']
+- __Einleitung [⏱️ 5']:__ Einstieg in den Workshop
+- __Reaktivationsrunde [⏱️ 10']:__ In diesem Teil tauschen die Teilnehmenden sich über ihre Erfahrungen mit KI-generierten Texten aus.
+- __Input: Wie funktioniert ChatGPT? [⏱️ 30']:__ Referat zum Thema künstliche Intelligenz und ChatGPT.
+- __Vertiefung [⏱️ 30']:__ In diesem Teil werden die oben genannten Lernziele vertieft (alleine, in Kleingruppen und im Plenum).
+
+- __Ankern [⏱️ 5']:__ In diesem Teil werden Erfahrungen zusammengefasst und reflektiert.
+- __Diskussion [⏱️ 20']:__ Am Ende des Workshops wird über die Erfahrungen und Erkenntnisse diskutiert.
 
 
-## Leitung
+## Vorbereitung
 
-- [Andrew Ellis](https://www.bfh.ch/en/about-bfh/people/a3xvoqozosua/): 
-Andrew ist Data Scientist an der [Virtuellen Akademie](https://virtuelleakademie.ch/) der [Berner Fachhochschule](https://www.bfh.ch/en/). Sein Hintergrund ist in den Kognitionswissenschaften und er ist begeistert von der Schnittstelle zwischen Sprache, Denken und künstlicher Intelligenz."
+Löse folgende Aufgaben mit ChatGPT (oder Bing Chat):
+
+1.	Lasse ChatGPT ein Gedicht schreiben. Gebe Thema und Stil vor (z.B. "Hochschulbibliotheken und künstliche Intelligenz" im Stile des Sturm und Drang).
+2.	Lasse ChatGPT dir ein Konzept deines Fachbereichs in einem Paragrafen vereinfachend erklären. 
+3.	Benutze ChatGPT, um zu einem Forschungsthema (z.B. "Was ist der Zusammenhang zwischen Sprache und Denken?") eine Literaturrecherche durchzuführen. Lasse dir eine kommentierte Liste von wissenschaftlichen Publikationen geben.
+4.	Lasse ChatGPT ein paar Mathe-Aufgaben lösen (z.B. "Was ist 89322/1313?")
+5.	Löse mit ChatGPT eine praktische Aufgabe: "Hier haben wir ein Buch, 9 Eier (ohne Eierkarton), einen Laptop, eine Flasche und einen Nagel. Bitte sag mir, wie ich sie stabil übereinander stapeln kann."
+
+
 
 <!-- ## Tutorials
 
@@ -73,6 +79,12 @@ Andrew ist Data Scientist an der [Virtuellen Akademie](https://virtuelleakademie
 <!-- ## Quick Start Guide
 
 Qui exercitation voluptate aute Lorem veniam do amet consequat cillum culpa consectetur ea laboris. Dolor occaecat nisi nulla officia occaecat ut enim incididunt non nisi officia duis sint eu. Ad anim aute eu est. Laboris consequat voluptate veniam Lorem voluptate est. Veniam qui cillum nulla ex pariatur non ex nisi ut deserunt quis magna voluptate deserunt occaecat. In mollit ipsum cupidatat nostrud cupidatat ut eiusmod. -->
+
+
+## Leitung
+
+- [Andrew Ellis](https://www.bfh.ch/en/about-bfh/people/a3xvoqozosua/): 
+Andrew ist Data Scientist an der [Virtuellen Akademie](https://virtuelleakademie.ch/) der [Berner Fachhochschule](https://www.bfh.ch/en/). Sein Hintergrund ist in den Kognitionswissenschaften und er ist begeistert von der Schnittstelle zwischen Sprache, Denken und künstlicher Intelligenz."
 
 
 <!-- ```{mermaid}
