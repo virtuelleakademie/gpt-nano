@@ -7,16 +7,16 @@
     "text": "KI-basierte Schreibtools in der Lehre\n\n\n\nKünstliche Intelligenz (KI) hat das Potenzial, das Bildungswesen grundlegend zu verändern. In diesem Workshop werden wir die Rolle von KI in der Lehre erkunden, mit besonderem Fokus auf den Einsatz von KI-basierten Schreibtools.\nInhalte:\n\nWas ist künstliche Intelligenz? Wie funktionieren Tools wie ChatGPT?\nWie kommuniziere ich mit KI-Schreibtools? Wie schreibe ich gute Prompts?\n\nAnwendungsbeispiele von KI in der Lehre\n\nNächste Termine:\n\n15.September 2023, 13-17 Uhr\n27.Oktober 2023, 13-17 Uhr\n\n👉🏼 www.bfh.ch/de/weiterbildung/kurse/ki-schreibtools\n\n\n\n\n\n\n\n\nKI-Sprechstunden\n\n\n\nHast du Fragen zum Umgang mit Künstlicher Intelligenz (KI) in der Lehre? Dann schau vorbei oder logge dich ein. Ohne Anmeldung.\nNächste Termine:\n\n\nAugust 2023, 16-18 Uhr\n\n\nNovember 2023, 15-17 Uhr\n\n\n👉🏼 virtuelleakademie.ch/beratungen-coachings:"
   },
   {
-    "objectID": "pages/about.html#über-uns",
-    "href": "pages/about.html#über-uns",
+    "objectID": "pages/about.html#ki-kurse-der-virtuellen-akademie",
+    "href": "pages/about.html#ki-kurse-der-virtuellen-akademie",
     "title": "Virtuelle Akademie",
-    "section": "Über uns",
-    "text": "Über uns\nDie Stärke der Virtuellen Akademie: Ein Team, in dem diverse Fähigkeiten zusammenkommen. Von Hochschuldidaktik über Lerntechnologien bis hin zu Visualisierungs- und Video-Expertise.\n👉🏼 Team"
+    "section": "",
+    "text": "KI-basierte Schreibtools in der Lehre\n\n\n\nKünstliche Intelligenz (KI) hat das Potenzial, das Bildungswesen grundlegend zu verändern. In diesem Workshop werden wir die Rolle von KI in der Lehre erkunden, mit besonderem Fokus auf den Einsatz von KI-basierten Schreibtools.\nInhalte:\n\nWas ist künstliche Intelligenz? Wie funktionieren Tools wie ChatGPT?\nWie kommuniziere ich mit KI-Schreibtools? Wie schreibe ich gute Prompts?\n\nAnwendungsbeispiele von KI in der Lehre\n\nNächste Termine:\n\n15.September 2023, 13-17 Uhr\n27.Oktober 2023, 13-17 Uhr\n\n👉🏼 www.bfh.ch/de/weiterbildung/kurse/ki-schreibtools\n\n\n\n\n\n\n\n\nKI-Sprechstunden\n\n\n\nHast du Fragen zum Umgang mit Künstlicher Intelligenz (KI) in der Lehre? Dann schau vorbei oder logge dich ein. Ohne Anmeldung.\nNächste Termine:\n\n\nAugust 2023, 16-18 Uhr\n\n\nNovember 2023, 15-17 Uhr\n\n\n👉🏼 virtuelleakademie.ch/beratungen-coachings:"
   },
   {
     "objectID": "pages/beispiel-arbeit.html",
     "href": "pages/beispiel-arbeit.html",
-    "title": "GPT is Not An Oracle",
+    "title": "KI/GPT in der Hochschule",
     "section": "",
     "text": "mathematische Basiskompetenzen im Kindergartenalter\n\nDu bist eine Fachperson im Bereich der Entwicklungspsychologie. Du bist Experte für mathematische Basiskompetenzen im Kindergartenalter. Ich schreibe eine Masterarbeit und du hilfst mir bei den Formulierungen. Ich schreibe eine wissenschaftliche Arbeit über das Thema “Erfassung mathematischer Basiskompetenzen”\n\nDer MBK 0 (Test mathematischer Basiskompetenzen im Kindergartenalter) von Krajewski (2018) ist ein Einzeltest für Kinder im Alter von 3.6 bis 7 Jahren. Diesem Test liegt das Entwicklungsmodell der Zahl-Grössen-Verknüpfung (Krajewski, 2008) zugrunde (vgl. Abschnitt 4.2.1). Der MBK 0 ist ein Test zur Erfassung der mathematischen Basiskompetenzen\n\n\n\n Back to top"
   },
@@ -116,7 +116,14 @@
     "href": "pages/index.html",
     "title": "Program",
     "section": "",
-    "text": "Wie werden Large Language Models (LLMs) trainiert?\nWie generieren LLMs Texte?\nWas sind Ähnlichkeiten und Unterschiede zwischen LLMs und menschlichem Denken?\nWie können wir LLMs beschreiben, ohne sie zu anthropomorphisieren?"
+    "text": "Wie werden Large Language Models (LLMs) trainiert?\nWie generieren LLMs Texte?\nWas sind Ähnlichkeiten und Unterschiede zwischen LLMs und menschlichem Denken?\nWie können wir LLMs benutzen?\nWie können wir LLMs beschreiben, ohne sie zu anthropomorphisieren?"
+  },
+  {
+    "objectID": "pages/index.html#inhalt",
+    "href": "pages/index.html#inhalt",
+    "title": "Program",
+    "section": "",
+    "text": "Wie werden Large Language Models (LLMs) trainiert?\nWie generieren LLMs Texte?\nWas sind Ähnlichkeiten und Unterschiede zwischen LLMs und menschlichem Denken?\nWie können wir LLMs benutzen?\nWie können wir LLMs beschreiben, ohne sie zu anthropomorphisieren?"
   },
   {
     "objectID": "pages/index.html#lernziele",
@@ -133,25 +140,18 @@
     "text": "Program\n\n\n\n\nflowchart LR\n  A([\"Einleitung\n            5'\"]) \n  A -.-&gt; B([\"Reaktivationsrunde \n                      10'\"]) \n  B -.-&gt; C([\"Input: Wie funktioniert ChatGPT? \n                      30'\"])\n  C -.-&gt; D([\"Vertiefung: Lernziele 1 + 2 \n                      15'\"]) \n  C -.-&gt; E([\"Vertiefung: Lernziel 3 \n                        15'\"]) \n  D -.-&gt; F([\"Ankern \n                5'\"]) \n  E -.-&gt; F\n  F -.-&gt; G([\"Diskussion \n            20'\"])\n\n\n\n\n\n\nEinleitung [⏱️ 5’]: Einstieg in den Workshop\nReaktivationsrunde [⏱️ 10’]: In diesem Teil tauschen die Teilnehmenden sich über ihre Erfahrungen mit KI-generierten Texten aus.\nInput: Wie funktioniert ChatGPT? [⏱️ 30’]: Referat zum Thema künstliche Intelligenz und ChatGPT.\nVertiefung [⏱️ 30’]: In diesem Teil werden die oben genannten Lernziele vertieft (alleine, in Kleingruppen und im Plenum).\nAnkern [⏱️ 5’]: In diesem Teil werden Erfahrungen zusammengefasst und reflektiert.\nDiskussion [⏱️ 20’]: Am Ende des Workshops wird über die Erfahrungen und Erkenntnisse diskutiert."
   },
   {
-    "objectID": "pages/index.html#instructor",
-    "href": "pages/index.html#instructor",
+    "objectID": "pages/index.html#vorbereitung",
+    "href": "pages/index.html#vorbereitung",
     "title": "Program",
-    "section": "Instructor",
-    "text": "Instructor\nAndrew Ellis  Andrew is a data scientist at the Bern University of Applied Sciences. He has a background in cognitive science, and is fascinated by the intersection of language, cognition, and computation.\nAndrew ist ein Datenwissenschaftler an der Berner Fachhochschule. Er hat einen Hintergrund in Kognitionswissenschaften und ist fasziniert von der Schnittstelle von Sprache, Kognition und Berechnung.”"
+    "section": "Vorbereitung",
+    "text": "Vorbereitung\nLöse folgende Aufgaben mit ChatGPT (oder Bing Chat):\n\nLasse ChatGPT ein Gedicht schreiben. Gebe Thema und Stil vor (z.B. “Hochschulbibliotheken und künstliche Intelligenz” im Stile des Sturm und Drang).\nLasse ChatGPT dir ein Konzept deines Fachbereichs in einem Paragrafen vereinfachend erklären.\nBenutze ChatGPT, um zu einem Forschungsthema (z.B. “Was ist der Zusammenhang zwischen Sprache und Denken?”) eine Literaturrecherche durchzuführen. Lasse dir eine kommentierte Liste von wissenschaftlichen Publikationen geben.\nLasse ChatGPT ein paar Mathe-Aufgaben lösen (z.B. “Was ist 89322/1313?”)\nLöse mit ChatGPT eine praktische Aufgabe: “Hier haben wir ein Buch, 9 Eier (ohne Eierkarton), einen Laptop, eine Flasche und einen Nagel. Bitte sag mir, wie ich sie stabil übereinander stapeln kann.”"
   },
   {
-    "objectID": "pages/index.html#tutorials",
-    "href": "pages/index.html#tutorials",
+    "objectID": "pages/index.html#leitung",
+    "href": "pages/index.html#leitung",
     "title": "Program",
-    "section": "Tutorials",
-    "text": "Tutorials\n\n0: Instructions. Some instructions on the tools used in the workshop. It would be handy to read this before the workshop starts!\n1: What is ChatGPT and how does is work?. A brief introduction to the ChatGPT model, and how it works.\n2: How do you use ChatGPT?. A discussion of what can do, and how to use it correctly.\n3: Concepts for thinking about ChatGPT. A discussion of how to think about ChatGPT, and how it is similar and different to human thought."
-  },
-  {
-    "objectID": "pages/index.html#quick-start-guide",
-    "href": "pages/index.html#quick-start-guide",
-    "title": "Program",
-    "section": "Quick Start Guide",
-    "text": "Quick Start Guide\nQui exercitation voluptate aute Lorem veniam do amet consequat cillum culpa consectetur ea laboris. Dolor occaecat nisi nulla officia occaecat ut enim incididunt non nisi officia duis sint eu. Ad anim aute eu est. Laboris consequat voluptate veniam Lorem voluptate est. Veniam qui cillum nulla ex pariatur non ex nisi ut deserunt quis magna voluptate deserunt occaecat. In mollit ipsum cupidatat nostrud cupidatat ut eiusmod."
+    "section": "Leitung",
+    "text": "Leitung\n\nAndrew Ellis: Andrew ist Data Scientist an der Virtuellen Akademie der Berner Fachhochschule. Sein Hintergrund ist in den Kognitionswissenschaften und er ist begeistert von der Schnittstelle zwischen Sprache, Denken und künstlicher Intelligenz.”"
   },
   {
     "objectID": "pages/notes.html",
@@ -208,6 +208,13 @@
     "title": "KI/GPT in der Hochschule",
     "section": "",
     "text": "👉🏼 KI-basierte Schreibtools in der Lehre – ChatGPT im Fokus\n👉🏼 Überblick über KI-Tools im Kontext von akademischen Lese- und Schreibprozessen\n👉🏼 ChatGPT im Hochschulkontext – eine kommentierte Linksammlung\n👉🏼 Uni Bern: Chatbots in der Hochschullehre"
+  },
+  {
+    "objectID": "pages/resources.html#wissenschaftliches-arbeiten",
+    "href": "pages/resources.html#wissenschaftliches-arbeiten",
+    "title": "KI/GPT in der Hochschule",
+    "section": "Wissenschaftliches Arbeiten",
+    "text": "Wissenschaftliches Arbeiten\n👉🏼 ChatGPT zitieren"
   },
   {
     "objectID": "pages/resources.html#rechtliche-fragen",
@@ -369,54 +376,5 @@
     "title": "Informationsanlass zu KI/ChatGPT für Bibliotheksmitarbeitende",
     "section": "Padlet",
     "text": "Padlet"
-  },
-  {
-    "objectID": "pages/about.html#ki-kurse",
-    "href": "pages/about.html#ki-kurse",
-    "title": "Virtuelle Akademie",
-    "section": "",
-    "text": "KI-basierte Schreibtools in der Lehre\nKünstliche Intelligenz (KI) hat das Potenzial, das Bildungswesen grundlegend zu verändern. In diesem Workshop werden wir die Rolle von KI in der Lehre erkunden, mit besonderem Fokus auf den Einsatz von KI-basierten Schreibtools.\nInhalte\n    Was ist künstliche Intelligenz? Wie funktionieren Tools wie ChatGPT? \n    Wie kommuniziere ich mit KI-Schreibtools? Wie schreibe ich gute Prompts?  \n    Anwendungsbeispiele von KI in der Lehre \n    Nächste Durchführung \n    15.9.2023, 13-17h\n    27.10.2023, 13-17h\nKI-Sprechstunden:\nHast du Fragen zum Umgang mit Künstlicher Intelligenz (KI) in der Lehre? Dann schau vorbei oder logge dich ein. Ohne Anmeldung.\nKI-Sprechstunden-Termine (hybrid: im Wöschhüsli Falkenplatz 16, Bern und online)\nDo, 17. August 2023, 16-18 Uhr\nFr, 3. November 2023, 15-17 Uhr"
-  },
-  {
-    "objectID": "pages/resources.html#wissenschaftliches-arbeiten",
-    "href": "pages/resources.html#wissenschaftliches-arbeiten",
-    "title": "KI/GPT in der Hochschule",
-    "section": "Wissenschaftliches Arbeiten",
-    "text": "Wissenschaftliches Arbeiten\n👉🏼 ChatGPT zitieren"
-  },
-  {
-    "objectID": "pages/about.html#ki-kurse-der-virtuellen-akademie",
-    "href": "pages/about.html#ki-kurse-der-virtuellen-akademie",
-    "title": "Virtuelle Akademie",
-    "section": "",
-    "text": "KI-basierte Schreibtools in der Lehre\n\n\n\nKünstliche Intelligenz (KI) hat das Potenzial, das Bildungswesen grundlegend zu verändern. In diesem Workshop werden wir die Rolle von KI in der Lehre erkunden, mit besonderem Fokus auf den Einsatz von KI-basierten Schreibtools.\nInhalte:\n\nWas ist künstliche Intelligenz? Wie funktionieren Tools wie ChatGPT?\nWie kommuniziere ich mit KI-Schreibtools? Wie schreibe ich gute Prompts?\n\nAnwendungsbeispiele von KI in der Lehre\n\nNächste Termine:\n\n15.September 2023, 13-17 Uhr\n27.Oktober 2023, 13-17 Uhr\n\n👉🏼 www.bfh.ch/de/weiterbildung/kurse/ki-schreibtools\n\n\n\n\n\n\n\n\nKI-Sprechstunden\n\n\n\nHast du Fragen zum Umgang mit Künstlicher Intelligenz (KI) in der Lehre? Dann schau vorbei oder logge dich ein. Ohne Anmeldung.\nNächste Termine:\n\n\nAugust 2023, 16-18 Uhr\n\n\nNovember 2023, 15-17 Uhr\n\n\n👉🏼 virtuelleakademie.ch/beratungen-coachings:"
-  },
-  {
-    "objectID": "pages/about.html#team",
-    "href": "pages/about.html#team",
-    "title": "Virtuelle Akademie",
-    "section": "Team",
-    "text": "Team\nDie Stärke der Virtuellen Akademie: Ein Team, in dem diverse Fähigkeiten zusammenkommen. Von Hochschuldidaktik über Lerntechnologien bis hin zu Visualisierungs- und Video-Expertise.\n👉🏼 Team"
-  },
-  {
-    "objectID": "pages/index.html#inhalt",
-    "href": "pages/index.html#inhalt",
-    "title": "Program",
-    "section": "",
-    "text": "Wie werden Large Language Models (LLMs) trainiert?\nWie generieren LLMs Texte?\nWas sind Ähnlichkeiten und Unterschiede zwischen LLMs und menschlichem Denken?\nWie können wir LLMs beschreiben, ohne sie zu anthropomorphisieren?"
-  },
-  {
-    "objectID": "pages/index.html#leitung",
-    "href": "pages/index.html#leitung",
-    "title": "Program",
-    "section": "Leitung",
-    "text": "Leitung\n\nAndrew Ellis: Andrew ist Data Scientist an der Virtuellen Akademie der Berner Fachhochschule. Sein Hintergrund ist in den Kognitionswissenschaften und er ist begeistert von der Schnittstelle zwischen Sprache, Denken und künstlicher Intelligenz.”"
-  },
-  {
-    "objectID": "pages/index.html#vorbereitung",
-    "href": "pages/index.html#vorbereitung",
-    "title": "Program",
-    "section": "Vorbereitung",
-    "text": "Vorbereitung\nLöse folgende Aufgaben mit ChatGPT (oder Bing Chat):\n\nLasse ChatGPT ein Gedicht schreiben. Gebe Thema und Stil vor (z.B. “Hochschulbibliotheken und künstliche Intelligenz” im Stile des Sturm und Drang).\nLasse ChatGPT dir ein Konzept deines Fachbereichs in einem Paragrafen vereinfachend erklären.\nBenutze ChatGPT, um zu einem Forschungsthema (z.B. “Was ist der Zusammenhang zwischen Sprache und Denken?”) eine Literaturrecherche durchzuführen. Lasse dir eine kommentierte Liste von wissenschaftlichen Publikationen geben.\nLasse ChatGPT ein paar Mathe-Aufgaben lösen (z.B. “Was ist 89322/1313?”)\nLöse mit ChatGPT eine praktische Aufgabe: “Hier haben wir ein Buch, 9 Eier (ohne Eierkarton), einen Laptop, eine Flasche und einen Nagel. Bitte sag mir, wie ich sie stabil übereinander stapeln kann.”"
   }
 ]

@@ -8,6 +8,7 @@ title: "Program"
 - Wie werden Large Language Models (LLMs) trainiert?
 - Wie generieren LLMs Texte?
 - Was sind Ähnlichkeiten und Unterschiede zwischen LLMs und menschlichem Denken?
+- Wie können wir LLMs benutzen?
 - Wie können wir LLMs beschreiben, ohne sie zu anthropomorphisieren?
 
 ## Lernziele

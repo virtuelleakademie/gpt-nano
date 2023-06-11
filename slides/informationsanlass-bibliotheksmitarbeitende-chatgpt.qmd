@@ -2,7 +2,7 @@
 title: "Informationsanlass zu KI/ChatGPT für Bibliotheksmitarbeitende"
 author: "Virtuelle Akademie"
 date: last-modified
-date-format: "DD MMM, YYYY"
+date-format: "DD MMMM, YYYY"
 format: 
     revealjs:
         theme: default
@@ -32,6 +32,31 @@ format:
 # slide-level: 3
 # number-sections: true
 ---
+
+
+
+# Was ist künstliche Intelligenz? {background-color="#81a1c1"}
+
+
+# Was ist ChatGPT? {background-color="#81a1c1"}
+
+# How was ChatGPT trained? {background-color="#81a1c1"}
+
+- training
+- data
+- architecture
+- embeddings
+- transformers
+  
+# How does ChatGPT work? {background-color="#81a1c1"}
+
+- How does ChatGPT generate text?
+- auto-regressive sampling
+
+
+
+
+
 
 
 # Section 1

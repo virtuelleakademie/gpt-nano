@@ -1,15 +1,19 @@
 ---
-title: "The title of the presentation"
+title: "Informationsanlass zu KI/ChatGPT für Bibliotheksmitarbeitende"
+author: "Virtuelle Akademie"
+date: last-modified
+date-format: "DD MMMM, YYYY"
 format: 
     revealjs:
-        theme: night
-        logo: ../assets/logo.png
-        footer: <a href="/">🏠 GPT is Not An Oracle</a>
+        theme: default
+        # logo: ../assets/robot.png
+        # footer: <a href="https://virtuelleakademie.github.io/gpt-nano">🏠 GPT is Not An Oracle</a>
         navigation-mode: vertical
         progress: true
         scrollable: true
         slide-number: true
         show-slide-number: all
+        controls-layout: bottom-right
         controls-tutorial: true
         preview-links: auto
         chalkboard: true
@@ -24,11 +28,43 @@ format:
           width: normal
           numbers: true
           markers: true
-        # slide-tone: true
+
+# slide-level: 3
+# number-sections: true
 ---
 
 
+
+# Was ist künstliche Intelligenz? {background-color="#81a1c1"}
+
+
+# Was ist ChatGPT? {background-color="#81a1c1"}
+
+# How was ChatGPT trained? {background-color="#81a1c1"}
+
+- training
+- data
+- architecture
+- embeddings
+- transformers
+  
+# How does ChatGPT work? {background-color="#81a1c1"}
+
+- How does ChatGPT generate text?
+- auto-regressive sampling
+
+
+
+
+
+
+
 # Section 1
+
+::: footer
+<a href="https://virtuelleakademie.github.io/gpt-nano">🏠 GPT is Not An Oracle</a>
+:::
+
 
 ## First slide
 
@@ -38,6 +74,67 @@ format:
 ::: {.callout-tip title="Tip with Title" collapse="true"}
 This is a callout with a title.
 :::
+
+::: {.notes}
+Speaker notes go here.
+:::
+
+## Web page
+
+:::: {.columns}
+
+::: {.column width="50%"}
+```{=html}
+<iframe width="780" height="500" src="https://www.societybyte.swiss/2023/06/07/traumatische-klickarbeit-die-menschen-hinter-chatgpt/" title="Traumatische Klickarbeit"></iframe>
+```
+:::
+
+::: {.column width="50%"}
+```{=html}
+<iframe width="780" height="500" src="https://www.societybyte.swiss/2022/12/22/hi-chatgpt-hast-du-vorurteile/" title="Vorurteile"></iframe>
+```
+:::
+
+::::
+
+
+
+## GPT
+
+:::: {.columns}
+
+::: {.column width="50%"}
+```{=html}
+<iframe width="780" height="500" src="https://platform.openai.com/playground" title="OpenAI Playground"></iframe>
+```
+:::
+
+::: {.column width="50%"}
+```{=html}
+<iframe width="780" height="500" src="https://chat.openai.com/" title="ChatGPT"></iframe>
+```
+:::
+::::
+
+
+## images
+
+![GPT-3](../assets/10-gpt3-fine-tuning.gif)
+
+## tabsets
+
+::: {.panel-tabset}
+
+### Tab A
+
+Content for `Tab A`
+
+### Tab B
+
+Content for `Tab B`
+
+:::
+
 
 ## Subslide
 
@@ -91,6 +188,8 @@ and an :angry: :panda_face:
 ::: footer
 Learn more: [Syntax Highlighting](https://quarto.org/docs/output-formats/html-code.html#highlighting)
 :::
+
+
 
 ## Subslide
 Eu esse mollit officia id exercitation qui non tempor sint nisi ullamco voluptate. Incididunt reprehenderit voluptate nostrud ex veniam. Minim deserunt voluptate ut aliquip adipisicing qui. Fugiat ad sint voluptate ut sint non amet magna ea exercitation. Consectetur mollit exercitation quis magna irure do minim magna. Laborum culpa ullamco ad nulla incididunt officia ea. Commodo enim occaecat veniam culpa excepteur occaecat.
@@ -160,6 +259,11 @@ Eu esse mollit officia id exercitation qui non tempor sint nisi ullamco voluptat
 
 
 # Section 3
+
+::: footer
+<a href="https://virtuelleakademie.github.io/gpt-nano">🏠 GPT is Not An Oracle</a>
+:::
+
 
 ## Tabset 
 
