@@ -35,12 +35,16 @@ format:
 
 
 
-# Was ist künstliche Intelligenz? {background-color="#81a1c1"}
+# Was ist künstliche Intelligenz? {background-color="#5e81ac"}
 
 
 # Was ist ChatGPT? {background-color="#81a1c1"}
 
-# How was ChatGPT trained? {background-color="#81a1c1"}
+## Generative pre-trained transformer
+Not trained for single purpose, but for many tasks
+
+
+# How was ChatGPT trained? {background-color="#88c0d0"}
 
 - training
 - data
@@ -48,18 +52,39 @@ format:
 - embeddings
 - transformers
   
-# How does ChatGPT work? {background-color="#81a1c1"}
+# How does ChatGPT work? {background-color="#8fbcbb"}
 
 - How does ChatGPT generate text?
 - auto-regressive sampling
+- prompting
+- role-play simulator
+- context
+- computation per token
+  
+# What tasks can ChatGPT do? {background-color="#a3be8c"}
+
+
+- reasoning
+- chain-of-though
+- can it think?
+
+# ChatGPT vs human thought {background-color="#b48ead"}
+
+
+# Future of LLMs {background-color="#ebcb8b"}
+
+- use cases for libraries
+- knowledge-augmented retrieval
+  - text -> embed -> context (as prompt) -> instruct to use prompt
+- agents (toolchain)
+- LLM as linguistic interface
 
 
 
 
 
 
-
-# Section 1
+# Section 1 {background-color="#d08770"}
 
 ::: footer
 <a href="https://virtuelleakademie.github.io/gpt-nano">🏠 GPT is Not An Oracle</a>
