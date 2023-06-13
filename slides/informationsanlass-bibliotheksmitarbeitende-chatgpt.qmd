@@ -3,6 +3,7 @@ title: "Informationsanlass zu KI/ChatGPT für Bibliotheksmitarbeitende"
 author: "Virtuelle Akademie"
 date: last-modified
 date-format: "DD MMMM, YYYY"
+bibliography: ../bibliography.bib
 format: 
     revealjs:
         theme: default
@@ -33,9 +34,34 @@ format:
 # number-sections: true
 ---
 
-
+```{r}
+#| warning: false
+#| message: false
+library(knitr)
+```
 
 # Was ist künstliche Intelligenz? {background-color="#5e81ac"}
+
+::: {.absolute top="0" left="100%"}
+::: {.sectionhead}
+1 [2 3 4 5 6]{style="opacity:0.25"}
+:::
+:::
+
+## Was ist künstliche Intelligenz?
+![](../assets/images/was-ist-KI.png)
+Quelle: [derbund.ch/so-funktioniert-kuenstliche-intelligenz-599276436215](https://www.derbund.ch/so-funktioniert-kuenstliche-intelligenz-599276436215)^[https://www.derbund.ch/so-funktioniert-kuenstliche-intelligenz-599276436215]
+
+@broschinskiGrafikenErklaertFunktioniert2023
+
+
+## hahaha
+```{r}
+#| fig-cap: "Quelle: https://www.derbund.ch/so-funktioniert-kuenstliche-intelligenz-599276436215"
+include_graphics("../assets/images/was-ist-KI.png")
+```
+
+
 
 
 # Was ist ChatGPT? {background-color="#81a1c1"}
@@ -81,6 +107,13 @@ Not trained for single purpose, but for many tasks
 
 
 
+
+
+
+# References
+
+::: {#refs}
+:::
 
 
 
