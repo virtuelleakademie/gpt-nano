@@ -14,6 +14,13 @@
     "text": "KI-basierte Schreibtools in der Lehre\n\n\n\nKünstliche Intelligenz (KI) hat das Potenzial, das Bildungswesen grundlegend zu verändern. In diesem Workshop werden wir die Rolle von KI in der Lehre erkunden, mit besonderem Fokus auf den Einsatz von KI-basierten Schreibtools.\nInhalte:\n\nWas ist künstliche Intelligenz? Wie funktionieren Tools wie ChatGPT?\nWie kommuniziere ich mit KI-Schreibtools? Wie schreibe ich gute Prompts?\n\nAnwendungsbeispiele von KI in der Lehre\n\nNächste Termine:\n\n15.September 2023, 13-17 Uhr\n27.Oktober 2023, 13-17 Uhr\n\n👉🏼 www.bfh.ch/de/weiterbildung/kurse/ki-schreibtools\n\n\n\n\n\n\n\n\nKI-Sprechstunden\n\n\n\nHast du Fragen zum Umgang mit Künstlicher Intelligenz (KI) in der Lehre? Dann schau vorbei oder logge dich ein. Ohne Anmeldung.\nNächste Termine:\n\n\nAugust 2023, 16-18 Uhr\n\n\nNovember 2023, 15-17 Uhr\n\n\n👉🏼 virtuelleakademie.ch/beratungen-coachings:"
   },
   {
+    "objectID": "pages/assistant.html",
+    "href": "pages/assistant.html",
+    "title": "Assistant",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
     "objectID": "pages/beispiel-arbeit.html",
     "href": "pages/beispiel-arbeit.html",
     "title": "KI/GPT in der Hochschule",
@@ -116,28 +123,28 @@
     "href": "pages/index.html",
     "title": "Program",
     "section": "",
-    "text": "Wie werden Large Language Models (LLMs) trainiert?\nWie generieren LLMs Texte?\nWas sind Ähnlichkeiten und Unterschiede zwischen LLMs und menschlichem Denken?\nWie können wir LLMs benutzen?\nWie können wir LLMs beschreiben, ohne sie zu anthropomorphisieren?"
+    "text": "Was sind Large Language Models (LLMs)?\nWie werden LLMs trainiert?\nWie generieren LLMs Texte?\nWas sind Ähnlichkeiten und Unterschiede zwischen LLMs und menschlichem Denken?\nWie können wir LLMs benutzen?\nWie können wir LLMs beschreiben, ohne sie zu anthropomorphisieren?"
   },
   {
     "objectID": "pages/index.html#inhalt",
     "href": "pages/index.html#inhalt",
     "title": "Program",
     "section": "",
-    "text": "Wie werden Large Language Models (LLMs) trainiert?\nWie generieren LLMs Texte?\nWas sind Ähnlichkeiten und Unterschiede zwischen LLMs und menschlichem Denken?\nWie können wir LLMs benutzen?\nWie können wir LLMs beschreiben, ohne sie zu anthropomorphisieren?"
+    "text": "Was sind Large Language Models (LLMs)?\nWie werden LLMs trainiert?\nWie generieren LLMs Texte?\nWas sind Ähnlichkeiten und Unterschiede zwischen LLMs und menschlichem Denken?\nWie können wir LLMs benutzen?\nWie können wir LLMs beschreiben, ohne sie zu anthropomorphisieren?"
   },
   {
     "objectID": "pages/index.html#lernziele",
     "href": "pages/index.html#lernziele",
     "title": "Program",
     "section": "Lernziele",
-    "text": "Lernziele\n\n\n\n\n\n\nNach diesem Workshop:\n\n\n\n\nKönnen Sie mit Anfragen von Studierenden in Bezug auf fach-spezifische AI-generierte Texte umgehen.\nKönnen Sie in eigenen Worten wiedergeben, wie AI-generierte Texte entstehen.\nHaben Sie Kriterien, anhand derer Sie KI-Tools beurteilen können."
+    "text": "Lernziele\n\n\n\n\n\n\nNach diesem Workshop:\n\n\n\n\nKannst du mit Anfragen von Studierenden in Bezug auf fach-spezifische AI-generierte Texte umgehen.\nKannst du in eigenen Worten wiedergeben, wie AI-generierte Texte entstehen.\nHast du Kriterien, anhand derer du KI-Tools beurteilen kannst."
   },
   {
     "objectID": "pages/index.html#program",
     "href": "pages/index.html#program",
     "title": "Program",
     "section": "Program",
-    "text": "Program\n\n\n\n\nflowchart LR\n  A([\"Einleitung\n            5'\"]) \n  A -.-&gt; B([\"Reaktivationsrunde \n                      10'\"]) \n  B -.-&gt; C([\"Input: Wie funktioniert ChatGPT? \n                      30'\"])\n  C -.-&gt; D([\"Vertiefung: Lernziele 1 + 2 \n                      15'\"]) \n  C -.-&gt; E([\"Vertiefung: Lernziel 3 \n                        15'\"]) \n  D -.-&gt; F([\"Ankern \n                5'\"]) \n  E -.-&gt; F\n  F -.-&gt; G([\"Diskussion \n            20'\"])\n\n\n\n\n\n\nEinleitung [⏱️ 5’]: Einstieg in den Workshop\nReaktivationsrunde [⏱️ 10’]: In diesem Teil tauschen die Teilnehmenden sich über ihre Erfahrungen mit KI-generierten Texten aus.\nInput: Wie funktioniert ChatGPT? [⏱️ 30’]: Referat zum Thema künstliche Intelligenz und ChatGPT.\nVertiefung [⏱️ 30’]: In diesem Teil werden die oben genannten Lernziele vertieft (alleine, in Kleingruppen und im Plenum).\nAnkern [⏱️ 5’]: In diesem Teil werden Erfahrungen zusammengefasst und reflektiert.\nDiskussion [⏱️ 20’]: Am Ende des Workshops wird über die Erfahrungen und Erkenntnisse diskutiert."
+    "text": "Program\n\n\n\n\nflowchart LR\n  A([\"Einleitung\n            5'\"]) \n  A -.-&gt; B([\"Reaktivationsrunde \n                      10'\"]) \n  B -.-&gt; C([\"Input: Wie funktioniert ChatGPT? \n                      30'\"])\n  C -.-&gt; D([\"Vertiefung: Lernziele 1 + 2 \n                      15'\"]) \n  C -.-&gt; E([\"Vertiefung: Lernziel 3 \n                        15'\"]) \n  D -.-&gt; F([\"Verankern \n                10'\"]) \n  E -.-&gt; F\n  F -.-&gt; G([\"Diskussion \n            15'\"])\n\n\n\n\n\n\nEinleitung [⏱️ 5’]: Einstieg in den Workshop\nReaktivationsrunde [⏱️ 10’]: In diesem Teil tauschen die Teilnehmenden sich über ihre Erfahrungen mit KI-generierten Texten aus.\nInput: Wie funktioniert ChatGPT? [⏱️ 30’]: Referat zum Thema künstliche Intelligenz und ChatGPT.\nVertiefung [⏱️ 30’]: In diesem Teil werden die oben genannten Lernziele vertieft (alleine, in Kleingruppen und im Plenum).\nVerankern [⏱️ 10’]: In diesem Teil werden Erfahrungen zusammengefasst und reflektiert.\nDiskussion [⏱️ 15’]: Am Ende des Workshops wird über die Erfahrungen und Erkenntnisse diskutiert."
   },
   {
     "objectID": "pages/index.html#vorbereitung",
@@ -245,142 +252,58 @@
     "text": "👉🏼 The largest AI tools directory (updated daily)\n👉🏼 Elicit\n👉🏼 Consensus\n\n\n\n Back to top"
   },
   {
-    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#first-slide",
-    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#first-slide",
-    "title": "Informationsanlass zu KI/ChatGPT für Bibliotheksmitarbeitende",
-    "section": "First slide",
-    "text": "First slide\n\nEnim labore amet tempor occaecat minim est nulla et deserunt sit eiusmod.\nEnim labore amet tempor occaecat minim est nulla et deserunt sit eiusmod.\n\n\n\n\n\n\n\nTip with Title\n\n\nThis is a callout with a title.\n\n\n\n\nSpeaker notes go here."
+    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#was-ist-künstliche-intelligenz-1",
+    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#was-ist-künstliche-intelligenz-1",
+    "title": "Informationsanlass zu KI/ChatGPT",
+    "section": "Was ist künstliche Intelligenz?",
+    "text": "Was ist künstliche Intelligenz?\n\nQuelle: https://www.derbund.ch/so-funktioniert-kuenstliche-intelligenz-599276436215\nSpeaker notes go here."
   },
   {
-    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#web-page",
-    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#web-page",
-    "title": "Informationsanlass zu KI/ChatGPT für Bibliotheksmitarbeitende",
-    "section": "Web page",
-    "text": "Web page"
+    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#künstliche-intelligenz",
+    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#künstliche-intelligenz",
+    "title": "Informationsanlass zu KI/ChatGPT",
+    "section": "Künstliche Intelligenz",
+    "text": "Künstliche Intelligenz\n\n1950: Neural networks\n1958: LISP\n1969-1986: Expert systems\n1986: Neural networks (machine learning)\n1988: Probabilistic reasoning\n2011: Deep learning\n2017: Transformer model für sequentielle Daten\n2022: ChatGPT"
   },
   {
-    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#gpt",
-    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#gpt",
-    "title": "Informationsanlass zu KI/ChatGPT für Bibliotheksmitarbeitende",
-    "section": "GPT",
-    "text": "GPT"
+    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#machine-learning",
+    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#machine-learning",
+    "title": "Informationsanlass zu KI/ChatGPT",
+    "section": "Machine Learning",
+    "text": "Machine Learning\n\nRegelbasierte Systeme müssen programmiert werden.\nML Modelle lernen implizit aus den Daten, mit minimalem Design - Modelle lernen Strukturen, ohne sie explizit einprogrammiert zu bekommen.\nWichtige Begriffe:\nTrainingsdaten: Modelle werden mit Daten gefüttert, und Parameter des Modells werden so eingestellt, dass das Modell möglichst “gut” ist.\nTestdaten: Modelle werden anhand anderer Daten getestet.\nSupervised learning: Aufgabe ist bekannt, z.B. Bilder - klassifizieren.\nUnsupervised learning: Unbekannte Muster entdecken.\nReinforcement learning: Ziel ist vorgegeben, Modell lernt durch Feedback (Belohnung) wie Ziel erreicht werden kann."
   },
   {
-    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#images",
-    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#images",
-    "title": "Informationsanlass zu KI/ChatGPT für Bibliotheksmitarbeitende",
-    "section": "images",
-    "text": "images\n\nGPT-3"
+    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#supervised-learning",
+    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#supervised-learning",
+    "title": "Informationsanlass zu KI/ChatGPT",
+    "section": "Supervised learning",
+    "text": "Supervised learning\n\nBilder von Hunden und Katzen klassifizeren: Was sind die Merkmale, die Hunde von Katzen unterscheiden?"
   },
   {
-    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#tabsets",
-    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#tabsets",
-    "title": "Informationsanlass zu KI/ChatGPT für Bibliotheksmitarbeitende",
-    "section": "tabsets",
-    "text": "tabsets\n\nTab ATab B\n\n\nContent for Tab A\n\n\nContent for Tab B"
+    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#weitere-informationen",
+    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#weitere-informationen",
+    "title": "Informationsanlass zu KI/ChatGPT",
+    "section": "Weitere Informationen",
+    "text": "Weitere Informationen\n\nSo funktioniert künstliche Intelligenz"
   },
   {
-    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#subslide",
-    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#subslide",
-    "title": "Informationsanlass zu KI/ChatGPT für Bibliotheksmitarbeitende",
-    "section": "Subslide",
-    "text": "Subslide\n\nEnim labore amet tempor occaecat minim est nulla et deserunt sit eiusmod.\n\n\n\n1\n\nRight column"
+    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#natural-language-processing",
+    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#natural-language-processing",
+    "title": "Informationsanlass zu KI/ChatGPT",
+    "section": "Natural Language Processing",
+    "text": "Natural Language Processing"
   },
   {
-    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#subslide-1",
-    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#subslide-1",
-    "title": "Informationsanlass zu KI/ChatGPT für Bibliotheksmitarbeitende",
-    "section": "Subslide",
-    "text": "Subslide\nEu esse mollit officia id exercitation qui non tempor sint nisi ullamco voluptate. Incididunt reprehenderit voluptate nostrud ex veniam. Minim deserunt voluptate ut aliquip adipisicing qui. Fugiat ad sint voluptate ut sint non amet magna ea exercitation. Consectetur mollit exercitation quis magna irure do minim magna. Laborum culpa ullamco ad nulla incididunt officia ea. Commodo enim occaecat veniam culpa excepteur occaecat."
-  },
-  {
-    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#todays-plan",
-    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#todays-plan",
-    "title": "Informationsanlass zu KI/ChatGPT für Bibliotheksmitarbeitende",
-    "section": "Today’s plan",
-    "text": "Today’s plan\n\n\n\nWhat is R? How can it ease the burden of repeated reporting?\nBasic functions for manipulating data\nUsing R effectively\nMore data manipulation\nVisualizing data\nA peek at advanced topics"
-  },
-  {
-    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#todays-data",
-    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#todays-data",
-    "title": "Informationsanlass zu KI/ChatGPT für Bibliotheksmitarbeitende",
-    "section": "Today’s data",
-    "text": "Today’s data\n\n\n1 2 3 4 5 6"
-  },
-  {
-    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#getting-up",
-    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#getting-up",
-    "title": "Informationsanlass zu KI/ChatGPT für Bibliotheksmitarbeitende",
-    "section": "Getting up",
-    "text": "Getting up\n\nTurn off alarm\nGet out of bed"
-  },
-  {
-    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#breakfast",
-    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#breakfast",
-    "title": "Informationsanlass zu KI/ChatGPT für Bibliotheksmitarbeitende",
-    "section": "Breakfast",
-    "text": "Breakfast\n\nEat eggs\nDrink coffee"
-  },
-  {
-    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#dinner",
-    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#dinner",
-    "title": "Informationsanlass zu KI/ChatGPT für Bibliotheksmitarbeitende",
-    "section": "Dinner",
-    "text": "Dinner\n\nEat spaghetti\nDrink wine"
-  },
-  {
-    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#going-to-sleep",
-    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#going-to-sleep",
-    "title": "Informationsanlass zu KI/ChatGPT für Bibliotheksmitarbeitende",
-    "section": "Going to sleep",
-    "text": "Going to sleep\n\nGet in bed\nCount sheep"
-  },
-  {
-    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#tabset",
-    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#tabset",
-    "title": "Informationsanlass zu KI/ChatGPT für Bibliotheksmitarbeitende",
-    "section": "Tabset",
-    "text": "Tabset\n\nPlotData\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\ndrat\nwt\nqsec\nvs\nam\ngear\ncarb\n\n\n\n\nMazda RX4\n21.0\n6\n160.0\n110\n3.90\n2.620\n16.46\n0\n1\n4\n4\n\n\nMazda RX4 Wag\n21.0\n6\n160.0\n110\n3.90\n2.875\n17.02\n0\n1\n4\n4\n\n\nDatsun 710\n22.8\n4\n108.0\n93\n3.85\n2.320\n18.61\n1\n1\n4\n1\n\n\nHornet 4 Drive\n21.4\n6\n258.0\n110\n3.08\n3.215\n19.44\n1\n0\n3\n1\n\n\nHornet Sportabout\n18.7\n8\n360.0\n175\n3.15\n3.440\n17.02\n0\n0\n3\n2\n\n\nValiant\n18.1\n6\n225.0\n105\n2.76\n3.460\n20.22\n1\n0\n3\n1\n\n\nDuster 360\n14.3\n8\n360.0\n245\n3.21\n3.570\n15.84\n0\n0\n3\n4\n\n\nMerc 240D\n24.4\n4\n146.7\n62\n3.69\n3.190\n20.00\n1\n0\n4\n2\n\n\nMerc 230\n22.8\n4\n140.8\n95\n3.92\n3.150\n22.90\n1\n0\n4\n2\n\n\nMerc 280\n19.2\n6\n167.6\n123\n3.92\n3.440\n18.30\n1\n0\n4\n4\n\n\nMerc 280C\n17.8\n6\n167.6\n123\n3.92\n3.440\n18.90\n1\n0\n4\n4\n\n\nMerc 450SE\n16.4\n8\n275.8\n180\n3.07\n4.070\n17.40\n0\n0\n3\n3\n\n\nMerc 450SL\n17.3\n8\n275.8\n180\n3.07\n3.730\n17.60\n0\n0\n3\n3\n\n\nMerc 450SLC\n15.2\n8\n275.8\n180\n3.07\n3.780\n18.00\n0\n0\n3\n3\n\n\nCadillac Fleetwood\n10.4\n8\n472.0\n205\n2.93\n5.250\n17.98\n0\n0\n3\n4\n\n\nLincoln Continental\n10.4\n8\n460.0\n215\n3.00\n5.424\n17.82\n0\n0\n3\n4\n\n\nChrysler Imperial\n14.7\n8\n440.0\n230\n3.23\n5.345\n17.42\n0\n0\n3\n4\n\n\nFiat 128\n32.4\n4\n78.7\n66\n4.08\n2.200\n19.47\n1\n1\n4\n1\n\n\nHonda Civic\n30.4\n4\n75.7\n52\n4.93\n1.615\n18.52\n1\n1\n4\n2\n\n\nToyota Corolla\n33.9\n4\n71.1\n65\n4.22\n1.835\n19.90\n1\n1\n4\n1\n\n\nToyota Corona\n21.5\n4\n120.1\n97\n3.70\n2.465\n20.01\n1\n0\n3\n1\n\n\nDodge Challenger\n15.5\n8\n318.0\n150\n2.76\n3.520\n16.87\n0\n0\n3\n2\n\n\nAMC Javelin\n15.2\n8\n304.0\n150\n3.15\n3.435\n17.30\n0\n0\n3\n2\n\n\nCamaro Z28\n13.3\n8\n350.0\n245\n3.73\n3.840\n15.41\n0\n0\n3\n4\n\n\nPontiac Firebird\n19.2\n8\n400.0\n175\n3.08\n3.845\n17.05\n0\n0\n3\n2\n\n\nFiat X1-9\n27.3\n4\n79.0\n66\n4.08\n1.935\n18.90\n1\n1\n4\n1\n\n\nPorsche 914-2\n26.0\n4\n120.3\n91\n4.43\n2.140\n16.70\n0\n1\n5\n2\n\n\nLotus Europa\n30.4\n4\n95.1\n113\n3.77\n1.513\n16.90\n1\n1\n5\n2\n\n\nFord Pantera L\n15.8\n8\n351.0\n264\n4.22\n3.170\n14.50\n0\n1\n5\n4\n\n\nFerrari Dino\n19.7\n6\n145.0\n175\n3.62\n2.770\n15.50\n0\n1\n5\n6\n\n\nMaserati Bora\n15.0\n8\n301.0\n335\n3.54\n3.570\n14.60\n0\n1\n5\n8\n\n\nVolvo 142E\n21.4\n4\n121.0\n109\n4.11\n2.780\n18.60\n1\n1\n4\n2"
-  },
-  {
-    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#journey",
-    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#journey",
-    "title": "Informationsanlass zu KI/ChatGPT für Bibliotheksmitarbeitende",
-    "section": "Journey",
-    "text": "Journey\n\n\n\n\njourney\n    title My working day\n    section Go to work\n      Make tea: 5: Me\n      Go upstairs: 3: Me\n      Do work: 1: Me, Cat\n    section Go home\n      Go downstairs: 5: Me\n      Sit down: 5: Me"
-  },
-  {
-    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#chatgpt",
-    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#chatgpt",
-    "title": "Informationsanlass zu KI/ChatGPT für Bibliotheksmitarbeitende",
-    "section": "ChatGPT",
-    "text": "ChatGPT\n\n\n\n\ngraph TB\n  D[Data Collection] --&gt; P[Preprocessing]\n  P --&gt; T[Training]\n  T --&gt; E[Evaluation]\n  E --&gt; F[Feedback Loop]\n  F --&gt; D\n  T --&gt; M[Model Deployment]"
-  },
-  {
-    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#naive",
-    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#naive",
-    "title": "Informationsanlass zu KI/ChatGPT für Bibliotheksmitarbeitende",
-    "section": "Naive",
-    "text": "Naive\nQ: A juggler has 16 balls. Half of the balls are golf balls and half of the golf balls are blue. How many blue golf balls are there?\nA:\nThere are 8 blue golf balls."
-  },
-  {
-    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#lets-think-step-by-step",
-    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#lets-think-step-by-step",
-    "title": "Informationsanlass zu KI/ChatGPT für Bibliotheksmitarbeitende",
-    "section": "Let’s think step by step",
-    "text": "Let’s think step by step\n\nQ: A juggler has 16 balls. Half of the balls are golf balls and half of the golf balls are blue. How many blue golf balls are there? A: Let’s think step by step.\n\nThere are 16 balls in total. \nHalf of the balls are golf balls. \nThat means that there are 8 golf balls. \nHalf of the golf balls are blue. \nThat means that there are 4 blue golf balls."
-  },
-  {
-    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#padlet",
-    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#padlet",
-    "title": "Informationsanlass zu KI/ChatGPT für Bibliotheksmitarbeitende",
-    "section": "Padlet",
-    "text": "Padlet"
+    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#embeddings",
+    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#embeddings",
+    "title": "Informationsanlass zu KI/ChatGPT",
+    "section": "Embeddings",
+    "text": "Embeddings"
   },
   {
     "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#generative-pre-trained-transformer",
     "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#generative-pre-trained-transformer",
-    "title": "Informationsanlass zu KI/ChatGPT für Bibliotheksmitarbeitende",
+    "title": "Informationsanlass zu KI/ChatGPT",
     "section": "Generative pre-trained transformer",
     "text": "Generative pre-trained transformer\nNot trained for single purpose, but for many tasks"
   }

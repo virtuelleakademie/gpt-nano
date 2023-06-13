@@ -39,13 +39,13 @@ website:
 
       - text: "🎓 Tutorials"
         menu: 
-          - text: "What is ChatGPT?"
-            file: pages/about.qmd
-          - text: "How to think about GPT"
-            file: pages/thinking.qmd
-          - text: "What can GPT do?"
-          - text: "Ethical concerns"
-          - text: "Legal concerns"
+          - text: "Coming soon..."
+          #   file: pages/about.qmd
+          # - text: "How to think about GPT"
+          #   file: pages/thinking.qmd
+          # - text: "What can GPT do?"
+          # - text: "Ethical concerns"
+          # - text: "Legal concerns"
 
       - text: "📺 Presentations"
         menu: 
@@ -54,6 +54,9 @@ website:
           # - text: "Qualitätszirkel Gesundheit"
 
     tools:
+      - icon: robot
+        text: Assistant
+        file: pages/assistant.qmd
       - icon: lightbulb-fill
         text: Knowledge Base
         href: https://virtuelleakademie.notion.site/
