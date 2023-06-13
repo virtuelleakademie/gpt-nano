@@ -3,6 +3,7 @@ title: ""
 format: html
 ---
 
+## ChatGPT an der Hochschule
 
 👉🏼 [KI-basierte Schreibtools in der Lehre – ChatGPT im Fokus](https://virtuelleakademie.notion.site/KI-in-der-Lehre-af068030108844c4834ef00824fd8da6?p=f671067195a94f2d8239931c09ae92ec&pm=s)
 
@@ -24,5 +25,4 @@ format: html
 
 👉🏼 [Prekäre Klickarbeit hinter den Kulissen von ChatGPT](https://netzpolitik.org/2023/globaler-sueden-prekaere-klickarbeit-hinter-den-kulissen-von-chatgpt/)
 
-👉🏼 [Augmented IntelligenceInterview
-Traumatische Klickarbeit: Die Menschen hinter ChatGPT](https://www.societybyte.swiss/2023/06/07/traumatische-klickarbeit-die-menschen-hinter-chatgpt/)
+👉🏼 [Traumatische Klickarbeit: Die Menschen hinter ChatGPT](https://www.societybyte.swiss/2023/06/07/traumatische-klickarbeit-die-menschen-hinter-chatgpt/)
