@@ -5,7 +5,8 @@ title: "Program"
 
 ## Inhalt
 
-- Wie werden Large Language Models (LLMs) trainiert?
+- Was sind Large Language Models (LLMs)?
+- Wie werden LLMs trainiert?
 - Wie generieren LLMs Texte?
 - Was sind Ähnlichkeiten und Unterschiede zwischen LLMs und menschlichem Denken?
 - Wie können wir LLMs benutzen?
@@ -14,9 +15,9 @@ title: "Program"
 ## Lernziele
 :::{.callout-tip}
 ## Nach diesem Workshop:
-1) Können Sie mit Anfragen von Studierenden in Bezug auf fach-spezifische AI-generierte Texte umgehen.
-2) Können Sie in eigenen Worten wiedergeben, wie AI-generierte Texte entstehen.
-3) Haben Sie Kriterien, anhand derer Sie KI-Tools beurteilen können.
+1) Kannst du mit Anfragen von Studierenden in Bezug auf fach-spezifische AI-generierte Texte umgehen.
+2) Kannst du in eigenen Worten wiedergeben, wie AI-generierte Texte entstehen.
+3) Hast du Kriterien, anhand derer du KI-Tools beurteilen kannst.
 :::
 
 <!-- 
@@ -42,11 +43,11 @@ flowchart LR
                       15'"]) 
   C -.-> E(["Vertiefung: Lernziel 3 
                         15'"]) 
-  D -.-> F(["Ankern 
-                5'"]) 
+  D -.-> F(["Verankern 
+                10'"]) 
   E -.-> F
   F -.-> G(["Diskussion 
-            20'"])
+            15'"])
 ```
 
 - __Einleitung [⏱️ 5']:__ Einstieg in den Workshop
@@ -54,8 +55,8 @@ flowchart LR
 - __Input: Wie funktioniert ChatGPT? [⏱️ 30']:__ Referat zum Thema künstliche Intelligenz und ChatGPT.
 - __Vertiefung [⏱️ 30']:__ In diesem Teil werden die oben genannten Lernziele vertieft (alleine, in Kleingruppen und im Plenum).
 
-- __Ankern [⏱️ 5']:__ In diesem Teil werden Erfahrungen zusammengefasst und reflektiert.
-- __Diskussion [⏱️ 20']:__ Am Ende des Workshops wird über die Erfahrungen und Erkenntnisse diskutiert.
+- __Verankern [⏱️ 10']:__ In diesem Teil werden Erfahrungen zusammengefasst und reflektiert.
+- __Diskussion [⏱️ 15']:__ Am Ende des Workshops wird über die Erfahrungen und Erkenntnisse diskutiert.
 
 
 ## Vorbereitung

@@ -1,9 +1,11 @@
 ---
-title: "Informationsanlass zu KI/ChatGPT für Bibliotheksmitarbeitende"
-author: "Virtuelle Akademie"
+title: "Informationsanlass zu KI/ChatGPT"
+author: "Andrew Ellis"
 date: last-modified
 date-format: "DD MMMM, YYYY"
 bibliography: ../bibliography.bib
+nocite: |
+  @broschinskiGrafikenErklaertFunktioniert2023
 format: 
     revealjs:
         theme: default
@@ -40,7 +42,49 @@ format:
 library(knitr)
 ```
 
-# Was ist künstliche Intelligenz? {background-color="#5e81ac"}
+
+# Here’s What Happens When Your Lawyer Uses ChatGPT
+
+```{=html}
+<iframe width="780" height="500" src="https://simonwillison.net/2023/May/27/lawyer-chatgpt/" title="ChatGPT: US lawyer admits using AI for case research"></iframe>
+```
+
+# The Best Prompts For ChatGPT 
+
+The ultimate list
+
+```{=html}
+<iframe width="780" height="500" src="https://www.writingbeginner.com/best-prompts-for-chatgpt/" title="Best prompts for ChatGPT"></iframe>
+```
+
+# Inhalt {background-color="#d08770"}
+
+1. Was ist künstliche Intelligenz?
+2. Was ist ChatGPT?
+3. Wie "denkt" ChatGPT?
+4. ChatGPT in der Hochschule
+5. Wissenschaftliches Arbeiten
+6. Tool Demo
+
+::: footer
+<a href="https://virtuelleakademie.github.io/gpt-nano">🏠 KI/GPT in der Hochschule</a>
+:::
+
+
+# Orientierungshilfe 
+Der Virtuellen Akademie
+
+```{=html}
+<iframe
+src="https://www.chatbase.co/chatbot-iframe/RDbFWW85cxcCd9PEwV-uy"
+width="100%"
+height="700"
+frameborder="0"
+></iframe>
+```
+
+
+# Was ist künstliche Intelligenz? {background-color="#d8dee9"}
 
 ::: {.absolute top="0" left="100%"}
 ::: {.sectionhead}
@@ -49,28 +93,82 @@ library(knitr)
 :::
 
 ## Was ist künstliche Intelligenz?
-![](../assets/images/was-ist-KI.png)
-Quelle: [derbund.ch/so-funktioniert-kuenstliche-intelligenz-599276436215](https://www.derbund.ch/so-funktioniert-kuenstliche-intelligenz-599276436215)^[https://www.derbund.ch/so-funktioniert-kuenstliche-intelligenz-599276436215]
-
-@broschinskiGrafikenErklaertFunktioniert2023
 
 
-## hahaha
 ```{r}
 #| fig-cap: "Quelle: https://www.derbund.ch/so-funktioniert-kuenstliche-intelligenz-599276436215"
 include_graphics("../assets/images/was-ist-KI.png")
 ```
 
 
+::: {.notes}
+Speaker notes go here.
+:::
+
+
+## Künstliche Intelligenz
+
+- 1950: Neural networks
+- 1958: LISP
+- 1969-1986: Expert systems
+- 1986: Neural networks (machine learning)
+- 1988: Probabilistic reasoning
+- 2011: Deep learning
+- 2017: Transformer model für sequentielle Daten
+- 2022: ChatGPT
+
+## Machine Learning
+
+- Regelbasierte Systeme müssen programmiert werden.
+- ML Modelle lernen implizit aus den Daten, mit minimalem Design - Modelle lernen Strukturen, ohne sie explizit einprogrammiert zu bekommen.
+
+
+- Wichtige Begriffe:
+- __Trainingsdaten:__ Modelle werden mit Daten gefüttert, und Parameter des Modells werden so eingestellt, dass das Modell möglichst "gut" ist.
+- __Testdaten:__ Modelle werden anhand anderer Daten getestet.
+- __Supervised learning:__ Aufgabe ist bekannt, z.B. Bilder - klassifizieren.
+- __Unsupervised learning:__ Unbekannte Muster entdecken.
+- __Reinforcement learning:__ Ziel ist vorgegeben, Modell lernt durch Feedback (Belohnung) wie Ziel erreicht werden kann.
+
+
+## Supervised learning
+
+```{r}
+knitr::include_graphics("../assets/images/cats-dogs.png")
+```
+__Bilder von Hunden und Katzen klassifizeren:__ Was sind die Merkmale, die Hunde von Katzen unterscheiden?
+
+
+
+## Weitere Informationen
+
+- [So funktioniert künstliche Intelligenz](https://www.derbund.ch/so-funktioniert-kuenstliche-intelligenz-599276436215)
+
+
+```{=html}
+<iframe width="780" height="500" src="https://www.derbund.ch/so-funktioniert-kuenstliche-intelligenz-599276436215/" title="So funktioniert künstliche Intelligenz"></iframe>
+```
+
+
+
 
 
 # Was ist ChatGPT? {background-color="#81a1c1"}
+
+## Natural Language Processing
+
+## Embeddings
 
 ## Generative pre-trained transformer
 Not trained for single purpose, but for many tasks
 
 
+
+
+
 # How was ChatGPT trained? {background-color="#88c0d0"}
+
+https://www.assemblyai.com/blog/how-chatgpt-actually-works/
 
 - training
 - data
@@ -83,6 +181,8 @@ Not trained for single purpose, but for many tasks
 - How does ChatGPT generate text?
 - auto-regressive sampling
 - prompting
+  + also used to generate images [@rameshZeroShotTexttoImageGeneration2021] 
+![](../assets/images/yoda.png)
 - role-play simulator
 - context
 - computation per token
@@ -114,334 +214,3 @@ Not trained for single purpose, but for many tasks
 
 ::: {#refs}
 :::
-
-
-
-# Section 1 {background-color="#d08770"}
-
-::: footer
-<a href="https://virtuelleakademie.github.io/gpt-nano">🏠 GPT is Not An Oracle</a>
-:::
-
-
-## First slide
-
-- Enim labore amet tempor occaecat minim est nulla et deserunt sit eiusmod.
-- Enim labore amet tempor occaecat minim est nulla et deserunt sit eiusmod.
-
-::: {.callout-tip title="Tip with Title" collapse="true"}
-This is a callout with a title.
-:::
-
-::: {.notes}
-Speaker notes go here.
-:::
-
-## Web page
-
-:::: {.columns}
-
-::: {.column width="50%"}
-```{=html}
-<iframe width="780" height="500" src="https://www.societybyte.swiss/2023/06/07/traumatische-klickarbeit-die-menschen-hinter-chatgpt/" title="Traumatische Klickarbeit"></iframe>
-```
-:::
-
-::: {.column width="50%"}
-```{=html}
-<iframe width="780" height="500" src="https://www.societybyte.swiss/2022/12/22/hi-chatgpt-hast-du-vorurteile/" title="Vorurteile"></iframe>
-```
-:::
-
-::::
-
-
-
-## GPT
-
-:::: {.columns}
-
-::: {.column width="50%"}
-```{=html}
-<iframe width="780" height="500" src="https://platform.openai.com/playground" title="OpenAI Playground"></iframe>
-```
-:::
-
-::: {.column width="50%"}
-```{=html}
-<iframe width="780" height="500" src="https://chat.openai.com/" title="ChatGPT"></iframe>
-```
-:::
-::::
-
-
-## images
-
-![GPT-3](../assets/10-gpt3-fine-tuning.gif)
-
-## tabsets
-
-::: {.panel-tabset}
-
-### Tab A
-
-Content for `Tab A`
-
-### Tab B
-
-Content for `Tab B`
-
-:::
-
-
-## Subslide
-
-- Enim labore amet tempor occaecat minim est nulla et deserunt sit eiusmod.
-
-
-:::: {.columns}
-
-::: {.column width="33%"}
-1
-:::
-
-::: {.column width="66%"}
-Right column
-:::
-
-::::
-
-
----
-
-:::: {.columns}
-::: {.column width="35%"}
-::: {.topic-number}
-1
-:::
-:::
-::: {.column width="65%"}
-::: {.topic-text}
-Signal Detection Theory
-:::
-:::
-::::
-
-# Mermaid
-```{mermaid}
-sequenceDiagram
-    Participant ChatGPT
-    actor Bob
-    Bob->>ChatGPT: Hi ChatGPT
-    ChatGPT->>Bob: Hi Bob
-```
-
-
-# Next slide {background-color="steelblue"}
-
-more text 🐻
-
-and an :angry: :panda_face: 
-
-::: footer
-Learn more: [Syntax Highlighting](https://quarto.org/docs/output-formats/html-code.html#highlighting)
-:::
-
-
-
-## Subslide
-Eu esse mollit officia id exercitation qui non tempor sint nisi ullamco voluptate. Incididunt reprehenderit voluptate nostrud ex veniam. Minim deserunt voluptate ut aliquip adipisicing qui. Fugiat ad sint voluptate ut sint non amet magna ea exercitation. Consectetur mollit exercitation quis magna irure do minim magna. Laborum culpa ullamco ad nulla incididunt officia ea. Commodo enim occaecat veniam culpa excepteur occaecat.
-
-## Today's plan
-
-<br/>
-
-::: {.incremental}
-1. What is R? How can it ease the burden of repeated reporting?
-2. Basic functions for manipulating data
-3. Using R effectively
-4. More data manipulation
-5. Visualizing data
-6. A peek at advanced topics
-:::
-
-# What is R?
-
-::: {.absolute top="0" left="100%"}
-::: {.sectionhead}
-1 [2 3 4 5 6]{style="opacity:0.25"}
-:::
-:::
-
-
-## Today's data
-
-::: {.absolute top="0" left="100%"}
-::: {.sectionhead}
-1 [2 3 4 5 6]{style="opacity:0.25"}
-:::
-:::
-
-# Basic data manipulation
-
-::: {.absolute top="0" left="100%"}
-::: {.sectionhead}
-[1]{style="opacity:0.25"} 2 [3 4 5 6]{style="opacity:0.25"}
-:::
-:::
-
-
-# In the morning
-
-## Getting up
-
-- Turn off alarm
-- Get out of bed
-
-## Breakfast
-
-- Eat eggs
-- Drink coffee
-
-# In the evening
-
-## Dinner
-
-- Eat spaghetti
-- Drink wine
-
-## Going to sleep
-
-- Get in bed
-- Count sheep
-
-
-# Section 3
-
-::: footer
-<a href="https://virtuelleakademie.github.io/gpt-nano">🏠 GPT is Not An Oracle</a>
-:::
-
-
-## Tabset 
-
-::: panel-tabset
-### Plot
-
-```{r}
-library(ggplot2)
-ggplot(mtcars, aes(hp, mpg, color = am)) +
-    geom_point() +
-    geom_smooth(formula = y ~ x, method = "loess")
-```
-
-### Data
-
-```{r}
-knitr::kable(mtcars)
-```
-:::
-
-
-# Section 4: various diagrams
-
-## Journey
-
-```{mermaid}
-journey
-    title My working day
-    section Go to work
-      Make tea: 5: Me
-      Go upstairs: 3: Me
-      Do work: 1: Me, Cat
-    section Go home
-      Go downstairs: 5: Me
-      Sit down: 5: Me
-```
-
-## ChatGPT
-
-```{mermaid}
-graph TB
-  D[Data Collection] --> P[Preprocessing]
-  P --> T[Training]
-  T --> E[Evaluation]
-  E --> F[Feedback Loop]
-  F --> D
-  T --> M[Model Deployment]
-```
-
-# Section 4: Prompting
-
-## Naive
-
-```
-Q: A juggler has 16 balls. Half of the balls are golf balls and half of the golf balls are blue. How many blue golf balls are there?
-A:
-```
-
-```
-There are 8 blue golf balls.
-```
-
-## Let's think step by step
-
-> Q: A juggler has 16 balls. Half of the balls are golf balls and half of the golf balls are blue. How many blue golf balls are there?
-> A: Let's think step by step.
-
-```
-There are 16 balls in total. 
-Half of the balls are golf balls. 
-That means that there are 8 golf balls. 
-Half of the golf balls are blue. 
-That means that there are 4 blue golf balls.
-```
-
-
-# Spezielle Anwendungen
-
-[Knowledge discovery](perplexity.ai)
-
-
-# Resources
-
-<br>
-[Futurepedia](https://www.futurepedia.io/): future tools
-
-<br>
-
-[hochschulforumdigitalisierung](https://hochschulforumdigitalisierung.de/de/blog/chatgpt-im-hochschulkontext-%E2%80%93-eine-kommentierte-linksammlung)
-
-<br>
-
-[KI Ressourcen](https://www.vkkiwa.de/ki-ressourcen/)
-
-<br>
-
-[Miro board](https://miro.com/app/board/uXjVP1tqX3k=/)
-
-<br>
-
-[nolej.io/](https://nolej.io/)
-
-
-
-# Ethische Fragen
-
-[Kenia](https://netzpolitik.org/2023/globaler-sueden-prekaere-klickarbeit-hinter-den-kulissen-von-chatgpt/)
-
-
-# Citations
-
-1) Can ChatGPT cite?
-2) How to cite ChatGPT
-
-
-[APA](https://apastyle.apa.org/blog/how-to-cite-chatgpt)
-
-
-# Tools
-
-## Padlet
-
-<div class="padlet-embed" style="border:1px solid rgba(0,0,0,0.1);border-radius:2px;box-sizing:border-box;overflow:hidden;position:relative;width:100%;background:#F4F4F4"><p style="padding:0;margin:0"><iframe src="https://bfhch.padlet.org/embed/6dgrfw64jviyd970" frameborder="0" allow="camera;microphone;geolocation" style="width:100%;height:608px;display:block;padding:0;margin:0"></iframe></p><div style="display:flex;align-items:center;justify-content:end;margin:0;height:28px"><a href="https://padlet.com?ref=embed" style="display:block;flex-grow:0;margin:0;border:none;padding:0;text-decoration:none" target="_blank"><div style="display:flex;align-items:center;"><img src="https://padlet.net/embeds/made_with_padlet_2022.png" width="114" height="28" style="padding:0;margin:0;background:0 0;border:none;box-shadow:none" alt="Mit Padlet erstellt"></div></a></div></div>
