@@ -61,27 +61,17 @@ The ultimate list
 
 1. Was ist künstliche Intelligenz?
 2. Was ist ChatGPT?
-3. Wie "denkt" ChatGPT?
-4. ChatGPT in der Hochschule
-5. Wissenschaftliches Arbeiten
-6. Tool Demo
+3. Wie wurde ChatGPT trainiert?
+4. Energieverbrauch, Bias, Ethik
+5. Wie "denkt" ChatGPT?
+6. ChatGPT in der Hochschule
+7. Wissenschaftliches Arbeiten
+8. Tool Demos
 
 ::: footer
 <a href="https://virtuelleakademie.github.io/gpt-nano">🏠 KI/GPT in der Hochschule</a>
 :::
 
-
-# Orientierungshilfe 
-Der Virtuellen Akademie
-
-```{=html}
-<iframe
-src="https://www.chatbase.co/chatbot-iframe/RDbFWW85cxcCd9PEwV-uy"
-width="100%"
-height="700"
-frameborder="0"
-></iframe>
-```
 
 
 # Was ist künstliche Intelligenz? {background-color="#d8dee9"}
@@ -92,11 +82,11 @@ frameborder="0"
 :::
 :::
 
-## Was ist künstliche Intelligenz?
+## Was ist Künstliche Intelligenz?
 
 
 ```{r}
-#| fig-cap: "Quelle: https://www.derbund.ch/so-funktioniert-kuenstliche-intelligenz-599276436215"
+#| fig-cap: "Quelle: [derbund.ch/so-funktioniert-kuenstliche-intelligenz-599276436215](https://www.derbund.ch/so-funktioniert-kuenstliche-intelligenz-599276436215)"
 include_graphics("../assets/images/was-ist-KI.png")
 ```
 
@@ -106,29 +96,20 @@ Speaker notes go here.
 :::
 
 
-## Künstliche Intelligenz
-
-- 1950: Neural networks
-- 1958: LISP
-- 1969-1986: Expert systems
-- 1986: Neural networks (machine learning)
-- 1988: Probabilistic reasoning
-- 2011: Deep learning
-- 2017: Transformer model für sequentielle Daten
-- 2022: ChatGPT
-
 ## Machine Learning
 
 - Regelbasierte Systeme müssen programmiert werden.
-- ML Modelle lernen implizit aus den Daten, mit minimalem Design - Modelle lernen Strukturen, ohne sie explizit einprogrammiert zu bekommen.
+- ML Modelle lernen implizit ohne Regeln explizit einprogrammiert zu bekommen.
 
 
 - Wichtige Begriffe:
-- __Trainingsdaten:__ Modelle werden mit Daten gefüttert, und Parameter des Modells werden so eingestellt, dass das Modell möglichst "gut" ist.
-- __Testdaten:__ Modelle werden anhand anderer Daten getestet.
-- __Supervised learning:__ Aufgabe ist bekannt, z.B. Bilder - klassifizieren.
-- __Unsupervised learning:__ Unbekannte Muster entdecken.
-- __Reinforcement learning:__ Ziel ist vorgegeben, Modell lernt durch Feedback (Belohnung) wie Ziel erreicht werden kann.
+  - __Trainingsdaten:__ Modelle werden mit Daten gefüttert, und Parameter des Modells werden so eingestellt, dass das Modell möglichst "gut" ist.
+  - __Testdaten:__ Modelle werden anhand anderer Daten getestet.
+  - __Supervised learning:__ Aufgabe ist bekannt, z.B. Bilder - klassifizieren.
+  - __Unsupervised learning:__ Unbekannte Muster entdecken.
+  - __Reinforcement learning:__ Ziel ist vorgegeben, Modell lernt durch Feedback (Belohnung) wie Ziel erreicht werden kann.
+
+> We have to learn the bitter lesson that building in how we think we think does not work in the long run. We should stop trying to find simple ways to think about space, objects, multiple agents, or symmetries . . . instead we should build in only the meta-methods that can find and capture this arbitrary complexity. We want AI agents that can discover like we can, not which contain what we have discovered [@suttonBitterLesson2019].
 
 
 ## Supervised learning
@@ -140,22 +121,68 @@ __Bilder von Hunden und Katzen klassifizeren:__ Was sind die Merkmale, die Hunde
 
 
 
-## Weitere Informationen
+## Reinforcement learning
 
-- [So funktioniert künstliche Intelligenz](https://www.derbund.ch/so-funktioniert-kuenstliche-intelligenz-599276436215)
+:::: {.columns}
 
-
-```{=html}
-<iframe width="780" height="500" src="https://www.derbund.ch/so-funktioniert-kuenstliche-intelligenz-599276436215/" title="So funktioniert künstliche Intelligenz"></iframe>
+::: {.column width="50%"}
+```{r}
+knitr::include_graphics("../assets/images/cartpole.gif")
 ```
+:::
+
+::: {.column width="50%"}
+
+```{r}
+knitr::include_graphics("../assets/images/RL-agent.png")
+```
+:::
+::::
+
+
+::: aside
+Beispiel für RL Model: [AlphaGo](https://www.deepmind.com/research/highlighted-research/alphago) ist das erste Computerprogramm, das einen professionellen (menschlichen) [Go](https://de.wikipedia.org/wiki/Go_(Spiel))-Spieler besiegt hat.
+:::
 
 
 
 
 
-# Was ist ChatGPT? {background-color="#81a1c1"}
 
-## Natural Language Processing
+# Was ist ChatGPT? {background-color="#d8dee9"}
+
+::: {.absolute top="0" left="100%"}
+::: {.sectionhead}
+[1]{style="opacity:0.25"} 2 [3 4 5 6]{style="opacity:0.25"}
+:::
+:::
+
+
+## Natural Language Processing 
+
+:::: {.columns}
+::: {.column width="50%"}
+
+- Speech recognition
+- Text-to-speech synthesis
+- Machine translation
+- Information extraction
+- Information retrieval
+- Question answering
+
+:::
+
+::: {.column width="50%"}
+- Sentiment analysis
+  - 😊 I love this movie!
+  - 😐 This movie is ok.
+  - 😠 This movie is terrible!
+  
+:::
+
+::::
+
+
 
 ## Embeddings
 
@@ -176,6 +203,58 @@ https://www.assemblyai.com/blog/how-chatgpt-actually-works/
 - embeddings
 - transformers
   
+# Energieverbrauch, Bias, Ethik {background-color="#bf616a"}
+
+## Energieverbrauch
+
+- What we do know is that training ChatGPT used 1.287 gigawatt hours, roughly equivalent to the consumption of 120 US homes for a year. Quelle: [Heating up: how much energy does AI use?](https://techhq.com/2023/03/data-center-energy-usage-chatgpt/)
+
+- @pattersonCarbonEmissionsLarge2022 estimated that the original GPT-3 cost 502 tons of CO2 to train. RLHF would add a bit of overhead on that, perhaps on the order of 1% of the original cost.
+- Serving: 7 metric tons of CO2 per day at the end of February. Quelle: [How much energy does ChatGPT use?](https://xcorr.net/2023/04/08/how-much-energy-does-chatgpt-use/)
+  
+- ChatGPT’s energy use might have peaked in February, with a trillion tokens produced by a server farm. This would have cost 6-figure hosting bills per day and lead to 7 to 15 metric tons of CO2 per day, about the equivalent of 400-800 households in the US. That’s not nothing, but in the grand scheme of things is fairly modest, especially compared to more profligate uses of computing like cryptocurrency.
+
+## Bias
+
+:::: {.columns}
+
+::: {.column width="50%"}
+```{=html}
+<iframe width="780" height="500" src="https://www.societybyte.swiss/2022/12/22/hi-chatgpt-hast-du-vorurteile/" title="Vorurteile"></iframe>
+```
+:::
+
+::: {.column width="50%"}
+
+- Da LLMs von Texten lernen, die von Menschen geschrieben wurden, können sie auch Vorurteile lernen.
+
+Quelle: [Hast du Vorurteile?](https://www.societybyte.swiss/2022/12/22/hi-chatgpt-hast-du-vorurteile/)
+:::
+
+::::
+
+## Ethik
+
+:::: {.columns}
+
+::: {.column width="50%"}
+```{=html}
+<iframe width="780" height="500" src="https://www.societybyte.swiss/2023/06/07/traumatische-klickarbeit-die-menschen-hinter-chatgpt/" title="Traumatische Klickarbeit"></iframe>
+```
+:::
+
+::: {.column width="50%"}
+- Auf Grund der grossen Menge von Trainingsdaten, die für solche Sprachmodelle benötigt werden, ist eine Qualitätskontrolle schwierig.
+- Diskriminierende oder beleidigende Aussagen werden von einem Chatbot generiert.
+- Solche Antworten können  als unerwünscht markiert werden.
+- Toxische Inhalte wie körperliche und sexuelle Gewalt, Suizide und Tierquälerei, müssen beim Trainieren aus den Antworten gefiltert werden. Dabei mussten angestellte Arbeitskräfte für weniger als 2 Dollar die Stunde teils schockierende Inhalte lesen. 
+
+Quelle: [Traumatische Klickarbeit](https://www.societybyte.swiss/2023/06/07/traumatische-klickarbeit-die-menschen-hinter-chatgpt/)
+
+:::
+
+::::
+
 # How does ChatGPT work? {background-color="#8fbcbb"}
 
 - How does ChatGPT generate text?

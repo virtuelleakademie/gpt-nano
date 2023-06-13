@@ -255,8 +255,8 @@
     "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#was-ist-künstliche-intelligenz-1",
     "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#was-ist-künstliche-intelligenz-1",
     "title": "Informationsanlass zu KI/ChatGPT",
-    "section": "Was ist künstliche Intelligenz?",
-    "text": "Was ist künstliche Intelligenz?\n\nQuelle: https://www.derbund.ch/so-funktioniert-kuenstliche-intelligenz-599276436215\nSpeaker notes go here."
+    "section": "Was ist Künstliche Intelligenz?",
+    "text": "Was ist Künstliche Intelligenz?\n\nQuelle: derbund.ch/so-funktioniert-kuenstliche-intelligenz-599276436215\nSpeaker notes go here."
   },
   {
     "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#künstliche-intelligenz",
@@ -270,7 +270,7 @@
     "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#machine-learning",
     "title": "Informationsanlass zu KI/ChatGPT",
     "section": "Machine Learning",
-    "text": "Machine Learning\n\nRegelbasierte Systeme müssen programmiert werden.\nML Modelle lernen implizit aus den Daten, mit minimalem Design - Modelle lernen Strukturen, ohne sie explizit einprogrammiert zu bekommen.\nWichtige Begriffe:\nTrainingsdaten: Modelle werden mit Daten gefüttert, und Parameter des Modells werden so eingestellt, dass das Modell möglichst “gut” ist.\nTestdaten: Modelle werden anhand anderer Daten getestet.\nSupervised learning: Aufgabe ist bekannt, z.B. Bilder - klassifizieren.\nUnsupervised learning: Unbekannte Muster entdecken.\nReinforcement learning: Ziel ist vorgegeben, Modell lernt durch Feedback (Belohnung) wie Ziel erreicht werden kann."
+    "text": "Machine Learning\n\nRegelbasierte Systeme müssen programmiert werden.\nML Modelle lernen implizit ohne Regeln explizit einprogrammiert zu bekommen.\nWichtige Begriffe:\n\nTrainingsdaten: Modelle werden mit Daten gefüttert, und Parameter des Modells werden so eingestellt, dass das Modell möglichst “gut” ist.\nTestdaten: Modelle werden anhand anderer Daten getestet.\nSupervised learning: Aufgabe ist bekannt, z.B. Bilder - klassifizieren.\nUnsupervised learning: Unbekannte Muster entdecken.\nReinforcement learning: Ziel ist vorgegeben, Modell lernt durch Feedback (Belohnung) wie Ziel erreicht werden kann.\n\n\n\nWe have to learn the bitter lesson that building in how we think we think does not work in the long run. We should stop trying to find simple ways to think about space, objects, multiple agents, or symmetries . . . instead we should build in only the meta-methods that can find and capture this arbitrary complexity. We want AI agents that can discover like we can, not which contain what we have discovered (Sutton 2019)."
   },
   {
     "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#supervised-learning",
@@ -291,7 +291,7 @@
     "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#natural-language-processing",
     "title": "Informationsanlass zu KI/ChatGPT",
     "section": "Natural Language Processing",
-    "text": "Natural Language Processing"
+    "text": "Natural Language Processing\n\n\n\nSpeech recognition\nText-to-speech synthesis\nMachine translation\nInformation extraction\nInformation retrieval\nQuestion answering\n\n\n\nSentiment analysis\n\n😊 I love this movie!\n😐 This movie is ok.\n😠 This movie is terrible!"
   },
   {
     "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#embeddings",
@@ -327,5 +327,33 @@
     "title": "KI/GPT in der Hochschule",
     "section": "Literatursuche",
     "text": "Literatursuche\n👉🏼 Elicit\n👉🏼 Consensus"
+  },
+  {
+    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#energieverbrauch",
+    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#energieverbrauch",
+    "title": "Informationsanlass zu KI/ChatGPT",
+    "section": "Energieverbrauch",
+    "text": "Energieverbrauch\n\nWhat we do know is that training ChatGPT used 1.287 gigawatt hours, roughly equivalent to the consumption of 120 US homes for a year. Quelle: Heating up: how much energy does AI use?\nPatterson et al. (2022) estimated that the original GPT-3 cost 502 tons of CO2 to train. RLHF would add a bit of overhead on that, perhaps on the order of 1% of the original cost.\nServing: 7 metric tons of CO2 per day at the end of February. Quelle: How much energy does ChatGPT use?\nChatGPT’s energy use might have peaked in February, with a trillion tokens produced by a server farm. This would have cost 6-figure hosting bills per day and lead to 7 to 15 metric tons of CO2 per day, about the equivalent of 400-800 households in the US. That’s not nothing, but in the grand scheme of things is fairly modest, especially compared to more profligate uses of computing like cryptocurrency."
+  },
+  {
+    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#bias",
+    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#bias",
+    "title": "Informationsanlass zu KI/ChatGPT",
+    "section": "Bias",
+    "text": "Bias\n\n\n\n\n\nDa LLMs von Texten lernen, die von Menschen geschrieben wurden, können sie auch Vorurteile lernen.\n\nQuelle: Hast du Vorurteile?"
+  },
+  {
+    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#ethik",
+    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#ethik",
+    "title": "Informationsanlass zu KI/ChatGPT",
+    "section": "Ethik",
+    "text": "Ethik\n\n\n\n\n\nAuf Grund der grossen Menge von Trainingsdaten, die für solche Sprachmodelle benötigt werden, ist eine Qualitätskontrolle schwierig.\nDiskriminierende oder beleidigende Aussagen werden von einem Chatbot generiert.\nSolche Antworten können als unerwünscht markiert werden.\nToxische Inhalte wie körperliche und sexuelle Gewalt, Suizide und Tierquälerei, müssen beim Trainieren aus den Antworten gefiltert werden. Dabei mussten angestellte Arbeitskräfte für weniger als 2 Dollar die Stunde teils schockierende Inhalte lesen.\n\nQuelle: Traumatische Klickarbeit"
+  },
+  {
+    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#reinforcement-learning",
+    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#reinforcement-learning",
+    "title": "Informationsanlass zu KI/ChatGPT",
+    "section": "Reinforcement learning",
+    "text": "Reinforcement learning\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBeispiel für RL Model: AlphaGo ist das erste Computerprogramm, das einen professionellen (menschlichen) Go-Spieler besiegt hat."
   }
 ]
