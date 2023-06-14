@@ -1,6 +1,7 @@
 ---
 title: ""
 format: html
+bibliography: ../bibliography.bib
 ---
 
 ## ChatGPT an der Hochschule
@@ -19,6 +20,8 @@ format: html
 👉🏼 [ChatGPT zitieren](https://apastyle.apa.org/blog/how-to-cite-chatgpt)
 
 ## Rechtliche Fragen
+
+👉🏼 [Didaktische Und Rechtliche Perspektiven Auf Ki-Gestütztes Schreiben In Der Hochschulbildung](https://hss-opus.ub.ruhr-uni-bochum.de/opus4/frontdoor/index/index/docId/9734) [@saldenDidaktischeUndRechtliche2023]
 
 
 ## Ethische Fragen
