@@ -4,9 +4,11 @@ format: html
 bibliography: ../bibliography.bib
 ---
 
-## ChatGPT an der Hochschule
+## KI Orientierungshilfe der BFH
 
 👉🏼 [KI-basierte Schreibtools in der Lehre – ChatGPT im Fokus](https://virtuelleakademie.notion.site/KI-in-der-Lehre-af068030108844c4834ef00824fd8da6?p=f671067195a94f2d8239931c09ae92ec&pm=s)
+
+## ChatGPT an der Hochschule
 
 👉🏼 [Überblick über KI-Tools im Kontext von akademischen Lese- und Schreibprozessen](https://www.vkkiwa.de/ki-ressourcen/)
 

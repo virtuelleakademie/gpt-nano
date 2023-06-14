@@ -312,7 +312,7 @@
     "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#embeddings",
     "title": "Informationsanlass zu KI/ChatGPT",
     "section": "Embeddings",
-    "text": "Embeddings\nAn embedding is a vector (list) of floating point numbers. The distance between two vectors measures their relatedness. Small distances suggest high relatedness and large distances suggest low relatedness\nOpenAI’s text embeddings measure the relatedness of text strings. Embeddings are commonly used for:"
+    "text": "Embeddings\nAn embedding is a vector (list) of floating point numbers. The distance between two vectors measures their relatedness. Small distances suggest high relatedness and large distances suggest low relatedness\nOpenAI’s text embeddings measure the relatedness of text strings. Embeddings are commonly used for:\n\nQuelle: Wolfram (2023)"
   },
   {
     "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#generative-pre-trained-transformer",
@@ -347,7 +347,7 @@
     "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#energieverbrauch",
     "title": "Informationsanlass zu KI/ChatGPT",
     "section": "Energieverbrauch",
-    "text": "Energieverbrauch\n\nWhat we do know is that training ChatGPT used 1.287 gigawatt hours, roughly equivalent to the consumption of 120 US homes for a year. Quelle: Heating up: how much energy does AI use?\nPatterson et al. (2022) estimated that the original GPT-3 cost 502 tons of CO2 to train. RLHF would add a bit of overhead on that, perhaps on the order of 1% of the original cost.\nServing: 7 metric tons of CO2 per day at the end of February. Quelle: How much energy does ChatGPT use?\nChatGPT’s energy use might have peaked in February, with a trillion tokens produced by a server farm. This would have cost 6-figure hosting bills per day and lead to 7 to 15 metric tons of CO2 per day, about the equivalent of 400-800 households in the US. That’s not nothing, but in the grand scheme of things is fairly modest, especially compared to more profligate uses of computing like cryptocurrency."
+    "text": "Energieverbrauch\n\nTraining: “What we do know is that training ChatGPT used \\(1.287\\) GWh, roughly equivalent to the consumption of 120 US homes for a year.” Quelle: Heating up: how much energy does AI use?\nPatterson et al. (2022) schätzen die Trainingskosten auf 502 Tonnen \\(\\text{CO}_2\\) (RLHF würde etwas mehr kosten, ca. 1% der ursprünglichen Kosten).\nBenutzung: 7 Tonnen \\(\\text{CO}_2\\) pro Tag (Ende Februar). Quelle: How much energy does ChatGPT use?\nDer Energieverbrauch von ChatGPT ist equivalent zu 400-800 US Haushalten. Das ist beträchtlich, im Vergleich zu z.B. Kryptowährungen eher gering."
   },
   {
     "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#bias",
@@ -382,7 +382,7 @@
     "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#chatgpt-vs-human-thought",
     "title": "Informationsanlass zu KI/ChatGPT",
     "section": "ChatGPT vs human thought",
-    "text": "ChatGPT vs human thought\n\nThinking Fast and Slow\nSystem 1 vs System 2"
+    "text": "ChatGPT vs human thought\n\nThinking Fast and Slow\nSystem 1 vs System 2: System 1 is fast, instinctive and emotional; System 2 is slower, more deliberative, and more logical."
   },
   {
     "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#bibliotheken",
@@ -396,7 +396,7 @@
     "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#zitieren",
     "title": "Informationsanlass zu KI/ChatGPT",
     "section": "Zitieren",
-    "text": "Zitieren"
+    "text": "Zitieren\n\nEs existieren noch keine Richtlinien für das Zitieren von ChatGPT oder anderen KI-basierte Schreibtools.\nChatGPT ist rein rechtlich keine zitierfähige Quelle und damit auch nicht zitierpflichtig (Fleck 2023).\n\n\n\n\n\n\n\nMöglicher Pauschalverweis\n\n\n“Beim Verfassen der Arbeit habe ich das KI-gestützte Schreibwerkzeug ChatGPT zur Textoptimierung verwendet. Wörtlich aus dem Tool übernommene Passagen wurden im Text als persönliche Kommunikation zitiert.”"
   },
   {
     "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#plagiat",
@@ -417,14 +417,14 @@
     "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#kompetenznachweise",
     "title": "Informationsanlass zu KI/ChatGPT",
     "section": "Kompetenznachweise",
-    "text": "Kompetenznachweise"
+    "text": "Kompetenznachweise\n\nSiehe KI-basierte Schreibtools in der Lehre – ChatGPT im Fokus"
   },
   {
     "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#prompting",
     "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#prompting",
     "title": "Informationsanlass zu KI/ChatGPT",
     "section": "Prompting",
-    "text": "Prompting\n\nPrompting is a way to guide the model to generate text that is more likely to be relevant to the task at hand.\n\n\nRole\n\nThe prompt starts by declaring a clearly defined role for the AI. Most prompts do this, as this has become a standard best practice.\n\nGoal\n\nA clearly defined goal on top of the role allows the AI to act in accordance to it. Nothing extraordinary with this prompt until now.\nThe problem is that most people stop crafting their prompts here, and then wonder why their outputs are useless and random more often than not.\n\nClearly defined input\n\nThe prompt clearly states what is the expected input the AI will receive.\nThis part of the prompt is often overlooked, but I’ve found it greatly reduces the randomness of the output.\n\nClearly Defined output\n\nSimilarly, clearly going over the expected output in minute detail will help steer the model in the exact direction that you want.\nThis will allow you to pinpoint exactly what it should do, and on top of that, will reduce the need for revisions.\nAgain, most people never even get to this point and then wonder why the AI never gets them right.\nOf course it doesn’t; it won’t get you right if you haven’t told it what to do.\n\nRevisions\n\nThe prompt clearly states that revisions are to be expected and the output probably won’t be the final one.\nOnce again, clearly stating what can happen during the actual use of this tool.\n\nInput example\n\nOn top of clearly defining what input to expect, the prompt also shows an input example.\n“Show, don’t just tell” is a good principle to keep in mind when prompting.\nThis will greatly reduce the randomness of the model and make for more accurate outputs.\n\nOutput example\n\nStating the examples of the output is equally important.\nThis will allow the model to pick up on the input -&gt; output pattern and make its answers way more relevant, contextual and useful.\nSee a pattern here?\nClearly state what the AI should do and what to expect."
+    "text": "Prompting\n\nincremental vs mega prompts\n\n\nRolle: Wer oder was wird simuliert?\nAufgabe: Was ist zu tun?\nArbeitschritte: Was ist in welcher Reihenfolge zu tun?\nKontext, Einschränkungen\nZiel: Was soll am Ende herauskommen?\nFormat: Wie soll das Ergebnis aussehen?\n\nBeispiel Hochschullehre:\n\n\n\n\n\n\nFeedback\n\n\n“I want you to act as a harsh critic. Criticize what I will write to you and show me where my argumentation is lacking. Start by ask- ing me what text I want to have feedback on. Then ask me questions about my context to create the best feedback possible. If you feel you have all the context necessary, think step by step when creating your feedback” (Lenk-Ostendorf & Folgmann 2023)\n\n\n\nWeitere Beispiele\nOpenAI Discord Server discord.com/invite/openai"
   },
   {
     "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#use-cases",
@@ -432,5 +432,54 @@
     "title": "Informationsanlass zu KI/ChatGPT",
     "section": "Use Cases",
     "text": "Use Cases"
+  },
+  {
+    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#methods",
+    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#methods",
+    "title": "Informationsanlass zu KI/ChatGPT",
+    "section": "Methods",
+    "text": "Methods\nWe trained this model using Reinforcement Learning from Human Feedback (RLHF), using the same methods as InstructGPT, but with slight differences in the data collection setup. We trained an initial model using supervised fine-tuning: human AI trainers provided conversations in which they played both sides—the user and an AI assistant. We gave the trainers access to model-written suggestions to help them compose their responses. We mixed this new dialogue dataset with the InstructGPT dataset, which we transformed into a dialogue format.\nTo create a reward model for reinforcement learning, we needed to collect comparison data, which consisted of two or more model responses ranked by quality. To collect this data, we took conversations that AI trainers had with the chatbot. We randomly selected a model-written message, sampled several alternative completions, and had AI trainers rank them. Using these reward models, we can fine-tune the model using Proximal Policy Optimization. We performed several iterations of this process."
+  },
+  {
+    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#section",
+    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#section",
+    "title": "Informationsanlass zu KI/ChatGPT",
+    "section": "",
+    "text": "Quelle: openai.com/blog/chatgpt"
+  },
+  {
+    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#section-1",
+    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#section-1",
+    "title": "Informationsanlass zu KI/ChatGPT",
+    "section": "",
+    "text": "Prompting is a way to guide the model to generate text that is more likely to be relevant to the task at hand.\n\n\nRole\n\nThe prompt starts by declaring a clearly defined role for the AI. Most prompts do this, as this has become a standard best practice.\n\nGoal\n\nA clearly defined goal on top of the role allows the AI to act in accordance to it. Nothing extraordinary with this prompt until now.\nThe problem is that most people stop crafting their prompts here, and then wonder why their outputs are useless and random more often than not.\n\nClearly defined input\n\nThe prompt clearly states what is the expected input the AI will receive.\nThis part of the prompt is often overlooked, but I’ve found it greatly reduces the randomness of the output.\n\nClearly Defined output\n\nSimilarly, clearly going over the expected output in minute detail will help steer the model in the exact direction that you want.\nThis will allow you to pinpoint exactly what it should do, and on top of that, will reduce the need for revisions.\nAgain, most people never even get to this point and then wonder why the AI never gets them right.\nOf course it doesn’t; it won’t get you right if you haven’t told it what to do.\n\nRevisions\n\nThe prompt clearly states that revisions are to be expected and the output probably won’t be the final one.\nOnce again, clearly stating what can happen during the actual use of this tool.\n\nInput example\n\nOn top of clearly defining what input to expect, the prompt also shows an input example.\n“Show, don’t just tell” is a good principle to keep in mind when prompting.\nThis will greatly reduce the randomness of the model and make for more accurate outputs.\n\nOutput example\n\nStating the examples of the output is equally important.\nThis will allow the model to pick up on the input -&gt; output pattern and make its answers way more relevant, contextual and useful.\nSee a pattern here?\nClearly state what the AI should do and what to expect."
+  },
+  {
+    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#rechtliche-aspekte",
+    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#rechtliche-aspekte",
+    "title": "Informationsanlass zu KI/ChatGPT",
+    "section": "Rechtliche Aspekte",
+    "text": "Rechtliche Aspekte\n\nChatGPT kann keine Urheberschaft und keine Autorenschaft beanspruchen, da dies nur natürliche Personen können.\nMenschen können die Urheberschaft eines Textes beanspruchen, auch wenn sie auf Unterstützung durch ChatGPT zurückgegriffen haben – sofern sie eine wesentliche gestalterische Eigenleistung am Text erbracht haben.\n\nQuelle: Salden (2023)"
+  },
+  {
+    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#datenschutz",
+    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#datenschutz",
+    "title": "Informationsanlass zu KI/ChatGPT",
+    "section": "Datenschutz",
+    "text": "Datenschutz\n\nEine anonyme Nutzung von ChatGPT ist mit einem persönlichen Konto nicht möglich, da Sie über die Handynummer identifizierbar sind.\nWenn Sie ChatGPT direkt nutzen, müssen Sie davon ausgehen, dass neben den üblichen Metadaten auch alle Ihre Eingaben und al- le Antworten unverschlüsselt abgespeichert werden.\nDie Daten liegen auf amerikanischen Servern und sind damit u.a. auch für amerikanische Ermittlungsbehörden grundsätzlich zu- gänglich."
+  },
+  {
+    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#plagiat-und-detektion",
+    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#plagiat-und-detektion",
+    "title": "Informationsanlass zu KI/ChatGPT",
+    "section": "Plagiat und Detektion",
+    "text": "Plagiat und Detektion\n\nTexte von ChatGPT werden jedes Mal individuell erstellt. Es handelt sich nicht um Plagiate.\nDie klassischen Tools zur Aufdeckung von Plagiaten wie z.B. TurnItIn funktionieren hier nicht."
+  },
+  {
+    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#plagiate-und-detektion",
+    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#plagiate-und-detektion",
+    "title": "Informationsanlass zu KI/ChatGPT",
+    "section": "Plagiate und Detektion",
+    "text": "Plagiate und Detektion\n\nTexte von ChatGPT werden jedes Mal individuell erstellt. Es handelt sich nicht um Plagiate.\nDie klassischen Tools zur Aufdeckung von Plagiaten wie z.B. TurnItIn funktionieren hier nicht."
   }
 ]
