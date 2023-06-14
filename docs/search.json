@@ -418,5 +418,19 @@
     "title": "Informationsanlass zu KI/ChatGPT",
     "section": "Kompetenznachweise",
     "text": "Kompetenznachweise"
+  },
+  {
+    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#prompting",
+    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#prompting",
+    "title": "Informationsanlass zu KI/ChatGPT",
+    "section": "Prompting",
+    "text": "Prompting\n\nPrompting is a way to guide the model to generate text that is more likely to be relevant to the task at hand.\n\n\nRole\n\nThe prompt starts by declaring a clearly defined role for the AI. Most prompts do this, as this has become a standard best practice.\n\nGoal\n\nA clearly defined goal on top of the role allows the AI to act in accordance to it. Nothing extraordinary with this prompt until now.\nThe problem is that most people stop crafting their prompts here, and then wonder why their outputs are useless and random more often than not.\n\nClearly defined input\n\nThe prompt clearly states what is the expected input the AI will receive.\nThis part of the prompt is often overlooked, but I’ve found it greatly reduces the randomness of the output.\n\nClearly Defined output\n\nSimilarly, clearly going over the expected output in minute detail will help steer the model in the exact direction that you want.\nThis will allow you to pinpoint exactly what it should do, and on top of that, will reduce the need for revisions.\nAgain, most people never even get to this point and then wonder why the AI never gets them right.\nOf course it doesn’t; it won’t get you right if you haven’t told it what to do.\n\nRevisions\n\nThe prompt clearly states that revisions are to be expected and the output probably won’t be the final one.\nOnce again, clearly stating what can happen during the actual use of this tool.\n\nInput example\n\nOn top of clearly defining what input to expect, the prompt also shows an input example.\n“Show, don’t just tell” is a good principle to keep in mind when prompting.\nThis will greatly reduce the randomness of the model and make for more accurate outputs.\n\nOutput example\n\nStating the examples of the output is equally important.\nThis will allow the model to pick up on the input -&gt; output pattern and make its answers way more relevant, contextual and useful.\nSee a pattern here?\nClearly state what the AI should do and what to expect."
+  },
+  {
+    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#use-cases",
+    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#use-cases",
+    "title": "Informationsanlass zu KI/ChatGPT",
+    "section": "Use Cases",
+    "text": "Use Cases"
   }
 ]

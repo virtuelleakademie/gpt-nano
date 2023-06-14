@@ -288,6 +288,14 @@ Quelle: [Traumatische Klickarbeit](https://www.societybyte.swiss/2023/06/07/trau
 
 ::::
 
+## Use Cases
+
+```{r}
+include_graphics("../assets/images/karpathy-bias.png")
+```
+
+
+
 # Wie "denkt" ChatGPT? {background-color="#ebcb8b"}
 
 ::: {.absolute top="0" left="100%"}
@@ -307,17 +315,71 @@ Quelle: [Traumatische Klickarbeit](https://www.societybyte.swiss/2023/06/07/trau
 - context
 - computation per token
   
-## What tasks can ChatGPT do? {background-color="#a3be8c"}
+## What tasks can ChatGPT do? 
 
 
 - reasoning
 - chain-of-though
 - can it think?
 
-## ChatGPT vs human thought {background-color="#ebcb8b"}
+## ChatGPT vs human thought 
 
 - Thinking Fast and Slow
 - System 1 vs System 2
+
+
+## Prompting 
+- Prompting is a way to guide the model to generate text that is more likely to be relevant to the task at hand.
+
+1. Role
+
+The prompt starts by declaring a clearly defined role for the AI. Most prompts do this, as this has become a standard best practice.
+
+2. Goal
+
+A clearly defined goal on top of the role allows the AI to act in accordance to it. Nothing extraordinary with this prompt until now.
+
+The problem is that most people stop crafting their prompts here, and then wonder why their outputs are useless and random more often than not.
+
+3. Clearly defined input
+
+The prompt clearly states what is the expected input the AI will receive.
+
+This part of the prompt is often overlooked, but I've found it greatly reduces the randomness of the output.
+
+4. Clearly Defined output
+
+Similarly, clearly going over the expected output in minute detail will help steer the model in the exact direction that you want.
+
+This will allow you to pinpoint exactly what it should do, and on top of that, will reduce the need for revisions.
+
+Again, most people never even get to this point and then wonder why the AI never gets them right.
+
+Of course it doesn't; it won't get you right if you haven't told it what to do.
+
+5. Revisions
+
+The prompt clearly states that revisions are to be expected and the output probably won't be the final one.
+
+Once again, clearly stating what can happen during the actual use of this tool.
+
+6. Input example
+
+On top of clearly defining what input to expect, the prompt also shows an input example.
+
+"Show, don't just tell" is a good principle to keep in mind when prompting.
+
+This will greatly reduce the randomness of the model and make for more accurate outputs.
+
+7. Output example
+
+Stating the examples of the output is equally important. 
+
+This will allow the model to pick up on the input -> output pattern and make its answers way more relevant, contextual and useful.
+
+See a pattern here?
+
+Clearly state what the AI should do and what to expect.
 
 
 # Zukünftige Verwendungen von LLMs {background-color="#ebcb8b"}
