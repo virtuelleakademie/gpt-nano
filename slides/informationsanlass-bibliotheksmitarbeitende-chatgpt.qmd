@@ -9,8 +9,12 @@ nocite: |
 format: 
     revealjs:
         theme: default
+        title-slide-attributes:
+          data-background-image: ../assets/background-yellow.png
+          # data-background-size: contain
+          data-background-opacity: "1"
         # logo: ../assets/robot.png
-        # footer: <a href="https://virtuelleakademie.github.io/gpt-nano">🏠 GPT is Not An Oracle</a>
+        footer: <a href="https://virtuelleakademie.github.io/gpt-nano">⤴️ KI/GPT in der Hochschule </a>
         navigation-mode: vertical
         progress: true
         scrollable: true
@@ -43,42 +47,49 @@ library(knitr)
 ```
 
 
-# Here’s What Happens When Your Lawyer Uses ChatGPT
+# Einleitung {background-color="#2e3440"}
+
+:::: {.columns}
+::: {.column width="50%"}
+
+Here’s What Happens When Your Lawyer Uses ChatGPT
 
 ```{=html}
 <iframe width="780" height="500" src="https://simonwillison.net/2023/May/27/lawyer-chatgpt/" title="ChatGPT: US lawyer admits using AI for case research"></iframe>
 ```
+:::
 
-# The Best Prompts For ChatGPT 
+::: {.column width="50%"}
 
-The ultimate list
+The Best Prompts For ChatGPT: The ultimate list
 
 ```{=html}
 <iframe width="780" height="500" src="https://www.writingbeginner.com/best-prompts-for-chatgpt/" title="Best prompts for ChatGPT"></iframe>
 ```
+:::
+::::
 
-# Inhalt {background-color="#d08770"}
+# Inhalt {background-color="#2e3440"}
 
 1. Was ist künstliche Intelligenz?
 2. Was ist ChatGPT?
 3. Wie wurde ChatGPT trainiert?
 4. Energieverbrauch, Bias, Ethik
 5. Wie "denkt" ChatGPT?
-6. ChatGPT in der Hochschule
+6. Zukünftige Verwendungen von LLMs
 7. Wissenschaftliches Arbeiten
-8. Tool Demos
 
-::: footer
+<!-- ::: footer
 <a href="https://virtuelleakademie.github.io/gpt-nano">🏠 KI/GPT in der Hochschule</a>
-:::
+::: -->
 
 
 
-# Was ist künstliche Intelligenz? {background-color="#d8dee9"}
+# Was ist künstliche Intelligenz? {background-color="#ebcb8b"}
 
 ::: {.absolute top="0" left="100%"}
 ::: {.sectionhead}
-1 [2 3 4 5 6]{style="opacity:0.25"}
+1 [2 3 4 5 6 7]{style="opacity:0.25"}
 :::
 :::
 
@@ -149,11 +160,11 @@ Beispiel für RL Model: [AlphaGo](https://www.deepmind.com/research/highlighted-
 
 
 
-# Was ist ChatGPT? {background-color="#d8dee9"}
+# Was ist ChatGPT? {background-color="#ebcb8b"}
 
 ::: {.absolute top="0" left="100%"}
 ::: {.sectionhead}
-[1]{style="opacity:0.25"} 2 [3 4 5 6]{style="opacity:0.25"}
+[1]{style="opacity:0.25"} 2 [3 4 5 6 7]{style="opacity:0.25"}
 :::
 :::
 
@@ -185,6 +196,9 @@ Beispiel für RL Model: [AlphaGo](https://www.deepmind.com/research/highlighted-
 
 
 ## Embeddings
+An embedding is a vector (list) of floating point numbers. The distance between two vectors measures their relatedness. Small distances suggest high relatedness and large distances suggest low relatedness
+
+OpenAI’s text embeddings measure the relatedness of text strings. Embeddings are commonly used for:
 
 ## Generative pre-trained transformer
 Not trained for single purpose, but for many tasks
@@ -193,8 +207,15 @@ Not trained for single purpose, but for many tasks
 
 
 
-# How was ChatGPT trained? {background-color="#88c0d0"}
+# Wie wurde ChatGPT trainiert? {background-color="#ebcb8b"}
 
+::: {.absolute top="0" left="100%"}
+::: {.sectionhead}
+[1 2]{style="opacity:0.25"} 3 [4 5 6 7]{style="opacity:0.25"}
+:::
+:::
+
+## Training 1
 https://www.assemblyai.com/blog/how-chatgpt-actually-works/
 
 - training
@@ -202,8 +223,20 @@ https://www.assemblyai.com/blog/how-chatgpt-actually-works/
 - architecture
 - embeddings
 - transformers
+
+
+## Training 2
+
+## Training 3
   
-# Energieverbrauch, Bias, Ethik {background-color="#bf616a"}
+
+# Energieverbrauch, Bias, Ethik {background-color="#ebcb8b"}
+
+::: {.absolute top="0" left="100%"}
+::: {.sectionhead}
+[1 2 3]{style="opacity:0.25"} 4 [5 6 7]{style="opacity:0.25"}
+:::
+:::
 
 ## Energieverbrauch
 
@@ -255,7 +288,15 @@ Quelle: [Traumatische Klickarbeit](https://www.societybyte.swiss/2023/06/07/trau
 
 ::::
 
-# How does ChatGPT work? {background-color="#8fbcbb"}
+# Wie "denkt" ChatGPT? {background-color="#ebcb8b"}
+
+::: {.absolute top="0" left="100%"}
+::: {.sectionhead}
+[1 2 3 4]{style="opacity:0.25"} 5 [6 7]{style="opacity:0.25"}
+:::
+:::
+
+## Denken?
 
 - How does ChatGPT generate text?
 - auto-regressive sampling
@@ -266,18 +307,28 @@ Quelle: [Traumatische Klickarbeit](https://www.societybyte.swiss/2023/06/07/trau
 - context
 - computation per token
   
-# What tasks can ChatGPT do? {background-color="#a3be8c"}
+## What tasks can ChatGPT do? {background-color="#a3be8c"}
 
 
 - reasoning
 - chain-of-though
 - can it think?
 
-# ChatGPT vs human thought {background-color="#b48ead"}
+## ChatGPT vs human thought {background-color="#ebcb8b"}
+
+- Thinking Fast and Slow
+- System 1 vs System 2
 
 
-# Future of LLMs {background-color="#ebcb8b"}
+# Zukünftige Verwendungen von LLMs {background-color="#ebcb8b"}
 
+::: {.absolute top="0" left="100%"}
+::: {.sectionhead}
+[1 2 3 4 5]{style="opacity:0.25"} 6 [7]{style="opacity:0.25"}
+:::
+:::
+
+## Bibliotheken
 - use cases for libraries
 - knowledge-augmented retrieval
   - text -> embed -> context (as prompt) -> instruct to use prompt
@@ -285,11 +336,24 @@ Quelle: [Traumatische Klickarbeit](https://www.societybyte.swiss/2023/06/07/trau
 - LLM as linguistic interface
 
 
+# Wissenschaftliches Arbeiten {background-color="#ebcb8b"}
+
+::: {.absolute top="0" left="100%"}
+::: {.sectionhead}
+[1 2 3 4 5 7]{style="opacity:0.25"} 7
+:::
+:::
+
+## Zitieren
+
+## Plagiat
+
+## Detektion
+
+## Kompetenznachweise
 
 
-
-
-# References
+# References {background-color="#2e3440"}
 
 ::: {#refs}
 :::

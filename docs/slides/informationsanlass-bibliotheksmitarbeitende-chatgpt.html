@@ -352,7 +352,7 @@
   <div class="reveal">
     <div class="slides">
 
-<section id="title-slide" class="quarto-title-block center">
+<section id="title-slide" data-background-image="../assets/background-yellow.png" data-background-opacity="1" class="quarto-title-block center">
   <h1 class="title">Informationsanlass zu KI/ChatGPT</h1>
 
 <div class="quarto-title-authors">
@@ -365,18 +365,20 @@ Andrew Ellis
 
   <p class="date">14 June, 2023</p>
 </section>
-<section id="heres-what-happens-when-your-lawyer-uses-chatgpt" class="title-slide slide level1 center">
-<h1>Here’s What Happens When Your Lawyer Uses ChatGPT</h1>
+<section id="einleitung" class="title-slide slide level1 center" data-background-color="#2e3440">
+<h1>Einleitung</h1>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>Here’s What Happens When Your Lawyer Uses ChatGPT</p>
 <iframe width="780" height="500" src="https://simonwillison.net/2023/May/27/lawyer-chatgpt/" title="ChatGPT: US lawyer admits using AI for case research"></iframe>
-</section>
-
-<section id="the-best-prompts-for-chatgpt" class="title-slide slide level1 center">
-<h1>The Best Prompts For ChatGPT</h1>
-<p>The ultimate list</p>
+</div><div class="column" style="width:50%;">
+<p>The Best Prompts For ChatGPT: The ultimate list</p>
 <iframe width="780" height="500" src="https://www.writingbeginner.com/best-prompts-for-chatgpt/" title="Best prompts for ChatGPT"></iframe>
+</div>
+</div>
 </section>
 
-<section id="inhalt" class="title-slide slide level1 center" data-background-color="#d08770">
+<section id="inhalt" class="title-slide slide level1 center" data-background-color="#2e3440">
 <h1>Inhalt</h1>
 <ol type="1">
 <li>Was ist künstliche Intelligenz?</li>
@@ -384,21 +386,20 @@ Andrew Ellis
 <li>Wie wurde ChatGPT trainiert?</li>
 <li>Energieverbrauch, Bias, Ethik</li>
 <li>Wie “denkt” ChatGPT?</li>
-<li>ChatGPT in der Hochschule</li>
+<li>Zukünftige Verwendungen von LLMs</li>
 <li>Wissenschaftliches Arbeiten</li>
-<li>Tool Demos</li>
 </ol>
-<div class="footer">
-<p><a href="https://virtuelleakademie.github.io/gpt-nano">🏠 KI/GPT in der Hochschule</a></p>
-</div>
+<!-- ::: footer
+<a href="https://virtuelleakademie.github.io/gpt-nano">🏠 KI/GPT in der Hochschule</a>
+::: -->
 </section>
 
 <section>
-<section id="was-ist-künstliche-intelligenz" class="title-slide slide level1 center" data-background-color="#d8dee9">
+<section id="was-ist-künstliche-intelligenz" class="title-slide slide level1 center" data-background-color="#ebcb8b">
 <h1>Was ist künstliche Intelligenz?</h1>
 <div class="absolute" style="top: 0px; left: 100%; ">
 <div class="sectionhead">
-<p>1 <span style="opacity:0.25">2 3 4 5 6</span></p>
+<p>1 <span style="opacity:0.25">2 3 4 5 6 7</span></p>
 </div>
 </div>
 </section>
@@ -464,11 +465,11 @@ Andrew Ellis
 <p>Beispiel für RL Model: <a href="https://www.deepmind.com/research/highlighted-research/alphago">AlphaGo</a> ist das erste Computerprogramm, das einen professionellen (menschlichen) <a href="https://de.wikipedia.org/wiki/Go_(Spiel)">Go</a>-Spieler besiegt hat.</p>
 </div></aside></section></section>
 <section>
-<section id="was-ist-chatgpt" class="title-slide slide level1 center" data-background-color="#d8dee9">
+<section id="was-ist-chatgpt" class="title-slide slide level1 center" data-background-color="#ebcb8b">
 <h1>Was ist ChatGPT?</h1>
 <div class="absolute" style="top: 0px; left: 100%; ">
 <div class="sectionhead">
-<p><span style="opacity:0.25">1</span> 2 <span style="opacity:0.25">3 4 5 6</span></p>
+<p><span style="opacity:0.25">1</span> 2 <span style="opacity:0.25">3 4 5 6 7</span></p>
 </div>
 </div>
 </section>
@@ -498,13 +499,24 @@ Andrew Ellis
 </section>
 <section id="embeddings" class="slide level2">
 <h2>Embeddings</h2>
+<p>An embedding is a vector (list) of floating point numbers. The distance between two vectors measures their relatedness. Small distances suggest high relatedness and large distances suggest low relatedness</p>
+<p>OpenAI’s text embeddings measure the relatedness of text strings. Embeddings are commonly used for:</p>
 </section>
 <section id="generative-pre-trained-transformer" class="slide level2">
 <h2>Generative pre-trained transformer</h2>
 <p>Not trained for single purpose, but for many tasks</p>
 </section></section>
-<section id="how-was-chatgpt-trained" class="title-slide slide level1 center" data-background-color="#88c0d0">
-<h1>How was ChatGPT trained?</h1>
+<section>
+<section id="wie-wurde-chatgpt-trainiert" class="title-slide slide level1 center" data-background-color="#ebcb8b">
+<h1>Wie wurde ChatGPT trainiert?</h1>
+<div class="absolute" style="top: 0px; left: 100%; ">
+<div class="sectionhead">
+<p><span style="opacity:0.25">1 2</span> 3 <span style="opacity:0.25">4 5 6 7</span></p>
+</div>
+</div>
+</section>
+<section id="training-1" class="slide level2">
+<h2>Training 1</h2>
 <p>https://www.assemblyai.com/blog/how-chatgpt-actually-works/</p>
 <ul>
 <li>training</li>
@@ -514,11 +526,20 @@ Andrew Ellis
 <li>transformers</li>
 </ul>
 </section>
-
+<section id="training-2" class="slide level2">
+<h2>Training 2</h2>
+</section>
+<section id="training-3" class="slide level2">
+<h2>Training 3</h2>
+</section></section>
 <section>
-<section id="energieverbrauch-bias-ethik" class="title-slide slide level1 center" data-background-color="#bf616a">
+<section id="energieverbrauch-bias-ethik" class="title-slide slide level1 center" data-background-color="#ebcb8b">
 <h1>Energieverbrauch, Bias, Ethik</h1>
-
+<div class="absolute" style="top: 0px; left: 100%; ">
+<div class="sectionhead">
+<p><span style="opacity:0.25">1 2 3</span> 4 <span style="opacity:0.25">5 6 7</span></p>
+</div>
+</div>
 </section>
 <section id="energieverbrauch" class="slide level2">
 <h2>Energieverbrauch</h2>
@@ -558,8 +579,17 @@ Andrew Ellis
 </div>
 </div>
 </section></section>
-<section id="how-does-chatgpt-work" class="title-slide slide level1 center" data-background-color="#8fbcbb">
-<h1>How does ChatGPT work?</h1>
+<section>
+<section id="wie-denkt-chatgpt" class="title-slide slide level1 center" data-background-color="#ebcb8b">
+<h1>Wie “denkt” ChatGPT?</h1>
+<div class="absolute" style="top: 0px; left: 100%; ">
+<div class="sectionhead">
+<p><span style="opacity:0.25">1 2 3 4</span> 5 <span style="opacity:0.25">6 7</span></p>
+</div>
+</div>
+</section>
+<section id="denken" class="slide level2">
+<h2>Denken?</h2>
 <ul>
 <li>How does ChatGPT generate text?</li>
 <li>auto-regressive sampling</li>
@@ -572,23 +602,32 @@ Andrew Ellis
 <li>computation per token</li>
 </ul>
 </section>
-
-<section id="what-tasks-can-chatgpt-do" class="title-slide slide level1 center" data-background-color="#a3be8c">
-<h1>What tasks can ChatGPT do?</h1>
+<section id="what-tasks-can-chatgpt-do" class="slide level2" data-background-color="#a3be8c">
+<h2>What tasks can ChatGPT do?</h2>
 <ul>
 <li>reasoning</li>
 <li>chain-of-though</li>
 <li>can it think?</li>
 </ul>
 </section>
-
-<section id="chatgpt-vs-human-thought" class="title-slide slide level1 center" data-background-color="#b48ead">
-<h1>ChatGPT vs human thought</h1>
-
+<section id="chatgpt-vs-human-thought" class="slide level2" data-background-color="#ebcb8b">
+<h2>ChatGPT vs human thought</h2>
+<ul>
+<li>Thinking Fast and Slow</li>
+<li>System 1 vs System 2</li>
+</ul>
+</section></section>
+<section>
+<section id="zukünftige-verwendungen-von-llms" class="title-slide slide level1 center" data-background-color="#ebcb8b">
+<h1>Zukünftige Verwendungen von LLMs</h1>
+<div class="absolute" style="top: 0px; left: 100%; ">
+<div class="sectionhead">
+<p><span style="opacity:0.25">1 2 3 4 5</span> 6 <span style="opacity:0.25">7</span></p>
+</div>
+</div>
 </section>
-
-<section id="future-of-llms" class="title-slide slide level1 center" data-background-color="#ebcb8b">
-<h1>Future of LLMs</h1>
+<section id="bibliotheken" class="slide level2">
+<h2>Bibliotheken</h2>
 <ul>
 <li>use cases for libraries</li>
 <li>knowledge-augmented retrieval
@@ -598,9 +637,29 @@ Andrew Ellis
 <li>agents (toolchain)</li>
 <li>LLM as linguistic interface</li>
 </ul>
+</section></section>
+<section>
+<section id="wissenschaftliches-arbeiten" class="title-slide slide level1 center" data-background-color="#ebcb8b">
+<h1>Wissenschaftliches Arbeiten</h1>
+<div class="absolute" style="top: 0px; left: 100%; ">
+<div class="sectionhead">
+<p><span style="opacity:0.25">1 2 3 4 5 7</span> 7</p>
+</div>
+</div>
 </section>
-
-<section id="references" class="title-slide slide level1 smaller scrollable">
+<section id="zitieren" class="slide level2">
+<h2>Zitieren</h2>
+</section>
+<section id="plagiat" class="slide level2">
+<h2>Plagiat</h2>
+</section>
+<section id="detektion" class="slide level2">
+<h2>Detektion</h2>
+</section>
+<section id="kompetenznachweise" class="slide level2">
+<h2>Kompetenznachweise</h2>
+</section></section>
+<section id="references" class="title-slide slide level1 smaller scrollable" data-background-color="#2e3440">
 <h1>References</h1>
 <div id="refs" class="references csl-bib-body hanging-indent" role="list">
 <div id="ref-broschinskiGrafikenErklaertFunktioniert2023" class="csl-entry" role="listitem">
@@ -618,7 +677,7 @@ Sutton, Rich. 2019. <span>“The <span>Bitter Lesson</span>.”</span> 2019. <a 
 </div>
 
 <div class="footer footer-default">
-
+<p><a href="https://virtuelleakademie.github.io/gpt-nano">⤴️ KI/GPT in der Hochschule </a></p>
 </div>
 </section>
     </div>

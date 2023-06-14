@@ -298,7 +298,7 @@
     "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#embeddings",
     "title": "Informationsanlass zu KI/ChatGPT",
     "section": "Embeddings",
-    "text": "Embeddings"
+    "text": "Embeddings\nAn embedding is a vector (list) of floating point numbers. The distance between two vectors measures their relatedness. Small distances suggest high relatedness and large distances suggest low relatedness\nOpenAI’s text embeddings measure the relatedness of text strings. Embeddings are commonly used for:"
   },
   {
     "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#generative-pre-trained-transformer",
@@ -355,5 +355,82 @@
     "title": "Informationsanlass zu KI/ChatGPT",
     "section": "Reinforcement learning",
     "text": "Reinforcement learning\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBeispiel für RL Model: AlphaGo ist das erste Computerprogramm, das einen professionellen (menschlichen) Go-Spieler besiegt hat."
+  },
+  {
+    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#what-tasks-can-chatgpt-do",
+    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#what-tasks-can-chatgpt-do",
+    "title": "Informationsanlass zu KI/ChatGPT",
+    "section": "What tasks can ChatGPT do?",
+    "text": "What tasks can ChatGPT do?\n\nreasoning\nchain-of-though\ncan it think?"
+  },
+  {
+    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#chatgpt-vs-human-thought",
+    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#chatgpt-vs-human-thought",
+    "title": "Informationsanlass zu KI/ChatGPT",
+    "section": "ChatGPT vs human thought",
+    "text": "ChatGPT vs human thought\n\nThinking Fast and Slow\nSystem 1 vs System 2"
+  },
+  {
+    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#training-1",
+    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#training-1",
+    "title": "Informationsanlass zu KI/ChatGPT",
+    "section": "Training 1",
+    "text": "Training 1\nhttps://www.assemblyai.com/blog/how-chatgpt-actually-works/\n\ntraining\ndata\narchitecture\nembeddings\ntransformers"
+  },
+  {
+    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#training-2",
+    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#training-2",
+    "title": "Informationsanlass zu KI/ChatGPT",
+    "section": "Training 2",
+    "text": "Training 2"
+  },
+  {
+    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#training-3",
+    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#training-3",
+    "title": "Informationsanlass zu KI/ChatGPT",
+    "section": "Training 3",
+    "text": "Training 3"
+  },
+  {
+    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#denken",
+    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#denken",
+    "title": "Informationsanlass zu KI/ChatGPT",
+    "section": "Denken?",
+    "text": "Denken?\n\nHow does ChatGPT generate text?\nauto-regressive sampling\nprompting\n\nalso used to generate images (Ramesh et al. 2021) \n\nrole-play simulator\ncontext\ncomputation per token"
+  },
+  {
+    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#bibliotheken",
+    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#bibliotheken",
+    "title": "Informationsanlass zu KI/ChatGPT",
+    "section": "Bibliotheken",
+    "text": "Bibliotheken\n\nuse cases for libraries\nknowledge-augmented retrieval\n\ntext -&gt; embed -&gt; context (as prompt) -&gt; instruct to use prompt\n\nagents (toolchain)\nLLM as linguistic interface"
+  },
+  {
+    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#zitieren",
+    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#zitieren",
+    "title": "Informationsanlass zu KI/ChatGPT",
+    "section": "Zitieren",
+    "text": "Zitieren"
+  },
+  {
+    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#plagiat",
+    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#plagiat",
+    "title": "Informationsanlass zu KI/ChatGPT",
+    "section": "Plagiat",
+    "text": "Plagiat"
+  },
+  {
+    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#detektion",
+    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#detektion",
+    "title": "Informationsanlass zu KI/ChatGPT",
+    "section": "Detektion",
+    "text": "Detektion"
+  },
+  {
+    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#kompetenznachweise",
+    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#kompetenznachweise",
+    "title": "Informationsanlass zu KI/ChatGPT",
+    "section": "Kompetenznachweise",
+    "text": "Kompetenznachweise"
   }
 ]
