@@ -14,3 +14,7 @@ format: html
 
 👉🏼 [Consensus](consensus.app)
 
+
+## Prompt Engineering
+
+👉🏼 [Prompting Guide](https://www.promptingguide.ai/)

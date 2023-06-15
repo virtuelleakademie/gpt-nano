@@ -697,12 +697,13 @@ include_graphics("../assets/images/autoregressive.png")
 <ul>
 <li>Der ursprüngliche Kontext wird <strong>Prompt</strong> (Eingabetext) genannt.</li>
 <li>Dieser ist entscheidend für die Qualität der Antwort.</li>
-</ul>
-
-<img data-src="../assets/images/karpathy-thought-mutliple-attempts.png" width="1446" class="r-stretch"><ul>
 <li>Weil jedes Token gleich gewichtet wird, kann es an jeder Stelle im Ouptut zu “ungünstigen” Pfaden führen.</li>
 </ul>
 </section>
+<section id="prompt-1" class="slide level2">
+<h2>Prompt</h2>
+
+<img data-src="../assets/images/karpathy-thought-mutliple-attempts.png" width="1446" class="r-stretch"></section>
 <section id="role-playing-simulator" class="slide level2">
 <h2>Role-Playing Simulator</h2>
 <blockquote>
@@ -727,8 +728,18 @@ include_graphics("../assets/images/autoregressive.png")
 </section>
 <section id="was-kann-chatgpt" class="slide level2">
 <h2>Was kann ChatGPT?</h2>
-
-<img data-src="../assets/images/karpathy-chain-of-thought.png" width="1446" class="r-stretch"><aside class="notes">
+<div class="cell" data-hash="informationsanlass-bibliotheksmitarbeitende-chatgpt_cache/revealjs/unnamed-chunk-17_7479cbbd98a7bae4d602b2dde2074292">
+<div class="cell-output-display">
+<p><img data-src="../assets/images/chain-of-thought.png" width="858"></p>
+</div>
+</div>
+<div class="cell" data-hash="informationsanlass-bibliotheksmitarbeitende-chatgpt_cache/revealjs/unnamed-chunk-18_a376ea77f12b69064ba152d8acc27f0c">
+<div class="cell-output-display">
+<p><img data-src="../assets/images/karpathy-chain-of-thought.png" width="1446"></p>
+</div>
+</div>
+<p>Weitere Beispiele: <span class="citation" data-cites="bubeckSparksArtificialGeneral2023">Bubeck et al. (<a href="#/references" role="doc-biblioref" onclick="">2023</a>)</span></p>
+<aside class="notes">
 <p>Sehr viel, wenn richtig geprompted</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
@@ -744,17 +755,32 @@ include_graphics("../assets/images/autoregressive.png")
 </section>
 <section id="denkt-chatgpt" class="slide level2">
 <h2>Denkt ChatGPT?</h2>
+<p><img data-src="../assets/images/karpathy-human-vs-LLM-2.png"></p>
+<p><img data-src="../assets/images/karpathy-human-vs-LLM-1.png"></p>
+</section>
+<section id="system-1-vs-system-2" class="slide level2">
+<h2>System 1 vs System 2</h2>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow">Thinking Fast and Slow</a></li>
-<li>System 1 vs System 2: System 1 is fast, instinctive and emotional; System 2 is slower, more deliberative, and more logical.</li>
+<li><p><a href="https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow">Thinking Fast and Slow</a></p></li>
+<li><p>System 1: schnell, instinktiv, automatisch</p></li>
+<li><p>System 2: langsam, deliberativ, anstrengend</p></li>
 </ul>
 
 <img data-src="../assets/images/system-1-vs-system-2.png" width="731" class="r-stretch"></section>
-<section id="prompting" class="slide level2">
-<h2>Prompting</h2>
+<section id="prompt-engineering" class="slide level2">
+<h2>Prompt Engineering</h2>
 <ul>
-<li>incremental vs mega prompts</li>
+<li><p>Qualität der Antwort hängt sehr von der Qualität des Prompts ab.</p></li>
+<li><p>2 Möglichkeiten, um die Qualität der Antworten zu verbessern:</p>
+<ul>
+<li>Incrementelle Prompts: Schritt für Schritt durch die Konversation führen (dialogisches Prompting).</li>
+<li>Mega-Prompts: Alle Informationen auf einmal geben.</li>
+</ul></li>
+<li><p>Am besten selber ausprobieren.</p></li>
 </ul>
+</section>
+<section id="mega-prompt" class="slide level2">
+<h2>Mega-Prompt</h2>
 <ol type="1">
 <li>Rolle: Wer oder was wird simuliert?</li>
 <li>Aufgabe: Was ist zu tun?</li>
@@ -763,67 +789,35 @@ include_graphics("../assets/images/autoregressive.png")
 <li>Ziel: Was soll am Ende herauskommen?</li>
 <li>Format: Wie soll das Ergebnis aussehen?</li>
 </ol>
-<p>Beispiel Hochschullehre:</p>
 <div class="callout callout-note callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Feedback</strong></p>
+<p><strong>Beispiel Hochschullehre: Feedback</strong></p>
 </div>
 <div class="callout-content">
 <p>“I want you to act as a harsh critic. Criticize what I will write to you and show me where my argumentation is lacking. Start by ask- ing me what text I want to have feedback on. Then ask me questions about my context to create the best feedback possible. If you feel you have all the context necessary, think step by step when creating your feedback” (Lenk-Ostendorf &amp; Folgmann 2023)</p>
 </div>
 </div>
 </div>
-<p>Weitere Beispiele</p>
-<p>OpenAI Discord Server <a href="discord.com/invite/openai">discord.com/invite/openai</a></p>
-</section>
-<section id="section-1" class="slide level2">
-<h2></h2>
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Weitere Beispiele</strong></p>
+</div>
+<div class="callout-content">
 <ul>
-<li>Prompting is a way to guide the model to generate text that is more likely to be relevant to the task at hand.</li>
+<li>OpenAI Discord Server <a href="discord.com/invite/openai">discord.com/invite/openai</a></li>
+<li><a href="https://www.promptingguide.ai/">Prompting Guide</a></li>
 </ul>
-<ol type="1">
-<li>Role</li>
-</ol>
-<p>The prompt starts by declaring a clearly defined role for the AI. Most prompts do this, as this has become a standard best practice.</p>
-<ol start="2" type="1">
-<li>Goal</li>
-</ol>
-<p>A clearly defined goal on top of the role allows the AI to act in accordance to it. Nothing extraordinary with this prompt until now.</p>
-<p>The problem is that most people stop crafting their prompts here, and then wonder why their outputs are useless and random more often than not.</p>
-<ol start="3" type="1">
-<li>Clearly defined input</li>
-</ol>
-<p>The prompt clearly states what is the expected input the AI will receive.</p>
-<p>This part of the prompt is often overlooked, but I’ve found it greatly reduces the randomness of the output.</p>
-<ol start="4" type="1">
-<li>Clearly Defined output</li>
-</ol>
-<p>Similarly, clearly going over the expected output in minute detail will help steer the model in the exact direction that you want.</p>
-<p>This will allow you to pinpoint exactly what it should do, and on top of that, will reduce the need for revisions.</p>
-<p>Again, most people never even get to this point and then wonder why the AI never gets them right.</p>
-<p>Of course it doesn’t; it won’t get you right if you haven’t told it what to do.</p>
-<ol start="5" type="1">
-<li>Revisions</li>
-</ol>
-<p>The prompt clearly states that revisions are to be expected and the output probably won’t be the final one.</p>
-<p>Once again, clearly stating what can happen during the actual use of this tool.</p>
-<ol start="6" type="1">
-<li>Input example</li>
-</ol>
-<p>On top of clearly defining what input to expect, the prompt also shows an input example.</p>
-<p>“Show, don’t just tell” is a good principle to keep in mind when prompting.</p>
-<p>This will greatly reduce the randomness of the model and make for more accurate outputs.</p>
-<ol start="7" type="1">
-<li>Output example</li>
-</ol>
-<p>Stating the examples of the output is equally important.</p>
-<p>This will allow the model to pick up on the input -&gt; output pattern and make its answers way more relevant, contextual and useful.</p>
-<p>See a pattern here?</p>
-<p>Clearly state what the AI should do and what to expect.</p>
+</div>
+</div>
+</div>
 </section></section>
 <section>
 <section id="zukünftige-verwendungen-von-llms" class="title-slide slide level1 center" data-background-color="#ebcb8b">
@@ -834,17 +828,18 @@ include_graphics("../assets/images/autoregressive.png")
 </div>
 </div>
 </section>
-<section id="bibliotheken" class="slide level2">
-<h2>Bibliotheken</h2>
-<ul>
-<li>use cases for libraries</li>
-<li>knowledge-augmented retrieval
-<ul>
-<li>text -&gt; embed -&gt; context (as prompt) -&gt; instruct to use prompt</li>
-</ul></li>
-<li>agents (toolchain)</li>
-<li>LLM as linguistic interface</li>
-</ul>
+<section id="plug-ins" class="slide level2">
+<h2>Plug-ins</h2>
+
+<img data-src="../assets/images/karpathy-tools-plugins.png" class="r-stretch"></section>
+<section id="retrieval-augmented-llms" class="slide level2">
+<h2>Retrieval-augmented LLMs</h2>
+
+<img data-src="../assets/images/karpathy-retrieval-augmented.png" class="r-stretch"></section>
+<section id="retrieval-augmented-llms-1" class="slide level2">
+<h2>Retrieval-augmented LLMs</h2>
+<p>Beispiel: Assistant für KI in der Hochschullehre</p>
+<iframe src="https://www.chatbase.co/chatbot-iframe/RDbFWW85cxcCd9PEwV-uy" width="100%" height="700" frameborder="0"></iframe>
 </section></section>
 <section>
 <section id="wissenschaftliches-arbeiten" class="title-slide slide level1 center" data-background-color="#ebcb8b">
@@ -899,10 +894,9 @@ include_graphics("../assets/images/autoregressive.png")
 <section id="datenschutz" class="slide level2">
 <h2>Datenschutz</h2>
 <ul>
-<li>Eine anonyme Nutzung von ChatGPT ist mit einem persönlichen Konto nicht möglich, da Sie über die Handynummer identifizierbar sind.</li>
-<li>Wenn Sie ChatGPT direkt nutzen, müssen Sie davon ausgehen, dass neben den üblichen Metadaten auch alle Ihre Eingaben und al- le Antworten unverschlüsselt abgespeichert werden.</li>
-<li>Die Daten liegen auf amerikanischen Servern und sind damit u.a. auch für amerikanische Ermittlungsbehörden grundsätzlich zu- gänglich.</li>
-<li></li>
+<li>Anonyme Nutzung von ChatGPT ist mit persönlichen Konto nicht möglich (über Handynummer identifizierbar).</li>
+<li>Alle Eingaben und alle Antworten werden bei ChatGPT unverschlüsselt abgespeichert.</li>
+<li>Daten liegen auf amerikanischen Servern und sind damit für amerikanische Ermittlungsbehörden grundsätzlich zugänglich.</li>
 </ul>
 </section></section>
 <section id="references" class="title-slide slide level1 smaller scrollable" data-background-color="#2e3440">
@@ -910,6 +904,9 @@ include_graphics("../assets/images/autoregressive.png")
 <div id="refs" class="references csl-bib-body hanging-indent" role="list">
 <div id="ref-broschinskiGrafikenErklaertFunktioniert2023" class="csl-entry" role="listitem">
 Broschinski, Sebastian, Titus Plattner, Patrick Meier, and Patrick Vögeli. 2023. <span>“In 9 Grafiken erklärt – So funktioniert künstliche Intelligenz.”</span> <span>Der Bund</span>. June 10, 2023. <a href="https://www.derbund.ch/so-funktioniert-kuenstliche-intelligenz-599276436215">https://www.derbund.ch/so-funktioniert-kuenstliche-intelligenz-599276436215</a>.
+</div>
+<div id="ref-bubeckSparksArtificialGeneral2023" class="csl-entry" role="listitem">
+Bubeck, Sébastien, Varun Chandrasekaran, Ronen Eldan, Johannes Gehrke, Eric Horvitz, Ece Kamar, Peter Lee, et al. 2023. <span>“Sparks of <span>Artificial General Intelligence</span>: <span>Early</span> Experiments with <span>GPT-4</span>.”</span> April 13, 2023. <a href="http://arxiv.org/abs/2303.12712">http://arxiv.org/abs/2303.12712</a>.
 </div>
 <div id="ref-fleckPruefungsrechtlicheFragenChatGPT2023" class="csl-entry" role="listitem">
 Fleck, Tilmann. 2023. <span>“Prüfungsrechtliche Fragen zu ChatGPT.”</span>
