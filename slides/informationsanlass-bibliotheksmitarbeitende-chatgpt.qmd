@@ -298,9 +298,10 @@ knitr::include_graphics("../assets/images/karpathy-training-process.png")
 
 Benutzt  Feedback vom Menschen um "schlechte" Outputs zu minimieren.
 
+
 ```{r}
 #| fig-cap: "Quelle: [openai.com/blog/chatgpt](https://openai.com/blog/chatgpt)"
-knitr::include_graphics("../assets/images/ChatGPT_Diagram.svg")
+knitr::include_graphics("../assets/images/RLHF.png")
 ```
 
 

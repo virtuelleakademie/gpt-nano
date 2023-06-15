@@ -64,7 +64,7 @@ flowchart LR
 Löse folgende Aufgaben mit ChatGPT (oder Bing Chat):
 
 1.	Lasse ChatGPT ein Gedicht schreiben. Gebe Thema und Stil vor (z.B. "Hochschulbibliotheken und künstliche Intelligenz" im Stile des Sturm und Drang).
-2.	Lasse ChatGPT dir ein Konzept deines Fachbereichs in einem Paragrafen vereinfachend erklären. 
+2.	Lasse ChatGPT dir ein Konzept deines Fachbereichs in einem kurzen Textabschnitt vereinfachend erklären. 
 3.	Benutze ChatGPT, um zu einem Forschungsthema (z.B. "Was ist der Zusammenhang zwischen Sprache und Denken?") eine Literaturrecherche durchzuführen. Lasse dir eine kommentierte Liste von wissenschaftlichen Publikationen geben.
 4.	Lasse ChatGPT ein paar Mathe-Aufgaben lösen (z.B. "Was ist 89322/1313?")
 5.	Löse mit ChatGPT eine praktische Aufgabe: "Hier haben wir ein Buch, 9 Eier (ohne Eierkarton), einen Laptop, eine Flasche und einen Nagel. Bitte sag mir, wie ich sie stabil übereinander stapeln kann."
