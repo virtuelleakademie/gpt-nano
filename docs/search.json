@@ -284,7 +284,7 @@
     "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#machine-learning",
     "title": "Informationsanlass zu KI/ChatGPT",
     "section": "Machine Learning",
-    "text": "Machine Learning\n\nRegelbasierte Systeme müssen programmiert werden.\nML Modelle lernen implizit ohne Regeln explizit einprogrammiert zu bekommen.\nWichtige Begriffe:\n\nTrainingsdaten: Modelle werden mit Daten gefüttert, und Parameter des Modells werden so eingestellt, dass das Modell möglichst “gut” ist.\nTestdaten: Modelle werden anhand anderer Daten getestet.\nSupervised learning: Aufgabe ist bekannt, z.B. Bilder - klassifizieren.\nUnsupervised learning: Unbekannte Muster entdecken.\nReinforcement learning: Ziel ist vorgegeben, Modell lernt durch Feedback (Belohnung) wie Ziel erreicht werden kann.\n\n\n\nWe have to learn the bitter lesson that building in how we think we think does not work in the long run. We should stop trying to find simple ways to think about space, objects, multiple agents, or symmetries . . . instead we should build in only the meta-methods that can find and capture this arbitrary complexity. We want AI agents that can discover like we can, not which contain what we have discovered (Sutton 2019)."
+    "text": "Machine Learning\n\nRegelbasierte Systeme müssen programmiert werden.\nML Modelle lernen implizit, d.h. ohne Regeln einprogrammiert zu bekommen.\nWichtige Begriffe:\n\nTrainingsdaten: Modelle werden mit Daten gefüttert, und Parameter des Modells werden so eingestellt, dass das Modell möglichst “gut” ist.\nSupervised learning: Aufgabe ist bekannt, z.B. Bilder - klassifizieren.\nUnsupervised learning: Unbekannte Muster entdecken.\nReinforcement learning: Ziel ist vorgegeben, Modell lernt durch Feedback (Belohnung) wie Ziel erreicht werden kann.\n\n\n\nWe have to learn the bitter lesson that building in how we think we think does not work in the long run. We should stop trying to find simple ways to think about space, objects, multiple agents, or symmetries… instead we should build in only the meta-methods that can find and capture this arbitrary complexity. We want AI agents that can discover like we can, not which contain what we have discovered (Sutton 2019)."
   },
   {
     "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#supervised-learning",
@@ -298,7 +298,7 @@
     "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#reinforcement-learning",
     "title": "Informationsanlass zu KI/ChatGPT",
     "section": "Reinforcement learning",
-    "text": "Reinforcement learning\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBeispiel für RL Model: AlphaGo ist das erste Computerprogramm, das einen professionellen (menschlichen) Go-Spieler besiegt hat."
+    "text": "Reinforcement learning\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEin “Agent” lernt durch Feedback (Belohnung) wie ein Ziel erreicht werden kann.\n\n\n\nBeispiel für RL Model: AlphaGo ist das erste Computerprogramm, das einen professionellen (menschlichen) Go-Spieler besiegt hat."
   },
   {
     "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#natural-language-processing",
@@ -312,7 +312,7 @@
     "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#embeddings",
     "title": "Informationsanlass zu KI/ChatGPT",
     "section": "Embeddings",
-    "text": "Embeddings\nAn embedding is a vector (list) of floating point numbers. The distance between two vectors measures their relatedness. Small distances suggest high relatedness and large distances suggest low relatedness\nOpenAI’s text embeddings measure the relatedness of text strings. Embeddings are commonly used for:\n\nQuelle: Wolfram (2023)"
+    "text": "Embeddings\n\nNumerische Tokens werden in einem hochdimensionalen Vektorraum abgebildet.\nDistanz zwischen Vektoren misst Ähnlichkeit zwischen Tokens.\n\n\n\n\n\n\nQuelle: Wolfram (2023)\n\n\n\n\n\n\n\n\n\nQuelle: So funktioniert ChatGPT"
   },
   {
     "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#generative-pre-trained-transformer",
@@ -361,7 +361,7 @@
     "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#ethik",
     "title": "Informationsanlass zu KI/ChatGPT",
     "section": "Ethik",
-    "text": "Ethik\n\n\n\n\n\nAuf Grund der grossen Menge von Trainingsdaten, die für solche Sprachmodelle benötigt werden, ist eine Qualitätskontrolle schwierig.\nDiskriminierende oder beleidigende Aussagen werden von einem Chatbot generiert.\nSolche Antworten können als unerwünscht markiert werden.\nToxische Inhalte wie körperliche und sexuelle Gewalt, Suizide und Tierquälerei, müssen beim Trainieren aus den Antworten gefiltert werden. Dabei mussten angestellte Arbeitskräfte für weniger als 2 Dollar die Stunde teils schockierende Inhalte lesen.\n\nQuelle: Traumatische Klickarbeit"
+    "text": "Ethik\n\n\n\n\n\nAuf Grund der grossen Menge von Trainingsdaten, die für Sprachmodelle benötigt werden, ist Qualitätskontrolle schwierig.\nDiskriminierende oder beleidigende Aussagen werden von einem Chatbot generiert.\nSolche Antworten können als unerwünscht markiert werden.\nToxische Inhalte wie körperliche und sexuelle Gewalt, Suizide und Tierquälerei, müssen beim Trainieren aus den Antworten gefiltert werden. Dabei mussten angestellte Arbeitskräfte für weniger als 2 Dollar die Stunde teils schockierende Inhalte lesen.\n\nQuelle: Traumatische Klickarbeit"
   },
   {
     "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#denken",
@@ -375,7 +375,7 @@
     "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#what-tasks-can-chatgpt-do",
     "title": "Informationsanlass zu KI/ChatGPT",
     "section": "What tasks can ChatGPT do?",
-    "text": "What tasks can ChatGPT do?\n\nreasoning\nchain-of-though\ncan it think?"
+    "text": "What tasks can ChatGPT do?"
   },
   {
     "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#chatgpt-vs-human-thought",
@@ -438,7 +438,7 @@
     "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#methods",
     "title": "Informationsanlass zu KI/ChatGPT",
     "section": "Methods",
-    "text": "Methods\nWe trained this model using Reinforcement Learning from Human Feedback (RLHF), using the same methods as InstructGPT, but with slight differences in the data collection setup. We trained an initial model using supervised fine-tuning: human AI trainers provided conversations in which they played both sides—the user and an AI assistant. We gave the trainers access to model-written suggestions to help them compose their responses. We mixed this new dialogue dataset with the InstructGPT dataset, which we transformed into a dialogue format.\nTo create a reward model for reinforcement learning, we needed to collect comparison data, which consisted of two or more model responses ranked by quality. To collect this data, we took conversations that AI trainers had with the chatbot. We randomly selected a model-written message, sampled several alternative completions, and had AI trainers rank them. Using these reward models, we can fine-tune the model using Proximal Policy Optimization. We performed several iterations of this process."
+    "text": "Methods\n\n\nWe trained this model using Reinforcement Learning from Human Feedback (RLHF), using the same methods as InstructGPT, but with slight differences in the data collection setup. We trained an initial model using supervised fine-tuning: human AI trainers provided conversations in which they played both sides—the user and an AI assistant. We gave the trainers access to model-written suggestions to help them compose their responses. We mixed this new dialogue dataset with the InstructGPT dataset, which we transformed into a dialogue format.\nTo create a reward model for reinforcement learning, we needed to collect comparison data, which consisted of two or more model responses ranked by quality. To collect this data, we took conversations that AI trainers had with the chatbot. We randomly selected a model-written message, sampled several alternative completions, and had AI trainers rank them. Using these reward models, we can fine-tune the model using Proximal Policy Optimization. We performed several iterations of this process."
   },
   {
     "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#section",
@@ -481,5 +481,145 @@
     "title": "Informationsanlass zu KI/ChatGPT",
     "section": "Plagiate und Detektion",
     "text": "Plagiate und Detektion\n\nTexte von ChatGPT werden jedes Mal individuell erstellt. Es handelt sich nicht um Plagiate.\nDie klassischen Tools zur Aufdeckung von Plagiaten wie z.B. TurnItIn funktionieren hier nicht."
+  },
+  {
+    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#section-2",
+    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#section-2",
+    "title": "Informationsanlass zu KI/ChatGPT",
+    "section": "",
+    "text": "Prompting is a way to guide the model to generate text that is more likely to be relevant to the task at hand.\n\n\nRole\n\nThe prompt starts by declaring a clearly defined role for the AI. Most prompts do this, as this has become a standard best practice.\n\nGoal\n\nA clearly defined goal on top of the role allows the AI to act in accordance to it. Nothing extraordinary with this prompt until now.\nThe problem is that most people stop crafting their prompts here, and then wonder why their outputs are useless and random more often than not.\n\nClearly defined input\n\nThe prompt clearly states what is the expected input the AI will receive.\nThis part of the prompt is often overlooked, but I’ve found it greatly reduces the randomness of the output.\n\nClearly Defined output\n\nSimilarly, clearly going over the expected output in minute detail will help steer the model in the exact direction that you want.\nThis will allow you to pinpoint exactly what it should do, and on top of that, will reduce the need for revisions.\nAgain, most people never even get to this point and then wonder why the AI never gets them right.\nOf course it doesn’t; it won’t get you right if you haven’t told it what to do.\n\nRevisions\n\nThe prompt clearly states that revisions are to be expected and the output probably won’t be the final one.\nOnce again, clearly stating what can happen during the actual use of this tool.\n\nInput example\n\nOn top of clearly defining what input to expect, the prompt also shows an input example.\n“Show, don’t just tell” is a good principle to keep in mind when prompting.\nThis will greatly reduce the randomness of the model and make for more accurate outputs.\n\nOutput example\n\nStating the examples of the output is equally important.\nThis will allow the model to pick up on the input -&gt; output pattern and make its answers way more relevant, contextual and useful.\nSee a pattern here?\nClearly state what the AI should do and what to expect."
+  },
+  {
+    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#tokenization",
+    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#tokenization",
+    "title": "Informationsanlass zu KI/ChatGPT",
+    "section": "Tokenization",
+    "text": "Tokenization\n\nQuelle: State of ChatGPT"
+  },
+  {
+    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#chatgpt",
+    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#chatgpt",
+    "title": "Informationsanlass zu KI/ChatGPT",
+    "section": "ChatGPT",
+    "text": "ChatGPT\nBesteht aus 2 Modellen:\n\nLarge language model (LLM): GPT-3.5 oder GPT-4 (generative pre-trained transformer): das eigentliche Sprachmodell\nAssistant: Ein für Dialoge spezialisiertes Modell"
+  },
+  {
+    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#daten",
+    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#daten",
+    "title": "Informationsanlass zu KI/ChatGPT",
+    "section": "Daten",
+    "text": "Daten"
+  },
+  {
+    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#fine-tuning",
+    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#fine-tuning",
+    "title": "Informationsanlass zu KI/ChatGPT",
+    "section": "Fine-tuning",
+    "text": "Fine-tuning\nReinforcement Learning from Human Feedback (RLHF): benutzt Feedback vom Menschen um “schlechte” Outputs zu minimieren.\n\nQuelle: openai.com/blog/chatgpt"
+  },
+  {
+    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#pre-training",
+    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#pre-training",
+    "title": "Informationsanlass zu KI/ChatGPT",
+    "section": "Pre-training",
+    "text": "Pre-training"
+  },
+  {
+    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#reinforcement-learning-from-human-feedback-rlhf",
+    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#reinforcement-learning-from-human-feedback-rlhf",
+    "title": "Informationsanlass zu KI/ChatGPT",
+    "section": "Reinforcement Learning from Human Feedback (RLHF)",
+    "text": "Reinforcement Learning from Human Feedback (RLHF)\nBenutzt Feedback vom Menschen um “schlechte” Outputs zu minimieren.\n\nQuelle: openai.com/blog/chatgpt"
+  },
+  {
+    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#wie-generiert-chatgpt-text",
+    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#wie-generiert-chatgpt-text",
+    "title": "Informationsanlass zu KI/ChatGPT",
+    "section": "Wie generiert ChatGPT Text?",
+    "text": "Wie generiert ChatGPT Text?\n\nLLM: Gegeben eine Input-Sequenz von Tokens (Wörter, Teile von Wörtern, Satzzeichen, Emojis, etc.), was sind die wahrscheinlichsten nächsten Tokens?\nAuto-regressiv: Ein Token wird generiert, wird dem Kontext hinzugefügt.\n\n \n\nDer neue Kontext wird verwendet, um das nächste Token zu generieren, etc.\nWichtig: Jedes Token erhält gleich viel Zeit. Es gibt keine Tokens, die mehr oder weniger wichtig sind (Computation per Token ist konstant)."
+  },
+  {
+    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#llm",
+    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#llm",
+    "title": "Informationsanlass zu KI/ChatGPT",
+    "section": "LLM",
+    "text": "LLM\nAufgabe eines LLMs: “auto-regressive next word prediction” (eigentlich “token prediction”):\n\\[ P(w_{w+1} | w_1, w_2, ..., w_t) \\]\n\nDas nächste Wort wird vorhergesagt, basierend auf den vorherigen Worten.\nDiese vorherigen Wörter werden als “context” bezeichnet."
+  },
+  {
+    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#llm-1",
+    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#llm-1",
+    "title": "Informationsanlass zu KI/ChatGPT",
+    "section": "LLM",
+    "text": "LLM"
+  },
+  {
+    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#assistant",
+    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#assistant",
+    "title": "Informationsanlass zu KI/ChatGPT",
+    "section": "Assistant",
+    "text": "Assistant\n\nLLM produziert Text, aber nicht menschliche Konversationen.\nWeiteres Training ist erforderlich, damit das Modell lernt, wie ein Mensch “Konversationen” zu führen."
+  },
+  {
+    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#methoden",
+    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#methoden",
+    "title": "Informationsanlass zu KI/ChatGPT",
+    "section": "Methoden",
+    "text": "Methoden\n\n\nWe trained this model using Reinforcement Learning from Human Feedback (RLHF), using the same methods as InstructGPT, but with slight differences in the data collection setup. We trained an initial model using supervised fine-tuning: human AI trainers provided conversations in which they played both sides—the user and an AI assistant. We gave the trainers access to model-written suggestions to help them compose their responses. We mixed this new dialogue dataset with the InstructGPT dataset, which we transformed into a dialogue format.\nTo create a reward model for reinforcement learning, we needed to collect comparison data, which consisted of two or more model responses ranked by quality. To collect this data, we took conversations that AI trainers had with the chatbot. We randomly selected a model-written message, sampled several alternative completions, and had AI trainers rank them. Using these reward models, we can fine-tune the model using Proximal Policy Optimization. We performed several iterations of this process."
+  },
+  {
+    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#pre-training-1",
+    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#pre-training-1",
+    "title": "Informationsanlass zu KI/ChatGPT",
+    "section": "Pre-training",
+    "text": "Pre-training"
+  },
+  {
+    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#prompt",
+    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#prompt",
+    "title": "Informationsanlass zu KI/ChatGPT",
+    "section": "Prompt",
+    "text": "Prompt\n\nDer ursprüngliche Kontext wird Prompt (Eingabetext) genannt.\nDieser ist entscheidend für die Qualität der Antwort.\n\n\n\nWeil jedes Token gleich gewichtet wird, kann es an jeder Stelle im Ouptut zu “ungünstigen” Pfaden führen."
+  },
+  {
+    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#role-playing-simulator",
+    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#role-playing-simulator",
+    "title": "Informationsanlass zu KI/ChatGPT",
+    "section": "Role-Playing Simulator",
+    "text": "Role-Playing Simulator\n\nWe can think of an LLM as a non-deterministic simulator capable of role-playing an infinity of characters, or, to put it another way, capable of stochastically generating an infinity of simulacra.\n\nQuelle: Shanahan, McDonell, and Reynolds (2023)\n\nBei jeder Interaktion mit ChatGPT wird neu simuliert."
+  },
+  {
+    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#role-playing-simulator-1",
+    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#role-playing-simulator-1",
+    "title": "Informationsanlass zu KI/ChatGPT",
+    "section": "Role-Playing Simulator",
+    "text": "Role-Playing Simulator"
+  },
+  {
+    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#role-playing-simulator-2",
+    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#role-playing-simulator-2",
+    "title": "Informationsanlass zu KI/ChatGPT",
+    "section": "Role-Playing Simulator",
+    "text": "Role-Playing Simulator\n\nEin LLM ist keine Entität mit Handlungsabsichten, sondern ein Simulator von möglichen Konversationen.\nChatGPT hat kein Konzept von Wahrheit, sondern generiert Antworten, die plausibel sind.\nSomit kann ChatGPT weder die Wahrheit sagen noch lügen - diese Konzepte sind für ein LLM vorerst irrelevant."
+  },
+  {
+    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#was-kann-chatgpt",
+    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#was-kann-chatgpt",
+    "title": "Informationsanlass zu KI/ChatGPT",
+    "section": "Was kann ChatGPT?",
+    "text": "Was kann ChatGPT?\n\n\nSehr viel, wenn richtig geprompted"
+  },
+  {
+    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#dentk-chatgpt",
+    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#dentk-chatgpt",
+    "title": "Informationsanlass zu KI/ChatGPT",
+    "section": "Dentk ChatGPT?",
+    "text": "Dentk ChatGPT?\n\nThinking Fast and Slow\nSystem 1 vs System 2: System 1 is fast, instinctive and emotional; System 2 is slower, more deliberative, and more logical."
+  },
+  {
+    "objectID": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#denkt-chatgpt",
+    "href": "slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.html#denkt-chatgpt",
+    "title": "Informationsanlass zu KI/ChatGPT",
+    "section": "Denkt ChatGPT?",
+    "text": "Denkt ChatGPT?\n\nThinking Fast and Slow\nSystem 1 vs System 2: System 1 is fast, instinctive and emotional; System 2 is slower, more deliberative, and more logical."
   }
 ]
