@@ -79,7 +79,7 @@ The Best Prompts For ChatGPT: The ultimate list
 5. Wie "denkt" ChatGPT?
 6. Zukünftige Verwendungen von LLMs
 7. Wissenschaftliches Arbeiten
-8. ChatGPT in der Hochschullehre
+8. Case Study: Seminararbeit mit KI-Unterstützung
 
 <!-- ::: footer
 <a href="https://virtuelleakademie.github.io/gpt-nano">🏠 KI/GPT in der Hochschule</a>
@@ -91,7 +91,7 @@ The Best Prompts For ChatGPT: The ultimate list
 
 ::: {.absolute top="0" left="100%"}
 ::: {.sectionhead}
-1 [2 3 4 5 6 7]{style="opacity:0.25"}
+1 [2 3 4 5 6 7 8]{style="opacity:0.25"}
 :::
 :::
 
@@ -170,7 +170,7 @@ Beispiel für RL Model: [AlphaGo](https://www.deepmind.com/research/highlighted-
 
 ::: {.absolute top="0" left="100%"}
 ::: {.sectionhead}
-[1]{style="opacity:0.25"} 2 [3 4 5 6 7]{style="opacity:0.25"}
+[1]{style="opacity:0.25"} 2 [3 4 5 6 7 8]{style="opacity:0.25"}
 :::
 :::
 
@@ -258,10 +258,17 @@ knitr::include_graphics("../assets/images/gpt-2-autoregression-2.gif")
 
 ::: {.absolute top="0" left="100%"}
 ::: {.sectionhead}
-[1 2]{style="opacity:0.25"} 3 [4 5 6 7]{style="opacity:0.25"}
+[1 2]{style="opacity:0.25"} 3 [4 5 6 7 8]{style="opacity:0.25"}
 :::
 :::
 
+## Zusammenfassung
+
+ChatGPT wurde in mehreren Schritten trainiert:
+
+1) Daten aus dem Internet werden gesammelt.
+2) Pre-training: LLM wird auf diesen Daten trainiert, das nächste Wort vorherzusagen.
+3) Reinforcement Learning from Human Feedback: Assistant wird trainiert, menschliche Konversationen zu führen.
 
 ## Daten
 
@@ -312,9 +319,16 @@ knitr::include_graphics("../assets/images/RLHF.png")
 
 ::: {.absolute top="0" left="100%"}
 ::: {.sectionhead}
-[1 2 3]{style="opacity:0.25"} 4 [5 6 7]{style="opacity:0.25"}
+[1 2 3]{style="opacity:0.25"} 4 [5 6 7 8]{style="opacity:0.25"}
 :::
 :::
+
+## Zusammenfassung
+
+- ChatGPT hat einen hohen Energieverbrauch.
+- LLM lernt Vorurteile aus den Trainingsdaten.
+- Toxische Inhalte werden durch Billigarbeiter:innen moderiert.
+
 
 ## Energieverbrauch
 
@@ -369,27 +383,19 @@ Quelle: [Traumatische Klickarbeit](https://www.societybyte.swiss/2023/06/07/trau
 
 ::::
 
-## Use Cases
-
-```{r}
-include_graphics("../assets/images/karpathy-bias.png")
-```
-
 
 
 # Wie "denkt" ChatGPT? {background-color="#ebcb8b"}
 
 ::: {.absolute top="0" left="100%"}
 ::: {.sectionhead}
-[1 2 3 4]{style="opacity:0.25"} 5 [6 7]{style="opacity:0.25"}
+[1 2 3 4]{style="opacity:0.25"} 5 [6 7 8]{style="opacity:0.25"}
 :::
 :::
 
 ## Wie generiert ChatGPT Text?
 
-
-
-- LLM: Gegeben eine Input-Sequenz von Tokens (Wörter, Teile von Wörtern, Satzzeichen, Emojis, etc.), was sind die wahrscheinlichsten nächsten Tokens?
+- LLM: Gegeben einer Input-Sequenz (Kontext) von Tokens (Wörter, Teile von Wörtern, Satzzeichen, Emojis, etc.), was sind die wahrscheinlichsten nächsten Tokens?
 - Auto-regressiv: Ein Token wird generiert, wird dem Kontext hinzugefügt.
   
 ![](../assets/images/autoregressive.png){width=600}
@@ -399,13 +405,22 @@ include_graphics("../assets/images/autoregressive.png")
 
 - Der neue Kontext wird verwendet, um das nächste Token zu generieren, etc.
 - __Wichtig:__ Jedes Token erhält gleich viel Zeit. Es gibt keine Tokens, die mehr oder weniger wichtig sind (Computation per Token ist konstant).
-
+- Weil jedes Token gleich gewichtet wird, kann es an jeder Stelle im Output zu "ungünstigen" Pfaden führen.
 
 ## Prompt
 
 - Der ursprüngliche Kontext wird __Prompt__ (Eingabetext) genannt.
 - Dieser ist entscheidend für die Qualität der Antwort.
-- Weil jedes Token gleich gewichtet wird, kann es an jeder Stelle im Ouptut zu "ungünstigen" Pfaden führen.
+
+:::{.callout-note}
+## Prompt Beispiel
+
+"Was ist 89322/1313?"
+
+vs. 
+
+"Was ist 89322/1313? Arbeite Schritt für Schritt."
+:::
 
 
 ## Prompt
@@ -420,7 +435,7 @@ include_graphics("../assets/images/karpathy-thought-mutliple-attempts.png")
 
 Quelle: @shanahanRolePlayLargeLanguage2023
 
-- Bei jeder Interaktion mit ChatGPT wird neu simuliert.
+- Bei jeder Interaktion mit ChatGPT wird ein Dialog neu simuliert.
 
 
 ## Role-Playing Simulator
@@ -495,7 +510,7 @@ include_graphics("../assets/images/system-1-vs-system-2.png")
 
 :::{.callout-note}
 ## Beispiel Hochschullehre: Feedback
-"I want you to act as a harsh critic. Criticize what I will write to you and show me where my argumentation is lacking. Start by ask- ing me what text I want to have feedback on. Then ask me questions about my context to create the best feedback possible. If you feel you have all the context necessary, think step by step when creating your feedback" (Lenk-Ostendorf & Folgmann 2023)
+"I want you to act as a harsh critic. Criticize what I will write to you and show me where my argumentation is lacking. Start by asking me what text I want to have feedback on. Then ask me questions about my context to create the best feedback possible. If you feel you have all the context necessary, think step by step when creating your feedback" (Lenk-Ostendorf & Folgmann 2023)
 :::
 
 
@@ -516,7 +531,7 @@ include_graphics("../assets/images/system-1-vs-system-2.png")
 
 ::: {.absolute top="0" left="100%"}
 ::: {.sectionhead}
-[1 2 3 4 5]{style="opacity:0.25"} 6 [7]{style="opacity:0.25"}
+[1 2 3 4 5]{style="opacity:0.25"} 6 [7 8]{style="opacity:0.25"}
 :::
 :::
 
@@ -547,7 +562,7 @@ frameborder="0"
 
 ::: {.absolute top="0" left="100%"}
 ::: {.sectionhead}
-[1 2 3 4 5 6]{style="opacity:0.25"} 7
+[1 2 3 4 5 6]{style="opacity:0.25"} 7 [8]{style="opacity:0.25"}
 :::
 :::
 
@@ -555,6 +570,7 @@ frameborder="0"
 
 - Es existieren noch keine Richtlinien für das Zitieren von ChatGPT oder anderen KI-basierte Schreibtools.
 - ChatGPT ist rein rechtlich keine zitierfähige Quelle und damit auch nicht zitierpflichtig [@fleckPruefungsrechtlicheFragenChatGPT2023].
+- Aus der Orientierungshilfe: "KI-basierte Schreibtools sind externe Quellen und müssen daher im Sinne der wissenschaftlichen Integrität immer, wie andere Quellen auch, zitiert werden, sofern ganze Textpassagen von ChatGPT benutzt werden. Falls mit dem Tool der eigene Text überarbeitet wurde, muss ChatGPT als verwendetes Hilfsmittel angeführt werden."
   
 :::{.callout-note}
 ## Möglicher Pauschalverweis
@@ -566,11 +582,16 @@ frameborder="0"
 
 - Texte von ChatGPT werden jedes Mal individuell erstellt. Es handelt sich nicht um Plagiate. 
 - Die klassischen Tools zur Aufdeckung von Plagiaten wie z.B. _TurnItIn_ funktionieren hier nicht.
-
+- Die BFH empfiehlt weiterhin, schriftliche Arbeiten mit der Plagiatserkennungssoftware Turnitin zu prüfen. 
 
 ## Kompetenznachweise
 
 - Siehe [KI-basierte Schreibtools in der Lehre – ChatGPT im Fokus](https://virtuelleakademie.notion.site/KI-in-der-Lehre-af068030108844c4834ef00824fd8da6?p=f671067195a94f2d8239931c09ae92ec&pm=s)
+- Beim Benutzen von KI-generierten Texten in Kompetenznachweisen ohne Deklaration oder Zitierung kann von einem Plagiat _im weiteren Sinne_ ausgegangen werden, welches das bisher etablierte Plagiatsverständnis im engeren Sinne erweitert.
+- __Open Book-Prüfungen:__ KI-Tools müssten explizit ausgeschlossen werden.
+- __Closed Book-Prüfungen:__ KI-Tools können durch Einsatz von Safe Exam-Browser und Lernstick ausgeschlossen werden.
+- __Schriftliche Arbeiten:__ KI-Tools durch pauschalen Hilfsmittelverweis am Ende der Arbeit deklarieren.
+- __Alternative oder ergänzende Prüfungsformen:__ praktische Prüfungen, mündliche Prüfungen, Präsentationen.
 
 ## Rechtliche Aspekte
 
@@ -586,6 +607,34 @@ Quelle: @saldenDidaktischeUndRechtliche2023
 - Alle Eingaben und alle Antworten werden bei ChatGPT unverschlüsselt abgespeichert.
 - Daten liegen auf amerikanischen Servern und sind damit für amerikanische Ermittlungsbehörden grundsätzlich zugänglich.
 
+
+
+# Case Study: Seminararbeit mit KI-Unterstützung {background-color="#ebcb8b"}
+
+::: {.absolute top="0" left="100%"}
+::: {.sectionhead}
+[1 2 3 4 5 6 7]{style="opacity:0.25"} 8
+:::
+:::
+
+## Seminararbeit mit KI-Unterstützung
+
+Lehrperson: Kerstin Denecke, Technik und Informatik, Institut für Medizininformatik 
+
+1) __Elicit__ [Brainstorm research questions]: Idee für Forschungsfrage 
+2) __ChatGPT:__ Feedback zu Fragestellungen, Verbesserungsvorschläge
+3) __Elicit__ [Abstract summary]: Rechercheunterstützung
+4) __Consensus:__ Unterstützung für Belege in der Diskussion
+
+
+:::{.callout-note}
+## ChatGPT Prompt
+
+Verhalte dich wie eine wissenschaftliche Betreuungsperson in ihrer Sprechstunde. Du musst den aktuellen Stand meiner Hausarbeit überprüfen und kritisch beurteilen. Dazu evaluierst du meine Forschungsfrage und äusserst konstruktive Kritik in Bezug auf deren Stärken und Schwächen. Die Fragestellung lautet:
+
+"Wie binden Therapeuten Chatbots in die Behandlung ein?"
+
+:::
 
 # References {background-color="#2e3440"}
 

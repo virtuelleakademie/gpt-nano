@@ -3,8 +3,8 @@ project:
   output-dir: docs
   render: 
     - pages/*.qmd
-    - slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.qmd
-
+    - slides/*.qmd
+    
 website:
   title: "KI/GPT in der Hochschule"
   site-url: https://virtuelleakademie.github.io/gpt-nano
@@ -49,9 +49,10 @@ website:
 
       - text: "📺 Presentations"
         menu: 
-          - text: "15. Juni 2023: Informationsanlass Bibliotheksmitarbeitende KI/ChatGPT"
+          - text: "15. Juni, 2023: Informationsanlass Bibliotheksmitarbeitende KI/ChatGPT"
             file: slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.qmd
-          # - text: "Qualitätszirkel Gesundheit"
+          - text: "21. Juni, 2023: Qualitätszirkel Gesundheit"
+            file: slides/qualitaetszirkel-gesundheit.qmd
 
     tools:
       - icon: robot
