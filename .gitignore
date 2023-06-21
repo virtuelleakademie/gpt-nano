@@ -4,11 +4,15 @@
 pages/chapters/*_cache/
 pages/chapters/*_files/
 playground/
+assets/pdfs
 
+
+# R stuff
 .Rproj.user
 .Rhistory
 .Rdata
 
+# vscode stuff
 .vscode
 
 # MacOS specific stuff

@@ -16,7 +16,7 @@
   {
     "objectID": "pages/assistant.html",
     "href": "pages/assistant.html",
-    "title": "Assistant",
+    "title": "Assistent der Virtuellen Akademie",
     "section": "",
     "text": "Back to top"
   },
@@ -165,7 +165,21 @@
     "href": "pages/notes.html",
     "title": "Notes",
     "section": "",
-    "text": "Can GPT think?\n\nwhat is thinking?\nSystem 1 vs System 2\ndeliberative vs reflexive\nplanning: timescales or 1-step-ahead\n\nCreativity?\nConsciousness?\nAgent?\nepistemic vs instrumental\nwhat is a goal?"
+    "text": "Mögliche Inhalte: Kurz, was kann man sich unter KI vorstellen Was sind Chat GPT oder andere tools Elicit, Bild Generatoren. Welche Auswirkungen hat KI auf das Lernen, auf die Lehre Etc.\nWie besprochen sende ich dir zwei Aufträge zu schriftlichen Arbeiten, die unsere Studierenden als Kompetenznachweis zu Hause erledigen. – Modulabschlussarbeit im Modul Forschungsanwendung: Formulieren einer Forschungsfrage, Literaturrecherche auf wissenschaftlichen Datenbanken, Studien auswählen, Qualität einschätzen, Ergebnisse darstellen, Synthese, Diskussion, Schlussfolgerungen. – Schriftliche Reflexionsarbeit basierend auf einem Kommunikationstraining: siehe Punkte 1-11 (Anhang Schriftliche Reflexionsarbeit). Der Anhang Kommunikationstraining ist als Hintergrundinfo gedacht. – Bachelor These (kein Anhang): Viele Studierende verfassen eine systematische Literaturarbeit ausgehend von einer Fragestellung. Die Arbeit umfasst: Abstract, Einleitung, Fragestellung, Ziele, Theoretischer Bezugsrahmen, Methode, Ergebnisse, Diskussion, Schlussfolgerungen"
+  },
+  {
+    "objectID": "pages/notes.html#qualitätszirkel-gesundheit",
+    "href": "pages/notes.html#qualitätszirkel-gesundheit",
+    "title": "Notes",
+    "section": "",
+    "text": "Mögliche Inhalte: Kurz, was kann man sich unter KI vorstellen Was sind Chat GPT oder andere tools Elicit, Bild Generatoren. Welche Auswirkungen hat KI auf das Lernen, auf die Lehre Etc.\nWie besprochen sende ich dir zwei Aufträge zu schriftlichen Arbeiten, die unsere Studierenden als Kompetenznachweis zu Hause erledigen. – Modulabschlussarbeit im Modul Forschungsanwendung: Formulieren einer Forschungsfrage, Literaturrecherche auf wissenschaftlichen Datenbanken, Studien auswählen, Qualität einschätzen, Ergebnisse darstellen, Synthese, Diskussion, Schlussfolgerungen. – Schriftliche Reflexionsarbeit basierend auf einem Kommunikationstraining: siehe Punkte 1-11 (Anhang Schriftliche Reflexionsarbeit). Der Anhang Kommunikationstraining ist als Hintergrundinfo gedacht. – Bachelor These (kein Anhang): Viele Studierende verfassen eine systematische Literaturarbeit ausgehend von einer Fragestellung. Die Arbeit umfasst: Abstract, Einleitung, Fragestellung, Ziele, Theoretischer Bezugsrahmen, Methode, Ergebnisse, Diskussion, Schlussfolgerungen"
+  },
+  {
+    "objectID": "pages/notes.html#notes",
+    "href": "pages/notes.html#notes",
+    "title": "Notes",
+    "section": "Notes",
+    "text": "Notes\n\nCan GPT think?\n\nwhat is thinking?\nSystem 1 vs System 2\ndeliberative vs reflexive\nplanning: timescales or 1-step-ahead\n\nCreativity?\nConsciousness?\nAgent?\nepistemic vs instrumental\nwhat is a goal?"
   },
   {
     "objectID": "pages/notes.html#isaac-asimovs-three-laws-of-robotics",

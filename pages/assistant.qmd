@@ -1,5 +1,5 @@
 ---
-title: "Assistant"
+title: "Assistent der Virtuellen Akademie"
 ---
 
 ```{=html}
@@ -10,3 +10,4 @@ height="700"
 frameborder="0"
 ></iframe>
 ```
+
