@@ -564,6 +564,11 @@ frameborder="0"
 :::
 :::
 
+## Haltung der BFH
+
+- Technologien sollen dort, wo sie den Lernprozess unterstützen und praxisrelevant sind, in die Lehre einbezogen werden. 
+- Studierende sollen lernen, Technologien kompetent einzusetzen und kritisch zu hinterfragen. Dies gilt uneingeschränkt auch für ChatGPT und andere gleichgerichtete Tools.
+
 ## Zitieren
 
 - Es existieren noch keine Richtlinien für das Zitieren von ChatGPT oder anderen KI-basierte Schreibtools.
