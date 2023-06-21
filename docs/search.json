@@ -700,6 +700,20 @@
     "text": "Datenschutz\n\nAnonyme Nutzung von ChatGPT ist mit persönlichen Konto nicht möglich (über Handynummer identifizierbar).\nAlle Eingaben und alle Antworten werden bei ChatGPT unverschlüsselt abgespeichert.\nDaten liegen auf amerikanischen Servern und sind damit für amerikanische Ermittlungsbehörden grundsätzlich zugänglich."
   },
   {
+    "objectID": "slides/qualitaetszirkel-gesundheit.html#heres-what-happens-when-your-lawyer-uses-chatgpt",
+    "href": "slides/qualitaetszirkel-gesundheit.html#heres-what-happens-when-your-lawyer-uses-chatgpt",
+    "title": "Qualitätszirkel Departement Gesundheit",
+    "section": "Here’s What Happens When Your Lawyer Uses ChatGPT",
+    "text": "Here’s What Happens When Your Lawyer Uses ChatGPT"
+  },
+  {
+    "objectID": "slides/qualitaetszirkel-gesundheit.html#the-best-prompts-for-chatgpt-the-ultimate-list",
+    "href": "slides/qualitaetszirkel-gesundheit.html#the-best-prompts-for-chatgpt-the-ultimate-list",
+    "title": "Qualitätszirkel Departement Gesundheit",
+    "section": "The Best Prompts For ChatGPT: The ultimate list",
+    "text": "The Best Prompts For ChatGPT: The ultimate list"
+  },
+  {
     "objectID": "slides/qualitaetszirkel-gesundheit.html#was-ist-künstliche-intelligenz-1",
     "href": "slides/qualitaetszirkel-gesundheit.html#was-ist-künstliche-intelligenz-1",
     "title": "Qualitätszirkel Departement Gesundheit",
@@ -935,7 +949,7 @@
     "href": "slides/qualitaetszirkel-gesundheit.html#retrieval-augmented-llms-1",
     "title": "Qualitätszirkel Departement Gesundheit",
     "section": "Retrieval-augmented LLMs",
-    "text": "Retrieval-augmented LLMs\nBeispiel: Assistant für KI in der Hochschullehre"
+    "text": "Retrieval-augmented LLMs\nBeispiel: 👉🏼 Assistent der Virtuellen Akademie"
   },
   {
     "objectID": "slides/qualitaetszirkel-gesundheit.html#zitieren",
@@ -977,6 +991,6 @@
     "href": "slides/qualitaetszirkel-gesundheit.html#seminararbeit-mit-ki-unterstützung",
     "title": "Qualitätszirkel Departement Gesundheit",
     "section": "Seminararbeit mit KI-Unterstützung",
-    "text": "Seminararbeit mit KI-Unterstützung\nLehrperson: Kerstin Denecke, Technik und Informatik, Institut für Medizininformatik\n\nElicit [Brainstorm research questions]: Idee für Forschungsfrage\nChatGPT: Feedback zu Fragestellungen, Verbesserungsvorschläge\nElicit [Abstract summary]: Rechercheunterstützung\nConsensus: Unterstützung für Belege in der Diskussion\n\n\n\n\n\n\n\nChatGPT Prompt\n\n\nVerhalte dich wie eine wissenschaftliche Betreuungsperson in ihrer Sprechstunde. Du musst den aktuellen Stand meiner Hausarbeit überprüfen und kritisch beurteilen. Dazu evaluierst du meine Forschungsfrage und äusserst konstruktive Kritik in Bezug auf deren Stärken und Schwächen. Die Fragestellung lautet:\n“Wie binden Therapeuten Chatbots in der Behandlung ein?”"
+    "text": "Seminararbeit mit KI-Unterstützung\nLehrperson: Kerstin Denecke, Technik und Informatik, Institut für Medizininformatik\n\nElicit [Brainstorm research questions]: Idee für Forschungsfrage\nChatGPT: Feedback zu Fragestellungen, Verbesserungsvorschläge\nElicit [Abstract summary]: Rechercheunterstützung\nConsensus: Unterstützung für Belege in der Diskussion\n\n\n\n\n\n\n\nChatGPT Prompt\n\n\nVerhalte dich wie eine wissenschaftliche Betreuungsperson in ihrer Sprechstunde. Du musst den aktuellen Stand meiner Hausarbeit überprüfen und kritisch beurteilen. Dazu evaluierst du meine Forschungsfrage und äusserst konstruktive Kritik in Bezug auf deren Stärken und Schwächen. Die Fragestellung lautet:\n“Wie binden Therapeuten Chatbots in die Behandlung ein?”"
   }
 ]

@@ -48,29 +48,25 @@ library(knitr)
 ```
 
 
-#  {background-color="#2e3440"}
+##  Here’s What Happens When Your Lawyer Uses ChatGPT {background-color="#2e3440"}
 
-:::: {.columns}
-::: {.column width="50%"}
 
-Here’s What Happens When Your Lawyer Uses ChatGPT
 
 ```{=html}
 <iframe width="780" height="500" src="https://simonwillison.net/2023/May/27/lawyer-chatgpt/" title="ChatGPT: US lawyer admits using AI for case research"></iframe>
 ```
-:::
 
-::: {.column width="50%"}
 
-The Best Prompts For ChatGPT: The ultimate list
+
+## The Best Prompts For ChatGPT: The ultimate list {background-color="#2e3440"}
 
 ```{=html}
 <iframe width="780" height="500" src="https://www.writingbeginner.com/best-prompts-for-chatgpt/" title="Best prompts for ChatGPT"></iframe>
 ```
-:::
-::::
 
-# Inhalt {background-color="#2e3440"}
+
+
+# Inhalt {background-color="#b48ead"}
 
 1. Was ist künstliche Intelligenz?
 2. Was ist ChatGPT?
@@ -87,7 +83,7 @@ The Best Prompts For ChatGPT: The ultimate list
 
 
 
-# Was ist künstliche Intelligenz? {background-color="#ebcb8b"}
+# Was ist künstliche Intelligenz? {background-color="#b48ead"}
 
 ::: {.absolute top="0" left="100%"}
 ::: {.sectionhead}
@@ -166,13 +162,14 @@ Beispiel für RL Model: [AlphaGo](https://www.deepmind.com/research/highlighted-
 
 
 
-# Was ist ChatGPT? {background-color="#ebcb8b"}
+# Was ist ChatGPT? {background-color="#b48ead"}
 
 ::: {.absolute top="0" left="100%"}
 ::: {.sectionhead}
 [1]{style="opacity:0.25"} 2 [3 4 5 6 7 8]{style="opacity:0.25"}
 :::
 :::
+
 
 ## Natural Language Processing 
 
@@ -254,7 +251,7 @@ knitr::include_graphics("../assets/images/gpt-2-autoregression-2.gif")
 
 
 
-# Wie wurde ChatGPT trainiert? {background-color="#ebcb8b"}
+# Wie wurde ChatGPT trainiert? {background-color="#b48ead"}
 
 ::: {.absolute top="0" left="100%"}
 ::: {.sectionhead}
@@ -315,7 +312,7 @@ knitr::include_graphics("../assets/images/RLHF.png")
 
  
 
-# Energieverbrauch, Bias, Ethik {background-color="#ebcb8b"}
+# Energieverbrauch, Bias, Ethik {background-color="#b48ead"}
 
 ::: {.absolute top="0" left="100%"}
 ::: {.sectionhead}
@@ -385,7 +382,7 @@ Quelle: [Traumatische Klickarbeit](https://www.societybyte.swiss/2023/06/07/trau
 
 
 
-# Wie "denkt" ChatGPT? {background-color="#ebcb8b"}
+# Wie "denkt" ChatGPT? {background-color="#b48ead"}
 
 ::: {.absolute top="0" left="100%"}
 ::: {.sectionhead}
@@ -493,8 +490,8 @@ include_graphics("../assets/images/system-1-vs-system-2.png")
 - Qualität der Antwort hängt sehr von der Qualität des Prompts ab.
 - 2 Möglichkeiten, um die Qualität der Antworten zu verbessern:
 
-  - Incrementelle Prompts: Schritt für Schritt durch die Konversation führen (dialogisches Prompting).
-  - Mega-Prompts: Alle Informationen auf einmal geben.
+  - __Incrementelle Prompts:__ Schritt für Schritt durch die Konversation führen (dialogisches Prompting).
+  - __Mega-Prompts:__ Alle Informationen auf einmal geben.
 
 - Am besten selber ausprobieren.
 
@@ -527,7 +524,7 @@ include_graphics("../assets/images/system-1-vs-system-2.png")
 
 
 
-# Zukünftige Verwendungen von LLMs {background-color="#ebcb8b"}
+# Zukünftige Verwendungen von LLMs {background-color="#b48ead"}
 
 ::: {.absolute top="0" left="100%"}
 ::: {.sectionhead}
@@ -547,7 +544,7 @@ include_graphics("../assets/images/system-1-vs-system-2.png")
 
 ## Retrieval-augmented LLMs
 
-Beispiel: Assistant für KI in der Hochschullehre
+Beispiel: 👉🏼 [Assistent der Virtuellen Akademie](https://virtuelleakademie.github.io/gpt-nano/pages/assistant.html) 
 
 ```{=html}
 <iframe
@@ -558,7 +555,8 @@ frameborder="0"
 ></iframe>
 ```
 
-# Wissenschaftliches Arbeiten {background-color="#ebcb8b"}
+
+# Wissenschaftliches Arbeiten {background-color="#b48ead"}
 
 ::: {.absolute top="0" left="100%"}
 ::: {.sectionhead}
@@ -589,7 +587,7 @@ frameborder="0"
 - Siehe [KI-basierte Schreibtools in der Lehre – ChatGPT im Fokus](https://virtuelleakademie.notion.site/KI-in-der-Lehre-af068030108844c4834ef00824fd8da6?p=f671067195a94f2d8239931c09ae92ec&pm=s)
 - Beim Benutzen von KI-generierten Texten in Kompetenznachweisen ohne Deklaration oder Zitierung kann von einem Plagiat _im weiteren Sinne_ ausgegangen werden, welches das bisher etablierte Plagiatsverständnis im engeren Sinne erweitert.
 - __Open Book-Prüfungen:__ KI-Tools müssten explizit ausgeschlossen werden.
-- __Closed Book-Prüfungen:__ KI-Tools können durch Einsatz von Safe Exam-Browser und Lernstick ausgeschlossen werden.
+- __Closed Book-Prüfungen:__ KI-Tools können durch Einsatz von Safe Exam-Browser und [Lernstick](https://www.bfh.ch/de/forschung/forschungsbereiche/lernstick/) ausgeschlossen werden.
 - __Schriftliche Arbeiten:__ KI-Tools durch pauschalen Hilfsmittelverweis am Ende der Arbeit deklarieren.
 - __Alternative oder ergänzende Prüfungsformen:__ praktische Prüfungen, mündliche Prüfungen, Präsentationen.
 
@@ -609,7 +607,7 @@ Quelle: @saldenDidaktischeUndRechtliche2023
 
 
 
-# Case Study: Seminararbeit mit KI-Unterstützung {background-color="#ebcb8b"}
+# Case Study: Seminararbeit mit KI-Unterstützung {background-color="#b48ead"}
 
 ::: {.absolute top="0" left="100%"}
 ::: {.sectionhead}
