@@ -5,6 +5,7 @@ pages/chapters/*_cache/
 pages/chapters/*_files/
 playground/
 assets/pdfs
+assets/presentations
 
 
 # R stuff
