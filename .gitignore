@@ -18,3 +18,4 @@ assets/presentations
 
 # MacOS specific stuff
 .DS_Store
+src/playground.ts
