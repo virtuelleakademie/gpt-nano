@@ -53,6 +53,8 @@ website:
             file: slides/informationsanlass-bibliotheksmitarbeitende-chatgpt.qmd
           - text: "21. Juni, 2023: Qualitätszirkel Gesundheit"
             file: slides/qualitaetszirkel-gesundheit.qmd
+          - text: "17. August, 2023: KI-Sprechstunde"
+            file: slides/sprechstunde.qmd
 
     tools:
       - icon: robot
